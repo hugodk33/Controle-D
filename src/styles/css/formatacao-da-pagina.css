@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/*CSS RESPONSÁVEL PELA FORMATAÇÃO DE CORES E ALINHAMENTO DOS CONTAINERS*/
+/*FAIXA CINZA*/
+.cinza {
+  background-color: #dedede;
+  margin: 0;
+}
+
+/*FORMAS CENTRALIZADAS, COMO CALENDARIO E SOMA DOS CARBOIDRATOS*/
+.dinamic {
+  text-align: center;
+  padding: 5px 0;
+}
+.dinamic .row {
+  margin: 0 10px;
+}
+.dinamic .item-calendario {
+  width: 15%;
+  max-width: 25%;
+  padding: 2px;
+  flex: 0 0 12%;
+}
+.dinamic .item-calendario:first-child {
+  margin-left: auto;
+}
+.dinamic .item-calendario:last-child {
+  margin-right: auto;
+}
+.dinamic .dia {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.dinamic .semana {
+  font-size: 18px;
+  margin-bottom: 3px;
+  line-height: 12px;
+}
+
+/*ICONES DAS LISTAS*/
+.icone-container {
+  padding-right: 0;
+  color: #747474;
+}
+
+/*ALINHAMENTO DOS FORMULÁRIOS DE CADASTRO*/
+.custom-form .col-1, .custom-form .col-2, .custom-form .col-3, .custom-form .col-4, .custom-form .col-5, .custom-form .col-6, .custom-form .col-7, .custom-form .col-8, .custom-form .col-9, .custom-form .col-10, .custom-form .col-11, .custom-form .col-12 {
+  padding-right: 0;
+}
+.custom-form .btn {
+  width: 100%;
+  padding: 1px 0px;
+  height: 28px;
+  margin-top: 5px;
+}
+
+.custom-form:last-child {
+  padding-left: 0;
+}
+
+/*# sourceMappingURL=formatacao-da-pagina.css.map */

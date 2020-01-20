@@ -1,0 +1,62 @@
+/*CSS RESPONSÁVEL PELA FORMATAÇÃO DE CORES E ALINHAMENTO DOS CONTAINERS*/
+
+/*FAIXA CINZA*/
+.cinza {
+  background-color: #dedede;
+  margin: 0;
+}
+
+
+/*FORMAS CENTRALIZADAS, COMO CALENDARIO E SOMA DOS CARBOIDRATOS*/
+.dinamic {
+  text-align: center;
+  padding: 5px 0;
+  .row {
+    margin: 0 10px;
+  }
+  .item-calendario {
+    width: 15%;
+    max-width: 25%;
+    padding: 2px;
+    flex: 0 0 12%;
+  }
+  .item-calendario:first-child {
+    margin-left: auto;
+  }
+  .item-calendario:last-child {
+    margin-right: auto;
+  }
+  .dia {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .semana {
+    font-size: 18px;
+    margin-bottom: 3px;
+    line-height: 12px;
+  }
+}
+
+/*ICONES DAS LISTAS*/
+.icone-container {
+  padding-right: 0;
+  color: #747474
+}
+
+/*ALINHAMENTO DOS FORMULÁRIOS DE CADASTRO*/
+.custom-form {
+    .col-1 , .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11 , .col-12 {
+      padding-right: 0;
+    }
+    .btn {
+      width: 100%;
+      padding: 1px 0px;
+      height: 28px;
+      margin-top: 5px;
+    }
+  }
+  
+  .custom-form:last-child {
+      padding-left: 0;
+  }

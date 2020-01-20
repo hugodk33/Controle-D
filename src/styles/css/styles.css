@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/*GAMBIARRAS NO BOOTSTRAP PRA FAZER ELE FUNCIONAR QUE NEM GENTE*/
+label {
+  position: absolute;
+  font-size: 10px;
+  top: -3px;
+  left: 20px;
+  padding: 0 2px;
+  color: gray;
+  background-color: white;
+  line-height: 10px;
+}
+
+input {
+  margin: 5px 0;
+  border-radius: 3px;
+  padding-left: 6px;
+  border: 1px gray solid;
+  width: 100%;
+  margin-bottom: 9px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+ul .row {
+  margin: 10px 0;
+}
+
+hr {
+  margin: "4px 0";
+}
+
+.lista i {
+  font-size: 45px;
+  margin-top: 10px;
+}
+
+.row {
+  margin: 30px 0;
+}
+.row .row {
+  margin: 5px 0;
+}
+
+.subtitle {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.subinfo {
+  font-size: 12px;
+}
+
+.titulo {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.titulo-2 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 10px;
+  margin-top: 12px;
+}
+
+/*SUBATRIBUTOS*/
+.subrow p {
+  margin: 0 3px;
+}
+.subrow .col-4, .subrow .col-3 {
+  padding: 0;
+}
+
+/*ICONES NAS LISTAS*/
+.icone-container {
+  padding-right: 0;
+}
+
+/*AVATAR DE USUARIOS*/
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: gray;
+  text-align: center;
+}
+
+/*OUTPUT DE INSULINA NA PÁGINA DA REFEIÇÃO*/
+.doses-de-insulina-output {
+  background-color: #4b85e2;
+  color: white;
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+}
+.doses-de-insulina-output spam {
+  line-height: 44px;
+  font-size: 40px;
+}
+
+/*BOTÃO DE ADICIONAR MAIS UM ITEM NA LISTA DE ALIMENTOS*/
+.btn-more {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  font-size: 25px;
+  line-height: 0px;
+}
+
+/*CSS RESPONSÁVEL PELA FORMATAÇÃO DE CORES E ALINHAMENTO DOS CONTAINERS*/
+/*FAIXA CINZA*/
+.cinza {
+  background-color: #dedede;
+  margin: 0;
+}
+
+/*FORMAS CENTRALIZADAS, COMO CALENDARIO E SOMA DOS CARBOIDRATOS*/
+.dinamic {
+  text-align: center;
+  padding: 5px 0;
+}
+.dinamic .row {
+  margin: 0 10px;
+}
+.dinamic .item-calendario {
+  width: 15%;
+  max-width: 25%;
+  padding: 2px;
+  flex: 0 0 12%;
+}
+.dinamic .item-calendario:first-child {
+  margin-left: auto;
+}
+.dinamic .item-calendario:last-child {
+  margin-right: auto;
+}
+.dinamic .dia {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.dinamic .semana {
+  font-size: 18px;
+  margin-bottom: 3px;
+  line-height: 12px;
+}
+
+/*ICONES DAS LISTAS*/
+.icone-container {
+  padding-right: 0;
+  color: #747474;
+}
+
+/*ALINHAMENTO DOS FORMULÁRIOS DE CADASTRO*/
+.custom-form .col-1, .custom-form .col-2, .custom-form .col-3, .custom-form .col-4, .custom-form .col-5, .custom-form .col-6, .custom-form .col-7, .custom-form .col-8, .custom-form .col-9, .custom-form .col-10, .custom-form .col-11, .custom-form .col-12 {
+  padding-right: 0;
+}
+.custom-form .btn {
+  width: 100%;
+  padding: 1px 0px;
+  height: 28px;
+  margin-top: 5px;
+}
+
+.custom-form:last-child {
+  padding-left: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

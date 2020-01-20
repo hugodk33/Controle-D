@@ -1,0 +1,95 @@
+label {
+  position: absolute;
+  font-size: 10px;
+  top: -3px;
+  left: 20px;
+  padding: 0 2px;
+  color: gray;
+  background-color: white;
+  line-height: 10px;
+}
+
+input {
+  margin: 5px 0;
+  border-radius: 3px;
+  padding-left: 6px;
+  border: 1px gray solid;
+  width: 100%;
+  margin-bottom: 9px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.row {
+  margin: 30px 0;
+}
+
+.cinza {
+  background-color: #dedede;
+  margin: 0;
+}
+
+.lista-alimento i {
+  color: #dedede;
+}
+
+.novo-alimento input {
+  margin-right: 3px;
+}
+
+.dinamic {
+  text-align: center;
+}
+.dinamic spam {
+  font-size: 20px;
+}
+.dinamic .more {
+  position: absolute;
+  top: 10px;
+  left: -1px;
+}
+
+.subtitle {
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.doses-de-insulina-output {
+  background-color: #4b85e2;
+  color: white;
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+}
+.doses-de-insulina-output spam {
+  line-height: 44px;
+  font-size: 40px;
+}
+
+.btn-azul {
+  background-color: #4b85e2;
+  color: white;
+  border: none;
+}
+
+.btn-more {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  font-size: 25px;
+  line-height: 0px;
+}
+
+.subtitle {
+  font-size: 10px;
+}
+
+.titulo {
+  text-align: center;
+  margin: 15px 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

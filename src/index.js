@@ -1,0 +1,51 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import * as serviceWorker from './serviceWorker';
+
+import 'bootstrap/dist/css/bootstrap.css';
+import './styles/css/styles.css';
+import '../node_modules/font-awesome/css/font-awesome.min.css'; 
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+import { BrowserRouter, Route } from 'react-router-dom';
+
+import homePage from './pages/home-page';
+
+import Top from './pages/templates/head';
+
+import paciente from './pages/paciente/paciente-page';
+import cadastrarRefeicao from './pages/paciente/refeicoes/cadastrar-refeicao';
+
+import medico from './pages/medico/medico-page';
+import CadastrarPaciente from './pages/medico/pacientes/cadastrar-pacientes-page';
+import listarPaciente from './pages/medico/pacientes/listar-pacientes-page';
+import pacientes from './pages/medico/pacientes/pacientes-page';
+import cadastrarAlimento from './pages/medico/alimentos/cadastrar-alimento-page';
+import listarAlimentos from './pages/medico/alimentos/listar-alimentos-page';
+
+
+ReactDOM.render( 
+  <div className="App" style={{maxWidth: "400px"}}>
+    {library.add(fab, faCheckSquare, faCoffee)}
+    <Top />
+    <BrowserRouter basename={process.env.PUBLIC_URL || ''}>
+      <Route exact path="/" component={homePage} />
+      <Route exact path="/paciente" component={paciente} />
+      <Route exact path="/paciente/cadastrar-refeicao" component={cadastrarRefeicao} />
+      <Route exact path="/medico" component={medico} />
+      <Route exact path="/medico/alimentos/cadastro-alimento" component={cadastrarAlimento} />
+      <Route exact path="/medico/alimentos/listar-alimento" component={listarAlimentos} />
+      <Route exact path="/medico/pacientes/cadastrar-paciente" component={CadastrarPaciente} />
+      <Route exact path="/medico/pacientes/listar-paciente" component={listarPaciente} />
+      <Route exact path="/medico/pacientes/paciente" component={pacientes} />
+    </BrowserRouter>
+    {/* <div>{process.env.PUBLIC_URL}</div> */}
+  </div>,
+  document.getElementById('root')
+);
+
+// Learn more about service workers in CRA: http://bit.ly/CRA-PWA
+serviceWorker.default();

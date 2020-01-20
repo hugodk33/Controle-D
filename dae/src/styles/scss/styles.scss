@@ -1,0 +1,69 @@
+@use 'ajustes-bootstrap';
+
+.cinza {
+  background-color: #dedede;
+  margin: 0;
+}
+
+.lista-alimento {
+  i {
+    color: #dedede
+  }
+}
+.novo-alimento {
+  input {
+    margin-right: 3px
+  }
+}
+.dinamic {
+  text-align: center;
+
+  spam {
+    font-size: 20px;
+  }
+  
+  .more {
+    position: absolute;
+    top: 10px;
+    left: -1px;
+  }
+}
+
+.subtitle {
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.doses-de-insulina-output {
+  background-color: #4b85e2;
+  color: white;
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  spam {
+    line-height: 44px;
+    font-size: 40px;
+  }
+}
+
+.btn-azul {
+  background-color: #4b85e2;
+  color: white;
+  border: none;
+}
+
+.btn-more {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  font-size: 25px;
+  line-height: 0px;
+}
+.subtitle {
+  font-size: 10px;
+}
+
+.titulo {
+  text-align: center;
+  margin: 15px 0;
+}

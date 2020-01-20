@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*ICONES NAS LISTAS*/
+.icone-container {
+  padding-right: 0;
+}
+
+/*AVATAR DE USUARIOS*/
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: gray;
+  text-align: center;
+}
+
+/*OUTPUT DE INSULINA NA PÁGINA DA REFEIÇÃO*/
+.doses-de-insulina-output {
+  background-color: #4b85e2;
+  color: white;
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+}
+.doses-de-insulina-output spam {
+  line-height: 44px;
+  font-size: 40px;
+}
+
+/*BOTÃO DE ADICIONAR MAIS UM ITEM NA LISTA DE ALIMENTOS*/
+.btn-more {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  font-size: 25px;
+  line-height: 0px;
+}
+
+/*# sourceMappingURL=formas.css.map */
