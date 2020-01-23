@@ -50,6 +50,10 @@ hr {
   margin: 5px 0;
 }
 
+.btn {
+  width: 100%;
+}
+
 .subtitle {
   font-size: 10px;
   font-weight: bold;

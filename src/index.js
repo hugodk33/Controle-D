@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 
+import { createStore } from 'redux'
+import { Provider } from 'react-redux'
+
+import reducers from './redux/reducer'
+
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles/css/styles.css';
 import '../node_modules/font-awesome/css/font-awesome.min.css'; 
-
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 import { BrowserRouter, Route } from 'react-router-dom';
 
@@ -26,10 +27,11 @@ import pacientes from './pages/medico/pacientes/pacientes-page';
 import cadastrarAlimento from './pages/medico/alimentos/cadastrar-alimento-page';
 import listarAlimentos from './pages/medico/alimentos/listar-alimentos-page';
 
+const stores = createStore(reducers)
 
 ReactDOM.render( 
+  <Provider store={stores}>
   <div className="App" style={{maxWidth: "400px"}}>
-    {library.add(fab, faCheckSquare, faCoffee)}
     <Top />
     <BrowserRouter basename={process.env.PUBLIC_URL || ''}>
       <Route exact path="/" component={homePage} />
@@ -43,7 +45,8 @@ ReactDOM.render(
       <Route exact path="/medico/pacientes/paciente" component={pacientes} />
     </BrowserRouter>
     {/* <div>{process.env.PUBLIC_URL}</div> */}
-  </div>,
+  </div>
+  </Provider>,
   document.getElementById('root')
 );
 

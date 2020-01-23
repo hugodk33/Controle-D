@@ -1,4 +1,7 @@
 import React from 'react';
+import { connect } from 'react-redux'
+import { compose , bindActionCreators } from 'redux'
+
 
 import Titulo from "../../templates/Titulo";
 import Input from '../../templates/Input';
@@ -6,9 +9,9 @@ import ItemAlimento from '../../templates/ItensListas/ItemAlimento';
 
 import { withRouter } from 'react-router-dom';
 
-
-const ListarAlimento = () => {
-
+const ListarAlimento = (props) => {
+  console.log("props.list")
+  console.log(props.list)
   return (
     <div>
         <div class="container">
@@ -30,4 +33,7 @@ const ListarAlimento = () => {
   );
 };
 
-export default withRouter(ListarAlimento);
+const mapStateToProps = state => ({list: state})
+const mapDispatchToProps = dispatch => 
+    bindActionCreators({  }, dispatch)
+export default compose(withRouter, connect(mapStateToProps, mapDispatchToProps))(ListarAlimento);

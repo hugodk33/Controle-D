@@ -1,0 +1,54 @@
+[
+    {
+        "alimento": "Purê de Maçã",
+        "icone": " ",
+        "carbo": "22",
+        "porcao": " ",
+        "gordura": " ",
+        "calorias": " ",
+        "fibra": " ",
+        "doses": " ",
+        "proteina": " ",
+        "insulina": " "
+        
+    },
+    {
+        "alimento": "Macarrão",
+        "icone": " ",
+        "carbo": "22",
+        "porcao": " ",
+        "gordura": " ",
+        "calorias": " ",
+        "fibra": " ",
+        "doses": " ",
+        "proteina": " ",
+        "insulina": " "
+        
+    },
+    {
+        "alimento": "Arroz",
+        "icone": " ",
+        "carbo": "22",
+        "porcao": " ",
+        "gordura": " ",
+        "calorias": " ",
+        "fibra": " ",
+        "doses": " ",
+        "proteina": " ",
+        "insulina": " "
+        
+    },
+    {
+        "alimento": "Feijão de Corda",
+        "icone": " ",
+        "carbo": "22",
+        "porcao": " ",
+        "gordura": " ",
+        "calorias": " ",
+        "fibra": " ",
+        "doses": " ",
+        "proteina": " ",
+        "insulina": " "
+        
+    }
+]

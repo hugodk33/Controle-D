@@ -12,6 +12,7 @@ const ItemAlimento = (props) => {
                 <div class="col-9">
                     <p class="titulo-2">{props.nome}</p>
                     <div class="row subrow">
+                        { /*function.map => SubRowItem*/ }
                         <SubRowItem valor={23} subtitulo="TITLE" col="4" icon="spinner"/>
                         <SubRowItem valor={13} subtitulo="CARBO" col="4" />
                     </div>

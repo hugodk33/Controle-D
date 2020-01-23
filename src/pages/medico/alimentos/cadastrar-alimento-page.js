@@ -12,7 +12,7 @@ const CadastrarAlimento = () => {
         <Titulo titulo="Cadastrar Alimento"/>
         <div class="row custom-form">
           <Input id="nome-do-alimento" label="NOME DO ALIMENTO" placeholder="Nome do Alimento" type={"text"} col={8} />
-          <Input id="nome-do-alimento" label="ÍCONE" placeholder="" type={"text"} col={4}/>
+          <Input id="icone" label="ÍCONE" placeholder="" type={"text"} col={4}/>
           <Input id="porcao" label="PORÇÃO" placeholder="" type={"text"} col={4}/>
           <Input id="calorias" label="CALORIAS" placeholder="" type={"text"} col={4}/>
           <Input id="carboidratos" label="CARBO" placeholder="" type={"text"} col={4}/>

@@ -14,9 +14,7 @@ const ListarPacientes = () => {
         <div class="container">
           <Titulo  titulo="Pacientes" />
           <div class="row custom-form">
-            <div class="col-9">
-              <Input id="buscar-paciente" label="BUSCAR PACIENTE" placeholder="digite o nome do paciente" type={"text"} />
-            </div>
+            <Input id="buscar-paciente" label="BUSCAR PACIENTE" placeholder="digite o nome do paciente" type={"text"} col="9" />
             <div class="col-3">
               <button class="btn btn-primary"><i class="fa fa-spinner"/></button>
             </div>
