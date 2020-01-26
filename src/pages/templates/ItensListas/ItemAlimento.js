@@ -2,22 +2,20 @@ import React from 'react';
 import SubRowItem from "./SubRowItem";
 
 const ItemAlimento = (props) => {
-
     return (
         <li>
-            <div class="row">
-                <div class="col-3 icone-container">
-                    <i className={"fa fa-" + props.icon}/>
+            <div className="row">
+                <div className="col-3 icone-container">
+                    <i className={props.data.icone}/>
                 </div>
-                <div class="col-9">
-                    <p class="titulo-2">{props.nome}</p>
-                    <div class="row subrow">
-                        { /*function.map => SubRowItem*/ }
-                        <SubRowItem valor={23} subtitulo="TITLE" col="4" icon="spinner"/>
-                        <SubRowItem valor={13} subtitulo="CARBO" col="4" />
+                <div className="col-9">
+                    <p className="titulo-2">{props.data.alimento}</p>
+                    <div className="row subrow">
+                        <SubRowItem valor={props.data.calorias} subtitulo="CAL." col="4" />
+                        <SubRowItem valor={props.data.carbo} subtitulo="CARB." col="4" />
                     </div>
-                </div> 
-                <div class="col-12">
+                </div>          
+                <div className="col-12">
                     <hr/>
                 </div>   
             </div>

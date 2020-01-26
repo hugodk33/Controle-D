@@ -47,15 +47,14 @@
 .custom-form .col-1, .custom-form .col-2, .custom-form .col-3, .custom-form .col-4, .custom-form .col-5, .custom-form .col-6, .custom-form .col-7, .custom-form .col-8, .custom-form .col-9, .custom-form .col-10, .custom-form .col-11, .custom-form .col-12 {
   padding-right: 0;
 }
+.custom-form .ponta {
+  padding-right: 15px;
+}
 .custom-form .btn {
   width: 100%;
   padding: 1px 0px;
-  height: 28px;
+  height: 31px;
   margin-top: 5px;
-}
-
-.custom-form:last-child {
-  padding-left: 0;
 }
 
 /*# sourceMappingURL=formatacao-da-pagina.css.map */

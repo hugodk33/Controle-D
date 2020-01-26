@@ -1,10 +1,13 @@
 .subtitle {
   font-size: 10px;
   font-weight: bold;
+  line-height: 12px;
+  margin: 5px 0 0 0;
 }
 
 .subinfo {
   font-size: 12px;
+  line-height: 12px;
 }
 
 .titulo {
@@ -21,9 +24,6 @@
 
 /*SUBATRIBUTOS*/
 .subrow {
-  p {
-    margin: 0 3px
-  }
   .col-4 , .col-3 {
     padding: 0;
   }

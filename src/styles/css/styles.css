@@ -3,7 +3,7 @@
 label {
   position: absolute;
   font-size: 10px;
-  top: -3px;
+  top: 0px;
   left: 20px;
   padding: 0 2px;
   color: gray;
@@ -15,6 +15,7 @@ input {
   margin: 5px 0;
   border-radius: 3px;
   padding-left: 6px;
+  padding-top: 4px;
   border: 1px gray solid;
   width: 100%;
   margin-bottom: 9px;
@@ -57,10 +58,13 @@ hr {
 .subtitle {
   font-size: 10px;
   font-weight: bold;
+  line-height: 12px;
+  margin: 5px 0 0 0;
 }
 
 .subinfo {
   font-size: 12px;
+  line-height: 12px;
 }
 
 .titulo {
@@ -76,9 +80,6 @@ hr {
 }
 
 /*SUBATRIBUTOS*/
-.subrow p {
-  margin: 0 3px;
-}
 .subrow .col-4, .subrow .col-3 {
   padding: 0;
 }
@@ -167,15 +168,14 @@ hr {
 .custom-form .col-1, .custom-form .col-2, .custom-form .col-3, .custom-form .col-4, .custom-form .col-5, .custom-form .col-6, .custom-form .col-7, .custom-form .col-8, .custom-form .col-9, .custom-form .col-10, .custom-form .col-11, .custom-form .col-12 {
   padding-right: 0;
 }
+.custom-form .ponta {
+  padding-right: 15px;
+}
 .custom-form .btn {
   width: 100%;
   padding: 1px 0px;
-  height: 28px;
+  height: 31px;
   margin-top: 5px;
-}
-
-.custom-form:last-child {
-  padding-left: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

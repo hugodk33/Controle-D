@@ -1,0 +1,29 @@
+[
+    {
+        "nome": "fulano de Tal da Silva",
+        "sexo": "M",
+        "idade":  "42",
+        "peso": "87",
+        "tipo": "I",
+        "Sangue": "AB",
+        "Refeicoes": []
+    },
+    {
+        "nome": "Beltrano da Plantal",
+        "sexo": "M",
+        "idade":  "31",
+        "peso": "85",
+        "tipo": "III",
+        "Sangue": "-O",
+        "Refeicoes": []
+    },
+    {
+        "nome": "Xica da Silva",
+        "sexo": "F",
+        "idade":  "27",
+        "peso": "92",
+        "tipo": "II",
+        "Sangue": "B",
+        "Refeicoes": []
+    }    
+]

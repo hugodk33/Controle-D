@@ -3,9 +3,9 @@ import React from 'react';
 const SubRowItem = (props) => {
 
     return (
-        <div class="col-3">
-            <p class="subtitle">{props.subtitulo}</p>
-            <p class="subinfo">{props.valor}</p>
+        <div className="col-3">
+            <p className="subtitle">{props.subtitulo}</p>
+            <p className="subinfo">{props.valor}</p>
         </div>
     )
 };

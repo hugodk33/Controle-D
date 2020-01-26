@@ -1,28 +1,23 @@
 import React from 'react';
+import SubRowItem from "./SubRowItem";
 
 const ItemPaciente = (props) => {
-
     return (
         <li>
-            <div class="row">
-                <div class="col-3 icone-container">
-                    <i className={"fa fa-spinner"}/>
+            <div className="row">
+                <div className="col-3 icone-container">
+                    <i className={props.data.icone}/>
                 </div>
-                <div class="col-9">
-                    <p class="titulo-2">Dae e tal né</p>
-                    <div class="row subrow">
-                        <div class="col-3" style={{padding: 0}}>
-                            <p class="subtitle">Dae 1</p>
-                            <p class="subinfo">Dae 2</p>
-                        </div>
-                        <div class="col-4" style={{paddingRight: 0}}>
-                            <p class="subtitle">Dae 1</p>
-                            <p class="subinfo">Dae 2</p>
-                        </div>
+                <div className="col-9">
+                    <p className="titulo-2">{props.data.nome}</p>
+                    <div className="row subrow">
+                        <SubRowItem valor={props.data.idade} subtitulo="IDADE" col="4" />
+                        <SubRowItem valor={props.data.peso} subtitulo="PESO" col="4" />
+                        <SubRowItem valor={props.data.tipo} subtitulo="TIPO" col="4" />
                     </div>
-                </div> 
-                <div class="col-12">
-                    <hr style={{ margin: "4px 0"}}/>
+                </div>          
+                <div className="col-12">
+                    <hr/>
                 </div>   
             </div>
         </li>
@@ -30,3 +25,4 @@ const ItemPaciente = (props) => {
 };
 
 export default ItemPaciente;
+
