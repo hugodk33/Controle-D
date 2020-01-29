@@ -2,23 +2,31 @@ import React from 'react';
 import SubRowItem from "./SubRowItem";
 
 const ItemRefeicao = (props) => {
-
     return (
         <li>
-            <div class="row">
-                <div class="col-3 icone-container">
-                    <i className={"fa fa-" + props.icon}/>
+            <div className="row refeicao">
+                <div className="col-3"  style={{paddingRight:"0"}}>
+                    <p className="Hora">{props.data.Hora}</p>                    
                 </div>
-                <div class="col-9">
-                    <p class="titulo-2">{props.nome}</p>
-                    <div class="row subrow">
-                        <SubRowItem valor={23} subtitulo="TITLE" col="4" />
-                        <SubRowItem valor={13} subtitulo="CARBO" col="4" />
+                <div className="col-2 icone-container"   style={{padding:"0"}}>
+                    <i className={"fa fa-spinner"}/>
+                </div>
+                <div className="col-4" style={{padding:"0"}}>
+                    <p className="titulo-2">{props.data.Refeicao}</p>
+                    <div className="row subrow">
+                        <SubRowItem valor={props.data.idade} subtitulo="CARB" col="6" />
+                        <SubRowItem valor={props.data.peso} subtitulo="PESO" col="6" />                        
                     </div>
-                </div> 
-                <div class="col-12">
-                    <hr/>
+                </div>          
+                <div className="col-2" style={{paddingLeft:"0", textAlign: "center"}}>
+                    <div className="quadro-refeicao">
+                        <p  className="Doses">{props.data.Doses}</p>
+                        <p className="subtitle">DOSES</p>
+                    </div>
                 </div>   
+                <div className="col-12">
+                    <hr />
+                </div>
             </div>
         </li>
     )

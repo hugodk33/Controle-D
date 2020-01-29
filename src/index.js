@@ -15,7 +15,8 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import homePage from './pages/home-page';
 
-import Top from './pages/templates/head';
+import Top from './pages/templates/Head';
+import Menu from './pages/templates/Menu';
 
 import paciente from './pages/paciente/paciente-page';
 import cadastrarRefeicao from './pages/paciente/refeicoes/cadastrar-refeicao';
@@ -31,20 +32,29 @@ const stores = createStore(reducers)
 
 ReactDOM.render( 
   <Provider store={stores}>
-  <div className="App" style={{maxWidth: "400px"}}>
-    <Top />
-    <BrowserRouter basename={process.env.PUBLIC_URL || ''}>
-      <Route exact path="/" component={homePage} />
-      <Route exact path="/paciente" component={paciente} />
-      <Route exact path="/paciente/cadastrar-refeicao" component={cadastrarRefeicao} />
-      <Route exact path="/medico" component={medico} />
-      <Route exact path="/medico/alimentos/cadastro-alimento" component={cadastrarAlimento} />
-      <Route exact path="/medico/alimentos/listar-alimento" component={listarAlimentos} />
-      <Route exact path="/medico/pacientes/cadastrar-paciente" component={CadastrarPaciente} />
-      <Route exact path="/medico/pacientes/listar-paciente" component={listarPaciente} />
-      <Route exact path="/medico/pacientes/paciente" component={pacientes} />
-    </BrowserRouter>
-    {/* <div>{process.env.PUBLIC_URL}</div> */}
+  <div className="App">
+    <div className="container-fluid" style={{padding:"0"}}>  
+      <Top />
+      <div className="row main" style={{margin:"0"}}>
+        <div className="col-12 col-sm-3 menu-lateral">
+          <Menu />
+        </div>
+        <div className="col-12 col-md-6 canvas-board"> 
+          <BrowserRouter basename={process.env.PUBLIC_URL || ''}>
+            <Route exact path="/" component={homePage} />
+            <Route exact path="/paciente" component={paciente} />
+            <Route exact path="/paciente/cadastrar-refeicao" component={cadastrarRefeicao} />
+            <Route exact path="/medico" component={medico} />
+            <Route exact path="/medico/alimentos/cadastro-alimento" component={cadastrarAlimento} />
+            <Route exact path="/medico/alimentos/listar-alimento" component={listarAlimentos} />
+            <Route exact path="/medico/pacientes/cadastrar-paciente" component={CadastrarPaciente} />
+            <Route exact path="/medico/pacientes/listar-paciente" component={listarPaciente} />
+            <Route exact path="/medico/pacientes/paciente" component={pacientes} />
+          </BrowserRouter>
+        </div>
+      </div>
+      {/* <div>{process.env.PUBLIC_URL}</div> */}
+    </div>
   </div>
   </Provider>,
   document.getElementById('root')

@@ -21,6 +21,13 @@ input {
   margin-bottom: 9px;
 }
 
+select {
+  margin: 4px 4px 12px 4px;
+  width: 100%;
+  background-color: inherit;
+  border-radius: 4px;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -40,8 +47,9 @@ hr {
 }
 
 .lista i {
-  font-size: 45px;
+  font-size: 35px;
   margin-top: 10px;
+  color: #c5c5c5;
 }
 
 .row {
@@ -55,6 +63,41 @@ hr {
   width: 100%;
 }
 
+.menu-lateral {
+  background-image: linear-gradient(#dedede, transparent);
+}
+
+@media (min-width: 300px) {
+  .canvas-board {
+    padding: 0;
+  }
+
+  .menu-lateral {
+    display: none;
+  }
+
+  .main {
+    padding: 0;
+  }
+
+  .faixa {
+    margin: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .canvas-board {
+    padding: 30px 0;
+  }
+
+  .menu-lateral {
+    display: inline;
+    height: 900px;
+  }
+
+  .faixa {
+    margin: 120px 0;
+  }
+}
 .subtitle {
   font-size: 10px;
   font-weight: bold;
@@ -63,7 +106,7 @@ hr {
 }
 
 .subinfo {
-  font-size: 12px;
+  font-size: 9px;
   line-height: 12px;
 }
 
@@ -76,11 +119,22 @@ hr {
   text-transform: uppercase;
   margin-bottom: 0;
   line-height: 10px;
-  margin-top: 12px;
+  margin-top: 10px;
+}
+
+.refeicao .Hora {
+  font-weight: bold;
+  margin-top: 13px;
+}
+.refeicao .Doses {
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 0px;
+  line-height: 12px;
 }
 
 /*SUBATRIBUTOS*/
-.subrow .col-4, .subrow .col-3 {
+.subrow .col-4, .subrow .col-3, .subrow .col-6 {
   padding: 0;
 }
 
@@ -120,11 +174,35 @@ hr {
   line-height: 0px;
 }
 
+.quadro-calendario {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  padding-top: 2px;
+  margin: 0px auto;
+}
+.quadro-calendario p {
+  color: black;
+}
+
+.quadro-refeicao {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  border-radius: 100%;
+  padding-top: 2px;
+}
+.quadro-refeicao p {
+  color: white;
+}
+
 /*CSS RESPONSÁVEL PELA FORMATAÇÃO DE CORES E ALINHAMENTO DOS CONTAINERS*/
 /*FAIXA CINZA*/
 .cinza {
   background-color: #dedede;
-  margin: 0;
+}
+.cinza label {
+  background-color: #dedede;
 }
 
 /*FORMAS CENTRALIZADAS, COMO CALENDARIO E SOMA DOS CARBOIDRATOS*/
@@ -139,21 +217,17 @@ hr {
   width: 15%;
   max-width: 25%;
   padding: 2px;
-  flex: 0 0 12%;
-}
-.dinamic .item-calendario:first-child {
-  margin-left: auto;
-}
-.dinamic .item-calendario:last-child {
-  margin-right: auto;
+  flex: 0 0 14%;
+  margin: 0 auto;
 }
 .dinamic .dia {
-  font-size: 13px;
+  font-size: 11px;
   font-weight: bold;
   margin-bottom: 0;
+  line-height: 10px;
 }
 .dinamic .semana {
-  font-size: 18px;
+  font-size: 11px;
   margin-bottom: 3px;
   line-height: 12px;
 }
@@ -176,6 +250,10 @@ hr {
   padding: 1px 0px;
   height: 31px;
   margin-top: 5px;
+}
+
+.lista {
+  padding-top: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,474 @@
+[
+    {
+        "Refeicao": "Almoço",
+        "Hora": "10:00",
+        "Doses": 2,
+        "Alimentos": [
+            {
+                "alimento": "Purê de Maçã",
+                "icone":  "fa fa-spinner",
+                "carbo": "19",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "7",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Macarrão",
+                "icone":  "fa fa-spinner",
+                "carbo": "22",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "1",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Arroz",
+                "icone":  "fa fa-spinner",
+                "carbo": "34",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "5",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Feijão de Corda",
+                "icone":  "fa fa-spinner",
+                "carbo": "12",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "3",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            }
+        ]
+    },
+    {
+        "Refeicao": "Almoço",
+        "Hora": "10:00",
+        "Doses": 2,
+        "Alimentos": [
+            {
+                "alimento": "Purê de Maçã",
+                "icone":  "fa fa-spinner",
+                "carbo": "19",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "7",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Macarrão",
+                "icone":  "fa fa-spinner",
+                "carbo": "22",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "1",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Arroz",
+                "icone":  "fa fa-spinner",
+                "carbo": "34",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "5",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Feijão de Corda",
+                "icone":  "fa fa-spinner",
+                "carbo": "12",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "3",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            }
+        ]
+    },
+    {
+        "Refeicao": "Almoço",
+        "Hora": "10:00",
+        "Doses": 2,
+        "Alimentos": [
+            {
+                "alimento": "Purê de Maçã",
+                "icone":  "fa fa-spinner",
+                "carbo": "19",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "7",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Macarrão",
+                "icone":  "fa fa-spinner",
+                "carbo": "22",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "1",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Arroz",
+                "icone":  "fa fa-spinner",
+                "carbo": "34",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "5",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Feijão de Corda",
+                "icone":  "fa fa-spinner",
+                "carbo": "12",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "3",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            }
+        ]
+    },
+    {
+        "Refeicao": "Almoço",
+        "Hora": "10:00",
+        "Doses": 2,
+        "Alimentos": [
+            {
+                "alimento": "Purê de Maçã",
+                "icone":  "fa fa-spinner",
+                "carbo": "19",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "7",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Macarrão",
+                "icone":  "fa fa-spinner",
+                "carbo": "22",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "1",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Arroz",
+                "icone":  "fa fa-spinner",
+                "carbo": "34",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "5",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Feijão de Corda",
+                "icone":  "fa fa-spinner",
+                "carbo": "12",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "3",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            }
+        ]
+    },
+    {
+        "Refeicao": "Almoço",
+        "Hora": "10:00",
+        "Doses": 2,
+        "Alimentos": [
+            {
+                "alimento": "Purê de Maçã",
+                "icone":  "fa fa-spinner",
+                "carbo": "19",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "7",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Macarrão",
+                "icone":  "fa fa-spinner",
+                "carbo": "22",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "1",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Arroz",
+                "icone":  "fa fa-spinner",
+                "carbo": "34",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "5",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Feijão de Corda",
+                "icone":  "fa fa-spinner",
+                "carbo": "12",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "3",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            }
+        ]
+    },
+    {
+        "Refeicao": "Almoço",
+        "Hora": "10:00",
+        "Doses": 2,
+        "Alimentos": [
+            {
+                "alimento": "Purê de Maçã",
+                "icone":  "fa fa-spinner",
+                "carbo": "19",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "7",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Macarrão",
+                "icone":  "fa fa-spinner",
+                "carbo": "22",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "1",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Arroz",
+                "icone":  "fa fa-spinner",
+                "carbo": "34",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "5",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Feijão de Corda",
+                "icone":  "fa fa-spinner",
+                "carbo": "12",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "3",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            }
+        ]
+    },
+    {
+        "Refeicao": "Almoço",
+        "Hora": "10:00",
+        "Doses": 2,
+        "Alimentos": [
+            {
+                "alimento": "Purê de Maçã",
+                "icone":  "fa fa-spinner",
+                "carbo": "19",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "7",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Macarrão",
+                "icone":  "fa fa-spinner",
+                "carbo": "22",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "1",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Arroz",
+                "icone":  "fa fa-spinner",
+                "carbo": "34",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "5",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Feijão de Corda",
+                "icone":  "fa fa-spinner",
+                "carbo": "12",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "3",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            }
+        ]
+    },
+    {
+        "Refeicao": "Almoço",
+        "Hora": "10:00",
+        "Doses": 2,
+        "Alimentos": [
+            {
+                "alimento": "Purê de Maçã",
+                "icone":  "fa fa-spinner",
+                "carbo": "19",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "7",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Macarrão",
+                "icone":  "fa fa-spinner",
+                "carbo": "22",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "1",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Arroz",
+                "icone":  "fa fa-spinner",
+                "carbo": "34",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "5",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            },
+            {
+                "alimento": "Feijão de Corda",
+                "icone":  "fa fa-spinner",
+                "carbo": "12",
+                "porcao": " ",
+                "gordura": " ",
+                "calorias": "3",
+                "fibra": " ",
+                "doses": " ",
+                "proteina": " ",
+                "insulina": " "
+                
+            }
+        ]
+    }
+]

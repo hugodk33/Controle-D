@@ -3,7 +3,9 @@
 /*FAIXA CINZA*/
 .cinza {
   background-color: #dedede;
-  margin: 0;
+  label {
+    background-color: #dedede;
+  }
 }
 
 
@@ -18,21 +20,17 @@
     width: 15%;
     max-width: 25%;
     padding: 2px;
-    flex: 0 0 12%;
-  }
-  .item-calendario:first-child {
-    margin-left: auto;
-  }
-  .item-calendario:last-child {
-    margin-right: auto;
+    flex: 0 0 14%;
+    margin: 0 auto;
   }
   .dia {
-    font-size: 13px;
+    font-size: 11px;
     font-weight: bold;
     margin-bottom: 0;
+    line-height: 10px;
   }
   .semana {
-    font-size: 18px;
+    font-size: 11px;
     margin-bottom: 3px;
     line-height: 12px;
   }
@@ -58,4 +56,8 @@
       height: 31px;
       margin-top: 5px;
     }
+}
+
+.lista {
+  padding-top: 10px;
 }

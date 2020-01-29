@@ -3,7 +3,7 @@ import React from 'react';
 const SubRowItem = (props) => {
 
     return (
-        <div className="col-3">
+        <div className={"col-" + props.col }>
             <p className="subtitle">{props.subtitulo}</p>
             <p className="subinfo">{props.valor}</p>
         </div>

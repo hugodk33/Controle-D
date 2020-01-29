@@ -1,10 +1,12 @@
 import { combineReducers } from 'redux'
-import alimentosReducer from './../pages/medico/alimentos/alimentos-reducers.js'
-import pacientesReducer from './../pages/medico/pacientes/pacientes-reducers.js'
+import alimentosReducer from './../pages/medico/alimentos/alimentos-reducers'
+import pacientesReducer from './../pages/medico/pacientes/pacientes-reducers'
+import refeicoesReducer from './../pages/medico/pacientes/refeicoes-reducers'
 
 const rootReducer = combineReducers({
     Alimentos: alimentosReducer,
-    Pacientes: pacientesReducer
+    Pacientes: pacientesReducer,
+    Refeicoes: refeicoesReducer
 })
 
 export default rootReducer

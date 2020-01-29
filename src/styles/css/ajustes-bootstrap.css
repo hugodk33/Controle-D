@@ -20,6 +20,13 @@ input {
   margin-bottom: 9px;
 }
 
+select {
+  margin: 4px 4px 12px 4px;
+  width: 100%;
+  background-color: inherit;
+  border-radius: 4px;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -39,8 +46,9 @@ hr {
 }
 
 .lista i {
-  font-size: 45px;
+  font-size: 35px;
   margin-top: 10px;
+  color: #c5c5c5;
 }
 
 .row {
@@ -52,6 +60,42 @@ hr {
 
 .btn {
   width: 100%;
+}
+
+.menu-lateral {
+  background-image: linear-gradient(#dedede, transparent);
+}
+
+@media (min-width: 300px) {
+  .canvas-board {
+    padding: 0;
+  }
+
+  .menu-lateral {
+    display: none;
+  }
+
+  .main {
+    padding: 0;
+  }
+
+  .faixa {
+    margin: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .canvas-board {
+    padding: 30px 0;
+  }
+
+  .menu-lateral {
+    display: inline;
+    height: 900px;
+  }
+
+  .faixa {
+    margin: 120px 0;
+  }
 }
 
 /*# sourceMappingURL=ajustes-bootstrap.css.map */
