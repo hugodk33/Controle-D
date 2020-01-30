@@ -13,11 +13,11 @@ const Pacientes = (props) => {
       <div className="container">
         <Titulo titulo={"Paciente"}/>
         <div className="row" style={{marginBottom: "15px"}}>
-          <div className="col-3 col-sm-1">
+          <div className="col-12">
             <div className="img avatar"> </div>
           </div>
-          <div className="col-9  col-sm-3 bio-paciente">
-            <h5> Nome do Paciente </h5>
+          <div className="col-12  col-sm-12 bio-paciente">
+            <p> Nome do Paciente </p>
             <div className="row subrow">
               <SubRowItem valor={43} subtitulo="IDADE" col="3" />
               <SubRowItem valor={"75KG" } subtitulo="PESO" col="3" />
@@ -30,8 +30,8 @@ const Pacientes = (props) => {
       <Calendario />
       <div className="container">
         <div className="row">
-          <div className="col-12 col-sm-6">
-            <ul className="lista">
+          <div className="col-12">
+            <ul className="lista" style={{margin: "0 auto", maxWidth: "600px"}}>
               { 
                 props.list.map((a , b) => {
                   return <ItemRefeicao key={b} data={a}/>

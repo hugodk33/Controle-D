@@ -43,21 +43,41 @@
 }
 
 /*ALINHAMENTO DOS FORMULÁRIOS DE CADASTRO*/
-.custom-form {
-    .col-1 , .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11 , .col-12 {
-      padding-right: 0;
-    }
-    .ponta {
-      padding-right: 15px
-    }
+.faixa {
+  text-align: center;
+}
+.faixa , .custom-form {
     .btn {
       width: 100%;
       padding: 1px 0px;
-      height: 31px;
-      margin-top: 5px;
+      margin-top: 14px;
+      height: 33px;
+      width: 100%; 
+      padding: 2px 0; 
+      max-width: 230px;
     }
 }
 
+
 .lista {
   padding-top: 10px;
+}
+
+@media (min-width: 300px) {
+  /*
+  .custom-form {
+    .col-1 , .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11 , .col-12 {
+      padding-right: 0;
+    }  
+    .ponta {
+      padding-right: 15px
+    }
+    .ponta-2 {
+      padding-right: 0
+    }    
+  }
+  */
+}
+@media (min-width: 768px) {
+
 }

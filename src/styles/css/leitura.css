@@ -38,4 +38,10 @@
   padding: 0;
 }
 
+.bio-paciente {
+  text-align: center;
+  margin: 16px auto 0 auto;
+  max-width: 400px;
+}
+
 /*# sourceMappingURL=leitura.css.map */

@@ -11,7 +11,7 @@ const ItemRefeicao = (props) => {
                 <div className="col-2 icone-container"   style={{padding:"0"}}>
                     <i className={"fa fa-spinner"}/>
                 </div>
-                <div className="col-4" style={{padding:"0"}}>
+                <div className="col-5" style={{padding:"0"}}>
                     <p className="titulo-2">{props.data.Refeicao}</p>
                     <div className="row subrow">
                         <SubRowItem valor={props.data.idade} subtitulo="CARB" col="6" />
@@ -23,10 +23,10 @@ const ItemRefeicao = (props) => {
                         <p  className="Doses">{props.data.Doses}</p>
                         <p className="subtitle">DOSES</p>
                     </div>
+                </div> 
+                <div className="col-12" style={{paddingLeft:"0", textAlign: "center"}}>
+                    <hr/>
                 </div>   
-                <div className="col-12">
-                    <hr />
-                </div>
             </div>
         </li>
     )

@@ -3,7 +3,7 @@
 label {
   position: absolute;
   font-size: 10px;
-  top: 0px;
+  top: 10px;
   left: 20px;
   padding: 0 2px;
   color: gray;
@@ -12,7 +12,7 @@ label {
 }
 
 input {
-  margin: 5px 0;
+  margin: 15px 0;
   border-radius: 3px;
   padding-left: 6px;
   padding-top: 4px;
@@ -138,6 +138,12 @@ hr {
   padding: 0;
 }
 
+.bio-paciente {
+  text-align: center;
+  margin: 16px auto 0 auto;
+  max-width: 400px;
+}
+
 /*ICONES NAS LISTAS*/
 .icone-container {
   padding-right: 0;
@@ -150,6 +156,7 @@ hr {
   border-radius: 100%;
   background-color: gray;
   text-align: center;
+  margin: 5px auto;
 }
 
 /*OUTPUT DE INSULINA NA PÁGINA DA REFEIÇÃO*/
@@ -191,6 +198,7 @@ hr {
   background-color: gray;
   border-radius: 100%;
   padding-top: 2px;
+  float: right;
 }
 .quadro-refeicao p {
   color: white;
@@ -239,21 +247,38 @@ hr {
 }
 
 /*ALINHAMENTO DOS FORMULÁRIOS DE CADASTRO*/
-.custom-form .col-1, .custom-form .col-2, .custom-form .col-3, .custom-form .col-4, .custom-form .col-5, .custom-form .col-6, .custom-form .col-7, .custom-form .col-8, .custom-form .col-9, .custom-form .col-10, .custom-form .col-11, .custom-form .col-12 {
-  padding-right: 0;
+.faixa {
+  text-align: center;
 }
-.custom-form .ponta {
-  padding-right: 15px;
-}
-.custom-form .btn {
+
+.faixa .btn, .custom-form .btn {
   width: 100%;
   padding: 1px 0px;
-  height: 31px;
-  margin-top: 5px;
+  margin-top: 14px;
+  height: 33px;
+  width: 100%;
+  padding: 2px 0;
+  max-width: 230px;
 }
 
 .lista {
   padding-top: 10px;
+}
+
+@media (min-width: 300px) {
+  /*
+  .custom-form {
+    .col-1 , .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11 , .col-12 {
+      padding-right: 0;
+    }  
+    .ponta {
+      padding-right: 15px
+    }
+    .ponta-2 {
+      padding-right: 0
+    }    
+  }
+  */
 }
 
 /*# sourceMappingURL=styles.css.map */

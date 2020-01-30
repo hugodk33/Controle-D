@@ -16,7 +16,7 @@ const ListarPacientes = (props) => {
           <Titulo  titulo="Pacientes" />
           <div className="row custom-form">
             <Input id="buscar-paciente" label="BUSCAR PACIENTE" placeholder="digite o nome do paciente" type={"text"} col="9" />
-            <div className="col-3 ponta">
+            <div className="col-3">
               <button className="btn btn-primary"><i className="fa fa-spinner"/></button>
             </div>
           </div>
