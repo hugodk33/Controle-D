@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux'
 import { compose , bindActionCreators } from 'redux'
 import Titulo from "../../templates/Titulo";
+import Menu from "../../templates/Menu";
 import Calendario from "../../templates/Calendario";
 import ItemRefeicao from "../../templates/ItensListas/ItemRefeicao";
 import SubRowItem from "../../templates/ItensListas/SubRowItem";
@@ -10,6 +11,11 @@ import { withRouter } from 'react-router-dom';
 const Pacientes = (props) => {
   return (
     <div>
+      <div className="row main" style={{margin:"0"}}>
+        <div className="col-12 col-sm-3 menu-lateral">
+          <Menu />
+        </div>
+      <div className="col-12 col-md-6 canvas-board"> 
       <div className="container">
         <Titulo titulo={"Paciente"}/>
         <div className="row" style={{marginBottom: "15px"}}>
@@ -41,6 +47,8 @@ const Pacientes = (props) => {
           </div>
         </div>
       </div>
+    </div>
+    </div>
     </div>
   );
 };

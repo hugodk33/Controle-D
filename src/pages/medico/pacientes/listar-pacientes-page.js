@@ -4,6 +4,7 @@ import { compose , bindActionCreators } from 'redux'
 
 
 import Titulo from "../../templates/Titulo";
+import Menu from "../../templates/Menu";
 import Input from '../../templates/Input';
 import ItemPaciente from '../../templates/ItensListas/ItemPaciente';
 
@@ -12,6 +13,11 @@ import { withRouter } from 'react-router-dom';
 const ListarPacientes = (props) => {
   return (
     <div>
+      <div className="row main" style={{margin:"0"}}>
+      <div className="col-12 col-sm-3 menu-lateral">
+        <Menu />
+      </div>
+      <div className="col-12 col-md-6 canvas-board"> 
         <div className="container">       
           <Titulo  titulo="Pacientes" />
           <div className="row custom-form">
@@ -29,6 +35,9 @@ const ListarPacientes = (props) => {
           </ul>
         </div>
     </div>
+    </div>
+    </div>
+
   );
 };
 

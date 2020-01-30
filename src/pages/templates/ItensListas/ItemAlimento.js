@@ -5,7 +5,7 @@ const ItemAlimento = (props) => {
     return (
         <li>
             <div className="row">
-                <div className="col-2 icone-container">
+                <div className="col-2 col-sm-1 icone-container">
                     <i className={"fa fa-spinner"}/>
                 </div>
                 <div className="col-10 col-sm-6 col-lg-4">

@@ -46,11 +46,15 @@
 .faixa {
   text-align: center;
 }
+.custom-form {
+  .btn {
+    margin-top: 14px;
+  }
+}
 .faixa , .custom-form {
     .btn {
       width: 100%;
       padding: 1px 0px;
-      margin-top: 14px;
       height: 33px;
       width: 100%; 
       padding: 2px 0; 
