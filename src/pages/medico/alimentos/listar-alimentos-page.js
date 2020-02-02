@@ -5,7 +5,7 @@ import  { Teste } from './alimentos-actions'
 
 import Titulo from "../../templates/Titulo";
 import Menu from "../../templates/Menu";
-import Input from '../../templates/Input';
+import Input from '../../templates/Inputs/Input';
 import ItemAlimento from '../../templates/ItensListas/ItemAlimento';
 
 import { withRouter } from 'react-router-dom';

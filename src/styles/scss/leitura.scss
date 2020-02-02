@@ -22,6 +22,15 @@
   margin-top: 10px;
 }
 
+.titulo-3 {
+  margin: 10px 0;
+  font-weight: 100;
+  color: white;
+  font-size: 14px;
+  background-color: #4b85e2;;
+  padding: 6px;
+}
+
 .refeicao {
   .Hora {
     font-weight: bold;
@@ -46,4 +55,8 @@
   text-align: center;
   margin: 16px auto 0 auto;
   max-width: 400px;
+}
+
+.menu-lateral {
+  text-align: right;
 }

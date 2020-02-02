@@ -38,7 +38,7 @@ ReactDOM.render(
       <Route exact path="/paciente" component={paciente} />
       <Route exact path="/paciente/cadastrar-refeicao" component={cadastrarRefeicao} />
       <Route exact path="/medico" component={medico} />
-      <Route exact path="/medico/alimentos/cadastro-alimento" component={cadastrarAlimento} />
+      <Route exact path="/medico/alimentos/cadastrar-alimento" component={cadastrarAlimento} />
       <Route exact path="/medico/alimentos/listar-alimento" component={listarAlimentos} />
       <Route exact path="/medico/pacientes/cadastrar-paciente" component={CadastrarPaciente} />
       <Route exact path="/medico/pacientes/listar-paciente" component={listarPaciente} />

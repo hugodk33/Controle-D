@@ -5,7 +5,7 @@ import { compose , bindActionCreators } from 'redux'
 
 import Titulo from "../../templates/Titulo";
 import Menu from "../../templates/Menu";
-import Input from '../../templates/Input';
+import Input from '../../templates/Inputs/Input';
 import ItemPaciente from '../../templates/ItensListas/ItemPaciente';
 
 import { withRouter } from 'react-router-dom';

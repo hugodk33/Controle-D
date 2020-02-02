@@ -16,7 +16,7 @@ const Pacientes = (props) => {
           <Menu />
         </div>
       <div className="col-12 col-md-6 canvas-board"> 
-      <div className="container">
+      <div className="container" style={{padding: 0}}>
         <Titulo titulo={"Paciente"}/>
         <div className="row" style={{marginBottom: "15px"}}>
           <div className="col-12">
@@ -34,10 +34,10 @@ const Pacientes = (props) => {
         </div>
       </div>
       <Calendario />
-      <div className="container">
+      <div className="container" style={{padding: 0}}>
         <div className="row">
-          <div className="col-12">
-            <ul className="lista" style={{margin: "0 auto", maxWidth: "600px"}}>
+          <div className="col-12" style={{padding: 0}}>
+            <ul className="lista">
               { 
                 props.list.map((a , b) => {
                   return <ItemRefeicao key={b} data={a}/>
