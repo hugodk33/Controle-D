@@ -28,6 +28,7 @@
     "redux": "^4.0.5",
     "rxjs": "^6.5.4",
     "sass": "^1.24.5",
+    "ucreate-icons": "^0.2.0",
     "workbox-webpack-plugin": "^4.3.1"
   },
   "scripts": {

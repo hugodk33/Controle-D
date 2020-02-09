@@ -20,13 +20,13 @@ const Calendario = (props) => {
             </div>
             <div className="col-12 col-sm-6" style={{padding: "0", margin: "0 auto"}}> 
               <div className="row" style={{margin: "0"}}>
-                <ItemCalendario dia="11" semana="D"/>
-                <ItemCalendario dia="12" semana="S"/>
-                <ItemCalendario dia="13" semana="T"/>
-                <ItemCalendario dia="14" semana="Q"/>
-                <ItemCalendario dia="15" semana="Q"/>
-                <ItemCalendario dia="16" semana="S"/>
-                <ItemCalendario dia="17" semana="S"/>
+                <ItemCalendario dia="11" semana="D" ativado={true} />
+                <ItemCalendario dia="12" semana="S" ativado={false}/>
+                <ItemCalendario dia="13" semana="T" ativado={false}/>
+                <ItemCalendario dia="14" semana="Q" ativado={false}/>
+                <ItemCalendario dia="15" semana="Q" ativado={false}/>
+                <ItemCalendario dia="16" semana="S" ativado={false}/>
+                <ItemCalendario dia="17" semana="S" ativado={false}/>
               </div>   
             </div>
           </div>

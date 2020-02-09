@@ -6,8 +6,8 @@ const InputN = (props) => {
     <div className={"col-" + props.col + " InputN"}>
         <label>{props.label}</label>
         <input id={props.id} type={props.type} className={props.class} placeholder={props.placeholder} />
-        <button>+</button>
-        <button style={{top: "20px"}}>-</button>
+        <button><img src={require("../icons/mais.svg")} style={{maxWidth: "8px"}}/></button>
+        <button style={{top: "20px"}}><img src={require("../icons/menos.svg")} style={{maxWidth: "8px"}}/></button>
     </div>
     )
 };

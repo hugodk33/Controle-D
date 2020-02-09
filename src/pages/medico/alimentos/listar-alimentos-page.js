@@ -19,7 +19,9 @@ const ListarAlimento = (props) => {
       </div>
       <div className="col-12 col-md-6 canvas-board"> 
         <div className="container">
-          
+          <div className="row">
+            <img className={"icone-topo"} src={require("../../templates/icons/buscar-alimento.svg")} />       
+          </div>
           <Titulo  titulo="Alimentos" />
           <div className="row custom-form">
             <Input id="buscar-alimento" label="BUSCAR ALIMENTO" placeholder="digite o nome do alimento" type={"text"} col={9}/>

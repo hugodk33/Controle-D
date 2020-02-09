@@ -118,6 +118,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 100;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #4b85e2;
+    border-color: #4b85e2;
+    border-radius: 0;
+}
+
 @media (min-width: 300px) {
     .canvas-board {
         padding: 0;

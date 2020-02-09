@@ -2,7 +2,6 @@ import React from 'react';
 import { connect } from 'react-redux'
 import { compose , bindActionCreators } from 'redux'
 
-
 import Titulo from "../../templates/Titulo";
 import Menu from "../../templates/Menu";
 import Input from '../../templates/Inputs/Input';
@@ -18,8 +17,11 @@ const ListarPacientes = (props) => {
         <Menu />
       </div>
       <div className="col-12 col-md-6 canvas-board"> 
-        <div className="container">       
-          <Titulo  titulo="Pacientes" />
+        <div className="container">
+          <div className="row">
+            <img className={"icone-topo"} src={require("../../templates/icons/buscar-paciente-2.svg")} />       
+          </div>
+          <Titulo  titulo="Pacientes" icone={"/../../templates/icons/cadastrar-alimento.svg"}/>
           <div className="row custom-form">
             <Input id="buscar-paciente" label="BUSCAR PACIENTE" placeholder="digite o nome do paciente" type={"text"} col="9" />
             <div className="col-3">
