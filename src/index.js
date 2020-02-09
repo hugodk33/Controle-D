@@ -5,7 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 
-import reducers from './redux/reducer'
+import rootReducer from './redux/reducer'
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles/css/styles.css';
@@ -27,10 +27,10 @@ import pacientes from './pages/medico/pacientes/pacientes-page';
 import cadastrarAlimento from './pages/medico/alimentos/cadastrar-alimento-page';
 import listarAlimentos from './pages/medico/alimentos/listar-alimentos-page';
 
-const stores = createStore(reducers)
+const store = createStore(rootReducer)
 
 ReactDOM.render( 
-  <Provider store={stores}>
+  <Provider store={store}>
   <div className="App">
     <Top />
     <BrowserRouter basename={process.env.PUBLIC_URL || ''}>

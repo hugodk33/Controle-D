@@ -1,5 +1,5 @@
 import React from 'react';
-import { connect } from 'react-redux'
+import { connect, useSelector } from 'react-redux'
 import { compose , bindActionCreators } from 'redux'
 
 import Titulo from "../../templates/Titulo";
@@ -10,6 +10,9 @@ import ItemPaciente from '../../templates/ItensListas/ItemPaciente';
 import { withRouter } from 'react-router-dom';
 
 const ListarPacientes = (props) => {
+
+  const pacientes = useSelector(state => state.Pacientes)
+
   return (
     <div>
       <div className="row main" style={{margin:"0"}}>
@@ -30,7 +33,7 @@ const ListarPacientes = (props) => {
           </div>
           <ul className="lista">
             { 
-              props.list.map((a , b) => {
+              pacientes.map((a , b) => {
                 return <ItemPaciente key={b} data={a}/>
               })
             }
@@ -43,8 +46,5 @@ const ListarPacientes = (props) => {
   );
 };
 
-const mapStateToProps = state => ({list: state.Pacientes})
-const mapDispatchToProps = dispatch => 
-    bindActionCreators({  }, dispatch)
-export default compose(withRouter, connect(mapStateToProps, mapDispatchToProps))(ListarPacientes);
+export default withRouter(ListarPacientes);
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { connect } from 'react-redux'
+import { connect, createSelectorHook, useSelector } from 'react-redux'
 import { compose , bindActionCreators } from 'redux'
 import  { Teste } from './alimentos-actions'
 
@@ -10,7 +10,10 @@ import ItemAlimento from '../../templates/ItensListas/ItemAlimento';
 
 import { withRouter } from 'react-router-dom';
 
-const ListarAlimento = (props) => {
+const ListarAlimento = (props,state) => {
+
+  const alimentos = useSelector(state => state.Alimentos)
+
   return (
     <div>
       <div className="row main" style={{margin:"0"}}>
@@ -31,7 +34,7 @@ const ListarAlimento = (props) => {
           </div>
           <ul className="lista">
             { 
-              props.list.Alimentos.map((a, b) => {
+              alimentos.map((a, b) => {
                 return <ItemAlimento key={b} data={a}/>
               })
             }
@@ -43,7 +46,4 @@ const ListarAlimento = (props) => {
   );
 };
 
-const mapStateToProps = state => ({list: state})
-const mapDispatchToProps = dispatch => 
-    bindActionCreators({ Teste }, dispatch)
-export default compose(withRouter, connect(mapStateToProps, mapDispatchToProps))(ListarAlimento);
+export default withRouter(ListarAlimento);
