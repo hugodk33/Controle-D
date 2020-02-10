@@ -268,10 +268,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   width: 65px;
   height: 65px;
   border-radius: 100%;
+  padding-top: 15px;
+  text-align: center;
 }
-.doses-de-insulina-output spam {
-  line-height: 44px;
+.doses-de-insulina-output span {
+  line-height: 11px;
   font-size: 40px;
+}
+.doses-de-insulina-output .subtitle {
+  margin-top: 0;
 }
 
 /*BOTÃO DE ADICIONAR MAIS UM ITEM NA LISTA DE ALIMENTOS*/
@@ -421,6 +426,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   text-transform: uppercase;
   font-weight: 100;
   color: #7b7b7b;
+}
+
+.soma-span {
+  position: absolute;
+  top: 7px;
+  left: 0px;
 }
 
 @media (min-width: 300px) {

@@ -1,0 +1,22 @@
+[
+    {
+        "alimento": "Alimento Um",
+        "porcao": "colheres",
+        "quantidade": "3"
+    },
+    {
+        "alimento": "Alimento Dois",
+        "porcao": "goles",
+        "quantidade": "2"
+    },
+    {
+        "alimento": "Alimento Três",
+        "porcao": "xícara",
+        "quantidade": "1"
+    },
+    {
+        "alimento": "Alimento Quatro",
+        "porcao": "colheres",
+        "quantidade": "5"
+    }
+]
