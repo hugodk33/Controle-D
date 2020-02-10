@@ -350,6 +350,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: color;
 }
 
+.btn-soma {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
 /*CSS RESPONSÁVEL PELA FORMATAÇÃO DE CORES E ALINHAMENTO DOS CONTAINERS*/
 /*FAIXA CINZA*/
 .cinza {

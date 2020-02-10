@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Titulo from "../templates/Titulo";
-import Menu from "../templates/Menu";
+import Menu from "../templates/MenuMedico";
 import Input from '../templates/Inputs/Input';
 import ItemPaciente from '../templates/ItensListas/ItemPaciente';
 

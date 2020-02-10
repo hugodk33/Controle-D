@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux'
 import { compose , bindActionCreators } from 'redux'
 import Titulo from "../../templates/Titulo";
-import Menu from "../../templates/Menu";
+import Menu from "../../templates/MenuMedico";
 import Calendario from "../../templates/Calendario";
 import ItemRefeicao from "../../templates/ItensListas/ItemRefeicao";
 import SubRowItem from "../../templates/ItensListas/SubRowItem";

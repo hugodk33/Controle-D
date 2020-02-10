@@ -103,4 +103,11 @@
   color: color;
 }
 
+.btn-soma {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=formas.css.map */

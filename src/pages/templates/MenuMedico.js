@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-const Menu = (props) => {
+const MenuMedico = (props) => {
 
     return (
         <div className={"menu menu-lateral"}>
@@ -39,4 +39,4 @@ const Menu = (props) => {
     )
 };
 
-export default Menu;
+export default MenuMedico;
