@@ -11,4 +11,4 @@ const rootReducer = combineReducers({
     AlimentosPacientes: pacientesAlimentosReducer
 })
 
-export default pacientesAlimentosReducer
+export default rootReducer

@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { getFoods } from './alimentos-actions'
 
 import Titulo from "../../templates/Titulo";
-import Menu from "../../templates/Menu";
+import Menu from "../../templates/MenuMedico";
 import Input from '../../templates/Inputs/Input';
 
 import { withRouter } from 'react-router-dom';
@@ -12,15 +12,16 @@ import ListarAlimento from './listar-alimentos-page';
 
 const AlimentosConteiner = (props, state) => {
 
+    
     const alimentos = useSelector(store => store.Alimento.alimentos)
     const dispatch = useDispatch()
 
     useEffect(() => {
         getFoods(dispatch)
-    },[alimentos.length]);
+    },[]);
 
-    const onClick = _ => {
-        getFoods(dispatch)
+    const onClick = filter => {
+        getFoods(dispatch,filter)
     }
 
     return (

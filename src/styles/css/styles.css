@@ -55,6 +55,14 @@ input {
   position: absolute;
 }
 
+.InputN button:focus {
+  outline: none
+}
+
+.InputN button:active {
+  color: #999999
+}
+
 .InputSelect select {
   margin: 0;
 }
