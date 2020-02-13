@@ -1,11 +1,13 @@
-//const INITIAL_STATE = { description: '', list: [] }
-import AlimentosJson from "../../jsons/alimentos"
 
-export default (state = AlimentosJson, action) => {
-    return state
-    /*
-    switch(action.type) {
-        /*
+import AlimentosJson from "../../jsons/alimentos"
+import { GET_ALIMENTOS } from "./alimentos-actions"
+const INITIAL_STATE = { alimentos: AlimentosJson }
+
+
+export default (state = INITIAL_STATE, action) => {
+    switch (action.type) {
+        case GET_ALIMENTOS:
+            return { ...state, alimentos: action.payload.data }
         case 'DESCRIPTION_CHANGED':
             return { ...state, description: action.payload }
         case 'TODO_SEARCHED':
@@ -14,6 +16,5 @@ export default (state = AlimentosJson, action) => {
             return { ...state, description: '' }
         default:
             return state
-        
-    }*/
+    } 
 }

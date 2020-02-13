@@ -4,7 +4,7 @@ import pacientesReducer from './../pages/medico/pacientes/pacientes-reducers'
 import refeicoesReducer from './../pages/medico/pacientes/refeicoes-reducers'
 
 const rootReducer = combineReducers({
-    Alimentos: alimentosReducer,
+    Alimento: alimentosReducer,
     Pacientes: pacientesReducer,
     Refeicoes: refeicoesReducer
 })
