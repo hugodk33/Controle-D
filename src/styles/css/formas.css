@@ -21,10 +21,15 @@
   width: 65px;
   height: 65px;
   border-radius: 100%;
+  padding-top: 15px;
+  text-align: center;
 }
-.doses-de-insulina-output spam {
-  line-height: 44px;
+.doses-de-insulina-output span {
+  line-height: 11px;
   font-size: 40px;
+}
+.doses-de-insulina-output .subtitle {
+  margin-top: 0;
 }
 
 /*BOTÃO DE ADICIONAR MAIS UM ITEM NA LISTA DE ALIMENTOS*/
@@ -96,6 +101,13 @@
 }
 .Item .Item-doses-insulina .subtitle {
   color: color;
+}
+
+.btn-soma {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=formas.css.map */

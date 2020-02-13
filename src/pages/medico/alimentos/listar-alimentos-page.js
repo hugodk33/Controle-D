@@ -1,10 +1,5 @@
 import React from 'react';
-import { connect, createSelectorHook, useSelector, useDispatch } from 'react-redux'
-import { compose , bindActionCreators } from 'redux'
-import  { Teste, getFoods } from './alimentos-actions'
-
 import Titulo from "../../templates/Titulo";
-import Menu from "../../templates/Menu";
 import Input from '../../templates/Inputs/Input';
 import ItemAlimento from '../../templates/ItensListas/ItemAlimento';
 

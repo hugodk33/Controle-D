@@ -1,6 +1,6 @@
 import React from 'react';
 import Titulo from "../../templates/Titulo";
-import Menu from "../../templates/Menu";
+import Menu from "../../templates/MenuMedico";
 import Input from '../../templates/Inputs/Input';
 import InputN from '../../templates/Inputs/InputN';
 import InputSelect from '../../templates/Inputs/InputSelect';

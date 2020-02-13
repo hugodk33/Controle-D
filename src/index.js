@@ -19,6 +19,8 @@ import Top from './pages/templates/Head';
 
 import paciente from './pages/paciente/paciente-page';
 import cadastrarRefeicao from './pages/paciente/refeicoes/cadastrar-refeicao';
+import buscarRefeicao from './pages/paciente/refeicoes/listar-refeicoes';
+import buscarMedico from './pages/paciente/medicos/listar-medicos';
 
 import medico from './pages/medico/medico-page';
 import CadastrarPaciente from './pages/medico/pacientes/cadastrar-pacientes-page';
@@ -27,7 +29,7 @@ import pacientes from './pages/medico/pacientes/pacientes-page';
 import cadastrarAlimento from './pages/medico/alimentos/cadastrar-alimento-page';
 import listarAlimentos from './pages/medico/alimentos/alimentos-conteiner';
 
-const store = createStore(rootReducer,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
+const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 
 ReactDOM.render(
   <Provider store={store}>
@@ -36,7 +38,9 @@ ReactDOM.render(
       <BrowserRouter basename={process.env.PUBLIC_URL || ''}>
         <Route exact path="/" component={homePage} />
         <Route exact path="/paciente" component={paciente} />
-        <Route exact path="/paciente/cadastrar-refeicao" component={cadastrarRefeicao} />
+        <Route exact path="/paciente/refeicoes/cadastrar-refeicao" component={cadastrarRefeicao} />
+        <Route exact path="/paciente/refeicoes/buscar-refeicao" component={buscarRefeicao} />
+        <Route exact path="/paciente/medicos/buscar-medicos" component={buscarMedico} />
         <Route exact path="/medico" component={medico} />
         <Route exact path="/medico/alimentos/cadastrar-alimento" component={cadastrarAlimento} />
         <Route exact path="/medico/alimentos/listar-alimento" component={listarAlimentos} />
