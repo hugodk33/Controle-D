@@ -6,6 +6,7 @@ import Menu from "../../templates/MenuMedico";
 import Calendario from "../../templates/Calendario";
 import ItemRefeicao from "../../templates/ItensListas/ItemRefeicao";
 import SubRowItem from "../../templates/ItensListas/SubRowItem";
+import refeicoes from "../../jsons/refeicoes";
 import { withRouter } from 'react-router-dom';
 
 const Pacientes = (props) => {
@@ -39,7 +40,7 @@ const Pacientes = (props) => {
           <div className="col-12">
             <ul className="lista">
               { 
-                props.list.map((a , b) => {
+                refeicoes.map((a , b) => {
                   return <ItemRefeicao key={b} data={a}/>
                 })
               }

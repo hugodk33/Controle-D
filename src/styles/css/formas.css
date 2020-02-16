@@ -30,6 +30,7 @@
 }
 .doses-de-insulina-output .subtitle {
   margin-top: 0;
+  color: white;
 }
 
 /*BOTÃO DE ADICIONAR MAIS UM ITEM NA LISTA DE ALIMENTOS*/
@@ -100,7 +101,7 @@
   color: white;
 }
 .Item .Item-doses-insulina .subtitle {
-  color: color;
+  color: white;
 }
 
 .btn-soma {

@@ -14,8 +14,9 @@ import '../node_modules/font-awesome/css/font-awesome.min.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 import homePage from './pages/home-page';
+import signUp from './pages/singup';
 
-import Top from './pages/templates/Head';
+import Top from './pages/templates/head';
 
 import paciente from './pages/paciente/paciente-page';
 import cadastrarRefeicao from './pages/paciente/refeicoes/cadastrar-refeicao';
@@ -37,6 +38,7 @@ ReactDOM.render(
     <Top />
     <BrowserRouter basename={process.env.PUBLIC_URL || ''}>
       <Route exact path="/" component={homePage} />
+      <Route exact path="/signup" component={signUp} />
       <Route exact path="/paciente" component={paciente} />
       <Route exact path="/paciente/refeicoes/cadastrar-refeicao" component={cadastrarRefeicao} />
       <Route exact path="/paciente/refeicoes/buscar-refeicao" component={buscarRefeicao} />

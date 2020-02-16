@@ -2,13 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 
 const MenuMedico = (props) => {
-
+    console.log("window.location.href")
+    console.log(window.location.href)
+    function funct(e) {
+        console.log(e)
+    }
     return (
         <div className={"menu menu-lateral"}>
             <ul>
                 <li> 
                     <Link to="/medico/alimentos/cadastrar-alimento">
-                        <button type="button">
+                        <button className={"actived"} type="button" onClick={() => funct(this)}>
                             <img src={require("./icons/cadastrar-alimento.svg")} /><span> CADASTRAR ALIMENTO </span>
                         </button>
                     </Link>

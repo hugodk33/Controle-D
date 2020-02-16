@@ -1,13 +1,13 @@
 /*GAMBIARRAS NO BOOTSTRAP PRA FAZER ELE FUNCIONAR QUE NEM GENTE*/
 select, input {
-  border: 1px solid #d2d2d2;
+  border: 1px solid #aaa;
   border-radius: 2px;
   height: 39px;
 }
 
 textarea {
   width: 100%;
-  border: 1px solid #d2d2d2;
+  border: 1px solid #aaa;
   border-radius: 2px;
 }
 
@@ -17,7 +17,7 @@ label {
   top: -5px;
   left: 8px;
   padding: 0 2px;
-  color: gray;
+  color: black;
   background-color: white;
   line-height: 10px;
 }

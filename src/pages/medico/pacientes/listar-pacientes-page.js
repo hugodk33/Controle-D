@@ -6,11 +6,13 @@ import Menu from "../../templates/MenuMedico";
 import Input from '../../templates/Inputs/Input';
 import ItemPaciente from '../../templates/ItensListas/ItemPaciente';
 
+import pacientes from "../../jsons/pacientes"
+
 import { withRouter } from 'react-router-dom';
 
 const ListarPacientes = (props) => {
 
-  const pacientes = useSelector(state => state.Pacientes)
+  //const pacientes = useSelector(state => state.Pacientes)
 
   return (
     <div>

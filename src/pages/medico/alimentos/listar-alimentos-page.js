@@ -6,11 +6,13 @@ import Menu from "../../templates/MenuMedico";
 import Input from '../../templates/Inputs/Input';
 import ItemAlimento from '../../templates/ItensListas/ItemAlimento';
 
+import alimentos from "../../jsons/alimentos"
+
 import { withRouter } from 'react-router-dom';
 
 const ListarAlimento = (props,state) => {
 
-  const alimentos = useSelector(state => state.Alimentos)
+  //const alimentos = useSelector(state => state.Alimentos)
 
   return (
     <div>
