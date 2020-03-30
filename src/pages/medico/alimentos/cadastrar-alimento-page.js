@@ -1,6 +1,7 @@
 import React from 'react';
 import Titulo from '../../templates/Titulo';
 import Menu from '../../templates/MenuMedico';
+import IconeCadastrarAlimento from "../../templates/icons/cadastrar-alimento.svg"
 //import Container from '../../templates/Container';
 import Input from '../../templates/Inputs/Input';
 import InputN from '../../templates/Inputs/InputN';
@@ -19,6 +20,7 @@ const CadastrarAlimento = () => {
       <div className="col-12 col-md-6 canvas-board"> 
       <div className="container">
         <div className="row">
+          <IconeCadastrarAlimento />
           <img className={"icone-topo"} src={require("../../templates/icons/cadastrar-alimento.svg")} />       
         </div>        
         <Titulo titulo="Cadastrar Alimento"/>

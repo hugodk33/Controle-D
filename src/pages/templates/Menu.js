@@ -1,40 +1,36 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-const MenuMedico = (props) => {
-    function funct(e) {
-        console.log(e)
-    }
+const Menu = (props) => {
+
     return (
-        <div className={"menu menu-lateral"}>
-            {console.log('window.innerHeight')}
-            {console.log(window.innerHeight)}
+        <div className={"menu"} style={{minHeight: '3000px'}}>
             <ul>
                 <li> 
                     <Link to="/medico/alimentos/cadastrar-alimento">
-                        <button className={"actived"} type="button" onClick={() => funct(this)}>
-                            <img src={require("./icons/cadastrar-alimento-menu.svg")} /><span> CADASTRAR ALIMENTO </span>
+                        <button type="button">
+                            <i className="fa fa-spinner"/> CADASTRAR ALIMENTO
                         </button>
                     </Link>
                 </li>
                 <li> 
                     <Link to="/medico/alimentos/listar-alimento">
                         <button type="button">
-                            <img src={require("./icons/buscar-alimento-menu.svg")} /><span> BUSCAR ALIMENTO </span>
+                            <i className="fa fa-spinner"/> BUSCAR ALIMENTO
                         </button>
                     </Link>
                 </li>
                 <li> 
                     <Link to="/medico/pacientes/cadastrar-paciente">
                         <button type="button">
-                            <img src={require("./icons/cadastrar-paciente-menu.svg")} /><span> CADASTRAR PACIENTE </span>                        
+                            <i className="fa fa-spinner"/> CADASTRAR PACIENTE
                         </button>
                     </Link>
                 </li>
                 <li> 
                     <Link to="/medico/pacientes/listar-paciente">
                         <button type="button">
-                         <img src={require("./icons/buscar-paciente-menu.svg")} /><span> BUSCAR PACIENTE </span>
+                            <i className="fa fa-spinner"/> BUSCAR PACIENTE
                         </button>
                     </Link>
                 </li>
@@ -43,4 +39,4 @@ const MenuMedico = (props) => {
     )
 };
 
-export default MenuMedico;
+export default Menu;

@@ -16,7 +16,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import homePage from './pages/home-page';
 import signUp from './pages/singup';
 
-import Top from './pages/templates/head';
+import Top from './pages/templates/Head';
 
 import paciente from './pages/paciente/paciente-page';
 import cadastrarRefeicao from './pages/paciente/refeicoes/cadastrar-refeicao';
