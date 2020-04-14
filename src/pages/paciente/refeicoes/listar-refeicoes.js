@@ -19,7 +19,7 @@ const ListarRefeicoes = (props) => {
       <div className="col-12 col-md-6 canvas-board"> 
         <div className="container">
           <div className="row">
-            <img className={"icone-topo"} src={require("../../templates/icons/buscar-alimento.svg")} />       
+                 
           </div>
           <Titulo  titulo="Refeições"/>
           <div className="row custom-form">

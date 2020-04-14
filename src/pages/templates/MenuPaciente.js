@@ -5,8 +5,6 @@ const MenuPaciente = (props) => {
 
     return (
         <div className={"menu menu-lateral"}  style={{minHeight: window.innerHeight}}>
-            {console.log('window.innerHeight')}
-            {console.log(window.innerHeight)}
             <ul>
                 <li> 
                     <Link to="/paciente/refeicoes/cadastrar-refeicao">

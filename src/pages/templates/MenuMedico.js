@@ -1,4 +1,5 @@
 import React from 'react';
+import Icone from './icons/icones'
 import { Link } from 'react-router-dom'
 
 const MenuMedico = (props) => {
@@ -7,13 +8,11 @@ const MenuMedico = (props) => {
     }
     return (
         <div className={"menu menu-lateral"}>
-            {console.log('window.innerHeight')}
-            {console.log(window.innerHeight)}
             <ul>
                 <li> 
                     <Link to="/medico/alimentos/cadastrar-alimento">
                         <button className={"actived"} type="button" onClick={() => funct(this)}>
-                            <img src={require("./icons/cadastrar-alimento-menu.svg")} /><span> CADASTRAR ALIMENTO </span>
+                            <Icone /><span> CADASTRAR ALIMENTO </span>
                         </button>
                     </Link>
                 </li>
