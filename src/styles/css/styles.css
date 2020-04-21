@@ -240,17 +240,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .menu {
   text-align: right;
 }
-.menu i {
-  color: #4b85e2;
-}
-.menu img {
-  margin: 3px 0 0 10px;
-  max-width: 25px;
-  float: right;
-}
 .menu button {
   width: 100%;
   max-width: 260px;
+  float: right;
+}
+.menu svg {
   float: right;
 }
 .menu span {
@@ -455,6 +450,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .menu-lateral .actived {
   background-color: #4c86e2;
   color: white;
+}
+
+.menu span {
+  margin-top: 5px;
+  margin-right: 15px;
 }
 
 .soma-span {

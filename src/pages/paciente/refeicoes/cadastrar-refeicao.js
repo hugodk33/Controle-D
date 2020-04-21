@@ -15,7 +15,7 @@ import { withRouter } from 'react-router-dom';
 
 import alimentosRefeicao from '../../jsons/alimentos-pacientes.json'
 
-
+import { IconeTituloAdicionarRefeicao } from '../../templates/icons/icones-navegacao'
 
 const CadastrarRefeicao = (props, state) => {
 
@@ -29,11 +29,16 @@ const CadastrarRefeicao = (props, state) => {
         </div>
         <div className="col-12 col-md-6 col-md-6 canvas-board"> 
           <div className="container" style={{padding: 0}}>
-            <Titulo titulo={"Cadastrar Refeição"}/>
+            <div class="row">
+              <div class="col-12 text-center">
+                <IconeTituloAdicionarRefeicao />
+                <Titulo titulo={"Cadastrar Refeição"}/>
+              </div>
+            </div>
             <div className="row" style={{marginBottom: "15px"}}>
               <div className="col-9 col-sm-11">
                 <div className="row">
-                  <Input label="Nome da Refeição" col="12"/>
+                  <Input label="NOME DA REFEIÇÃO" col="12"/>
                   <Input label="HORA" col="4"/>
                   <Input label="DATA" col="4"/>
                   <InputSelect label="ÍCONE" col="4"/>

@@ -8,6 +8,9 @@ import ItemPaciente from '../../templates/ItensListas/ItemPaciente';
 
 import pacientes from "../../jsons/pacientes"
 
+import {IconeTituloBuscarPaciente} from '../../templates/icons/icones-navegacao'
+import {IconeBuscar} from '../../templates/icons/icones-botoes'
+
 import { withRouter } from 'react-router-dom';
 
 const ListarPacientes = (props) => {
@@ -31,12 +34,15 @@ const ListarPacientes = (props) => {
         <div className="col-8">
         <div className="container">
           <div className="row">
+            <div className="col-12 text-center">
+              <IconeTituloBuscarPaciente />
+              <Titulo  titulo="Pacientes"/>
+            </div>
           </div>
-          <Titulo  titulo="Pacientes" icone={"/../../templates/icons/cadastrar-alimento.svg"}/>
           <div className="row custom-form">
             <Input id="buscar-paciente" label="BUSCAR PACIENTE" placeholder="digite o nome do paciente" type={"text"} col="9" />
             <div className="col-3">
-              <button className="btn btn-primary"><i className="fa fa-spinner"/></button>
+              <button className="btn btn-primary"><IconeBuscar /></button>
             </div>
           </div>
           <ul className="lista">

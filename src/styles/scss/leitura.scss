@@ -71,17 +71,12 @@
 
 .menu {
   text-align: right;
-  i {
-    color: #4b85e2 
-  }
-  img {
-    margin: 3px 0 0 10px;
-    max-width: 25px;
-    float: right;
-  }
   button {
     width: 100%;
     max-width: 260px;
+    float: right;
+  }
+  svg {
     float: right;
   }
   span {

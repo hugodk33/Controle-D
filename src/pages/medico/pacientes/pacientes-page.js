@@ -1,6 +1,4 @@
 import React from 'react';
-import { connect } from 'react-redux'
-import { compose , bindActionCreators } from 'redux'
 import Titulo from "../../templates/Titulo";
 import Menu from "../../templates/MenuMedico";
 import Calendario from "../../templates/Calendario";
@@ -8,6 +6,8 @@ import ItemRefeicao from "../../templates/ItensListas/ItemRefeicao";
 import SubRowItem from "../../templates/ItensListas/SubRowItem";
 import refeicoes from "../../jsons/refeicoes";
 import { withRouter } from 'react-router-dom';
+
+import {IconeTituloBuscarPaciente} from '../../templates/icons/icones-navegacao'
 
 const Pacientes = (props) => {
   return (
@@ -18,7 +18,12 @@ const Pacientes = (props) => {
         </div>
       <div className="col-12 col-md-6 canvas-board"> 
       <div className="container" style={{padding: 0}}>
-        <Titulo titulo={"Paciente"}/>
+        <div className="row">
+          <div className="col-12 text-center">
+            <IconeTituloBuscarPaciente />
+            <Titulo titulo={"Paciente"}/>
+          </div>
+        </div>
         <div className="row" style={{marginBottom: "15px"}}>
           <div className="col-12">
             <div className="img avatar"> </div>
@@ -40,9 +45,11 @@ const Pacientes = (props) => {
           <div className="col-12">
             <ul className="lista">
               { 
+              /*
                 refeicoes.map((a , b) => {
                   return <ItemRefeicao key={b} data={a}/>
                 })
+              */
               }
             </ul>
           </div>
@@ -54,7 +61,11 @@ const Pacientes = (props) => {
   );
 };
 
+/*
 const mapStateToProps = state => ({list: state.Refeicoes})
 const mapDispatchToProps = dispatch => 
     bindActionCreators({  }, dispatch)
 export default compose(withRouter, connect(mapStateToProps, mapDispatchToProps))(Pacientes);
+*/
+
+export default withRouter(Pacientes);

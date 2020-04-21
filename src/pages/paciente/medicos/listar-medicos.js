@@ -6,6 +6,8 @@ import Menu from "../../templates/MenuPaciente";
 import Input from '../../templates/Inputs/Input';
 import ItemPaciente from '../../templates/ItensListas/ItemPaciente';
 
+import { IconeTituloBuscarMedico } from '../../templates/icons/icones-navegacao'
+import { IconeBuscar } from '../../templates/icons/icones-botoes'
 import { withRouter } from 'react-router-dom';
 
 const ListarMedicos = (props) => {
@@ -21,13 +23,15 @@ const ListarMedicos = (props) => {
       <div className="col-12 col-md-6 canvas-board"> 
         <div className="container">
           <div className="row">
-            <img className={"icone-topo"} src={require("../../templates/icons/buscar-paciente-2.svg")} />       
+            <div className="col-12 text-center">
+              <IconeTituloBuscarMedico />
+              <Titulo  titulo="Médicos"/>
+            </div>
           </div>
-          <Titulo  titulo="Médicos" icone={"/../../templates/icons/buscar-medico.svg"}/>
           <div className="row custom-form">
             <Input id="buscar-medico" label="BUSCAR MÉDICO" placeholder="digite o nome do médico" type={"text"} col="9" />
             <div className="col-3">
-              <button className="btn btn-primary"><i className="fa fa-spinner"/></button>
+              <button className="btn btn-primary"><IconeBuscar /></button>
             </div>
           </div>
           <ul className="lista">

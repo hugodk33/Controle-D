@@ -9,7 +9,7 @@ const Top = () => {
             <div className="container-fluid">
                 <div className="row" style={{margin: 0}}>
                     <div className="col-8 col-sm-3 brand" style={{textAlign: "right"}}>
-                        <h4 style={{color:"white"}}> Controle D </h4><button className={"button-menu"}> <img src={require("./icons/ICONE-MENU.svg")} /> </button>
+                        <h4 style={{color:"white"}}> Controle D </h4><button className={"button-menu"}> </button>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { IconeMenuBuscarMedico , IconeMenuBuscarRefeicoes , IconeMenuAdicionarRefeicao } from './icons/icones-navegacao'
 import { Link } from 'react-router-dom'
 
 const MenuPaciente = (props) => {
@@ -9,21 +10,21 @@ const MenuPaciente = (props) => {
                 <li> 
                     <Link to="/paciente/refeicoes/cadastrar-refeicao">
                         <button type="button">
-                            <img src={require("./icons/cadastrar-alimento-menu.svg")} /><span> CADASTRAR REFEIÇÃO </span>
+                            <IconeMenuAdicionarRefeicao /><span> CADASTRAR REFEIÇÃO </span>
                         </button>
                     </Link>
                 </li>
                 <li> 
                     <Link to="/paciente/refeicoes/buscar-refeicao">
                         <button type="button">
-                            <img src={require("./icons/buscar-alimento-menu.svg")} /><span> BUSCAR REFEIÇÃO </span>
+                            <IconeMenuBuscarRefeicoes /><span> BUSCAR REFEIÇÃO </span>
                         </button>
                     </Link>
                 </li>
                 <li> 
                     <Link to="/paciente/medicos/buscar-medicos">
                         <button type="button">
-                            <img src={require("./icons/buscar-paciente-menu.svg")} /><span> PROCURAR MÉDICO  </span>                        
+                            <IconeMenuBuscarMedico /><span> PROCURAR MÉDICO  </span>                        
                         </button>
                     </Link>
                 </li>

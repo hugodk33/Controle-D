@@ -70,17 +70,12 @@
 .menu {
   text-align: right;
 }
-.menu i {
-  color: #4b85e2;
-}
-.menu img {
-  margin: 3px 0 0 10px;
-  max-width: 25px;
-  float: right;
-}
 .menu button {
   width: 100%;
   max-width: 260px;
+  float: right;
+}
+.menu svg {
   float: right;
 }
 .menu span {

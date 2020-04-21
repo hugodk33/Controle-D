@@ -6,7 +6,10 @@ import Menu from "../../templates/MenuMedico";
 import Input from '../../templates/Inputs/Input';
 import ItemAlimento from '../../templates/ItensListas/ItemAlimento';
 
-import alimentos from "../../jsons/alimentos"
+import alimentos from "../../jsons/alimentos";
+  
+import {IconeTituloBuscarAlimento} from '../../templates/icons/icones-navegacao'
+import {IconeBuscar} from '../../templates/icons/icones-botoes'
 
 import { withRouter } from 'react-router-dom';
 
@@ -23,13 +26,15 @@ const ListarAlimento = (props,state) => {
         <div className="col-12 col-md-6 canvas-board"> 
           <div className="container">
             <div className="row">
-              <img className={"icone-topo"} src={require("../../templates/icons/buscar-alimento.svg")} />       
+              <div className="col-12 text-center">
+                  <IconeTituloBuscarAlimento />
+                  <Titulo  titulo="Alimentos" />
+              </div>
             </div>
-            <Titulo  titulo="Alimentos" />
             <div className="row custom-form">
               <Input id="buscar-alimento" label="BUSCAR ALIMENTO" placeholder="digite o nome do alimento" type={"text"} col={9}/>
               <div className="col-3 ponta">
-                <button className="btn btn-primary ponta" onClick={props.Teste}><i className="fa fa-spinner"/></button>
+                <button className="btn btn-primary ponta" onClick={props.Teste}><IconeBuscar /></button>
               </div>
             </div>
             <ul className="lista">

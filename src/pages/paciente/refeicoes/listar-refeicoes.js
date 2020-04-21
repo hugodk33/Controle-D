@@ -6,6 +6,10 @@ import Menu from "../../templates/MenuPaciente";
 import Input from '../../templates/Inputs/Input';
 import ItemPaciente from '../../templates/ItensListas/ItemPaciente';
 
+import { IconeTituloBuscarRefeicoes } from '../../templates/icons/icones-navegacao'
+
+import { IconeBuscar } from '../../templates/icons/icones-botoes'
+
 import { withRouter } from 'react-router-dom';
 
 const ListarRefeicoes = (props) => {
@@ -19,13 +23,15 @@ const ListarRefeicoes = (props) => {
       <div className="col-12 col-md-6 canvas-board"> 
         <div className="container">
           <div className="row">
-                 
+            <div className="col-12 text-center">
+              <IconeTituloBuscarRefeicoes />
+              <Titulo  titulo="Refeições"/>
+            </div>
           </div>
-          <Titulo  titulo="Refeições"/>
           <div className="row custom-form">
             <Input id="buscar-medico" label="BUSCAR MÉDICO" placeholder="digite o nome do médico" type={"text"} col="9" />
             <div className="col-3">
-              <button className="btn btn-primary"><i className="fa fa-spinner"/></button>
+              <button className="btn btn-primary"><IconeBuscar /></button>
             </div>
           </div>
           <ul className="lista">

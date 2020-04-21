@@ -1,6 +1,8 @@
 import React from 'react';
-import Icone from './icons/icones'
+import {IconeMenuBuscarPaciente , IconeMenuBuscarMedico , IconeMenuBuscarRefeicoes , IconeMenuBuscarAlimento , IconeMenuAdicionarPaciente, IconeMenuAdicionarRefeicao, IconeMenuAdicionarAlimento} from './icons/icones-navegacao'
 import { Link } from 'react-router-dom'
+
+import Icones from './icons/icones'
 
 const MenuMedico = (props) => {
     function funct(e) {
@@ -11,29 +13,29 @@ const MenuMedico = (props) => {
             <ul>
                 <li> 
                     <Link to="/medico/alimentos/cadastrar-alimento">
-                        <button className={"actived"} type="button" onClick={() => funct(this)}>
-                            <Icone /><span> CADASTRAR ALIMENTO </span>
+                        <button type="button" onClick={() => funct(this)}>
+                            <IconeMenuAdicionarRefeicao /><span> CADASTRAR ALIMENTO </span>
                         </button>
                     </Link>
                 </li>
                 <li> 
                     <Link to="/medico/alimentos/listar-alimento">
                         <button type="button">
-                            <img src={require("./icons/buscar-alimento-menu.svg")} /><span> BUSCAR ALIMENTO </span>
+                            <IconeMenuBuscarAlimento /> <span> BUSCAR ALIMENTO </span> 
                         </button>
                     </Link>
                 </li>
                 <li> 
                     <Link to="/medico/pacientes/cadastrar-paciente">
                         <button type="button">
-                            <img src={require("./icons/cadastrar-paciente-menu.svg")} /><span> CADASTRAR PACIENTE </span>                        
+                            <IconeMenuAdicionarPaciente /><span> CADASTRAR PACIENTE </span>                        
                         </button>
                     </Link>
                 </li>
                 <li> 
                     <Link to="/medico/pacientes/listar-paciente">
                         <button type="button">
-                         <img src={require("./icons/buscar-paciente-menu.svg")} /><span> BUSCAR PACIENTE </span>
+                            <IconeMenuBuscarPaciente /><span>  BUSCAR PACIENTE </span>
                         </button>
                     </Link>
                 </li>

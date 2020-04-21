@@ -7,6 +7,8 @@ import ItemPaciente from '../templates/ItensListas/ItemPaciente';
 
 import { withRouter } from 'react-router-dom';
 
+//<img className={"icone-topo"} src={require("../templates/icons/paciente-form-icon.svg")} /> 
+
 const Medico = (props) => {
   return (
     <div>
@@ -17,7 +19,7 @@ const Medico = (props) => {
       <div className="col-12 col-md-6 canvas-board"> 
         <div className="container">
           <div className="row">
-            <img className={"icone-topo"} src={require("../templates/icons/paciente-form-icon.svg")} />       
+                  
           </div>
           <Titulo  titulo="Menu" />
         </div>
