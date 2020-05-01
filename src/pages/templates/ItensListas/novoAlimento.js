@@ -3,8 +3,6 @@ import SubRowItem from "./SubRowItem";
 import InputSelect from "../Inputs/InputSelect";
 import InputN from "../Inputs/InputN";
 
-//<img src={require("../icons/mais.svg")} />
-
 const ItemAlimento = (props) => {
     return (
         <li>
@@ -22,7 +20,7 @@ const ItemAlimento = (props) => {
                     <hr/>
                 </div>
                 <div className="col-2" style={{textAlign: "center"}}>
-                    <button className="btn btn-primary btn-soma"></button>
+                    <button className="btn btn-primary btn-soma"><img src={require("../icons/mais.svg")} /></button>
                 </div>
                 <div className="col-5">
                     <hr/>

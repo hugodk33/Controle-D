@@ -2,8 +2,6 @@ import React from 'react';
 import {IconeMenuBuscarPaciente , IconeMenuBuscarMedico , IconeMenuBuscarRefeicoes , IconeMenuBuscarAlimento , IconeMenuAdicionarPaciente, IconeMenuAdicionarRefeicao, IconeMenuAdicionarAlimento} from './icons/icones-navegacao'
 import { Link } from 'react-router-dom'
 
-import Icones from './icons/icones'
-
 const MenuMedico = (props) => {
     function funct(e) {
         console.log(e)

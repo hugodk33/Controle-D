@@ -1,16 +1,13 @@
 import React from 'react';
 import SubRowItem from "./SubRowItem";
-
-import {IconeAbobora} from "../icons/icones-alimentos";
-
-
+import {IconeBolo, IconePicole, IconePipoca} from "../icons/icones-alimentos"
 
 const ItemAlimento = (props) => {
     return (
         <li>
             <div className="row">
                 <div className="col-2 col-sm-1 icone-container">
-                    <IconeAbobora />
+                    <IconePipoca />   
                 </div>
                 <div className="col-10 col-sm-6 col-lg-4">
                     <p className="titulo-2">{props.data.alimento}</p>
