@@ -120,4 +120,8 @@
   border-radius: 100%;
 }
 
+.lista hr {
+  border-style: dashed;
+}
+
 /*# sourceMappingURL=formas.css.map */

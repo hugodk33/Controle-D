@@ -1,7 +1,7 @@
 [
     {
         "alimento": "Purê de Maçã",
-        "icone":  "fa fa-spinner",
+        "icone":  "macan",
         "carbo": "19",
         "porcao": " ",
         "gordura": " ",
@@ -14,7 +14,7 @@
     },
     {
         "alimento": "Macarrão",
-        "icone":  "fa fa-spinner",
+        "icone":  "macarrao",
         "carbo": "22",
         "porcao": " ",
         "gordura": " ",
@@ -27,7 +27,7 @@
     },
     {
         "alimento": "Arroz",
-        "icone":  "fa fa-spinner",
+        "icone":  "arroz",
         "carbo": "34",
         "porcao": " ",
         "gordura": " ",
@@ -40,7 +40,7 @@
     },
     {
         "alimento": "Feijão de Corda",
-        "icone":  "fa fa-spinner",
+        "icone":  "feijao",
         "carbo": "12",
         "porcao": " ",
         "gordura": " ",

@@ -23,15 +23,7 @@ const ListarPacientes = (props) => {
       <div className="col-12 col-sm-3 menu-lateral">
         <Menu />
       </div>
-      <div className="col-12 col-md-9 canvas-board">
-      <div className="col-12">
-        <div className="container-fluid" style={{backgroundColor:"#dcdcdc"}}>
-          <div className="row">
-            <br />
-          </div> 
-        </div>
-        </div>
-        <div className="col-8">
+      <div className="col-12 col-md-6 canvas-board">
         <div className="container">
           <div className="row">
             <div className="col-12 text-center">
@@ -52,7 +44,6 @@ const ListarPacientes = (props) => {
               })
             }
           </ul>
-        </div>
         </div>
     </div>
     </div>
