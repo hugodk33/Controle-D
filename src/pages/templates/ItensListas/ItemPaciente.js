@@ -15,7 +15,13 @@ const ItemPaciente = (props) => {
                         <SubRowItem valor={props.data.peso} subtitulo="PESO" col="3" />
                         <SubRowItem valor={props.data.tipo} subtitulo="TIPO" col="3" />
                     </div>
-                </div>          
+                    <div className="meta" >
+                        <p>Atualizado em: <b> 11/11/11</b></p>
+                        <p>Cadastrado por: <b> <a>Doutor Fulano</a></b></p>
+                        <p style={{marginBottom: "6px"}}>Última Entrada: <b> 11/11/11</b></p>
+                           
+                    </div> 
+                </div>         
                 <div className="col-12">
                     <hr/>
                 </div>   

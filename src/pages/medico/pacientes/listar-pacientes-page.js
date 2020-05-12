@@ -4,8 +4,9 @@ import { connect, useSelector } from 'react-redux'
 import Titulo from "../../templates/Titulo";
 import Menu from "../../templates/MenuMedico";
 import Input from '../../templates/Inputs/Input';
+import InputSelect from '../../templates/Inputs/InputSelect';
 import ItemPaciente from '../../templates/ItensListas/ItemPaciente';
-
+import PaginacaoBtn from '../../templates/ItensListas/paginacao/marcadores-de-paginacao';
 import pacientes from "../../jsons/pacientes"
 
 import {IconeTituloBuscarPaciente} from '../../templates/icons/icones-navegacao'
@@ -37,6 +38,12 @@ const ListarPacientes = (props) => {
               <button className="btn btn-primary"><IconeBuscar /></button>
             </div>
           </div>
+          <div className="row" style={{backgroundColor: "rgb(247, 247, 247)", width: "100%", padding:"7px" , margin: "0 5px"}}>
+            <InputSelect id="organizar-alimento" label="ORGANIZAR POR: " col="6 col-sm-4 organizar"/>
+            <div className="col-6 col-sm-8">
+            </div>
+          </div>
+          <PaginacaoBtn />
           <ul className="lista">
             { 
               pacientes.map((a , b) => {
@@ -44,6 +51,7 @@ const ListarPacientes = (props) => {
               })
             }
           </ul>
+          <PaginacaoBtn />
         </div>
     </div>
     </div>

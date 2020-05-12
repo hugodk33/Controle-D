@@ -4,6 +4,8 @@ import { connect, createSelectorHook, useSelector } from 'react-redux'
 import Titulo from "../../templates/Titulo";
 import Menu from "../../templates/MenuMedico";
 import Input from '../../templates/Inputs/Input';
+import InputSelect from '../../templates/Inputs/InputSelect';
+import PaginacaoBtn from '../../templates/ItensListas/paginacao/marcadores-de-paginacao';
 import ItemAlimento from '../../templates/ItensListas/ItemAlimento';
 
 import alimentos from "../../jsons/alimentos";
@@ -36,7 +38,13 @@ const ListarAlimento = (props,state) => {
               <div className="col-3 ponta">
                 <button className="btn btn-primary ponta" onClick={props.Teste}><IconeBuscar /></button>
               </div>
+              <div className="row" style={{backgroundColor: "rgb(247, 247, 247)", width: "100%", padding:"7px" , margin: "0 5px"}}>
+                <InputSelect id="organizar-alimento" label="ORGANIZAR POR: " col="6 col-sm-4 organizar"/>
+                <div className="col-6 col-sm-8">
+                </div>
+              </div>
             </div>
+            <PaginacaoBtn />
             <ul className="lista">
               { 
                 alimentos.map((a, b) => {
@@ -44,6 +52,7 @@ const ListarAlimento = (props,state) => {
                 })
               }
             </ul>
+            <PaginacaoBtn />
           </div>
         </div>
       </div>

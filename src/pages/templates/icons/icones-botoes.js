@@ -2,7 +2,7 @@ import React from 'react';
 
 const SinaldeMais = (props) => {
     return (
-        <svg version="1.1" style={{display: "inline-block"}} height="15px" width="15px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg version="1.1" style={{display: "inline-block"}} height="11px" width="11px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 420 420">
             <polygon fill="white" points="370,177.7 242.3,177.7 242.3,50 177.7,50 177.7,177.7 50,177.7 50,242.3 177.7,242.3 177.7,370 242.3,370 
 	242.3,242.3 370,242.3 "/>
@@ -12,7 +12,7 @@ const SinaldeMais = (props) => {
 
 const SinaldeMenos = (props) => {
     return (
-        <svg version="1.1" style={{display: "inline-block"}} height="15px" width="15px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg version="1.1" style={{display: "inline-block"}} height="11px" width="11px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 420 420">
                 <rect fill="white" x="50" y="177.7" width="320" height="64.6"/>
         </svg>  

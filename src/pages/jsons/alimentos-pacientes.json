@@ -2,21 +2,25 @@
     {
         "alimento": "Alimento Um",
         "porcao": "colheres",
-        "quantidade": "3"
+        "quantidade": "3",
+        "icone":  "macan"
     },
     {
         "alimento": "Alimento Dois",
         "porcao": "goles",
-        "quantidade": "2"
+        "quantidade": "2",
+        "icone":  "macarrao"
     },
     {
         "alimento": "Alimento Três",
         "porcao": "xícara",
-        "quantidade": "1"
+        "quantidade": "1",
+        "icone":  "arroz"
     },
     {
         "alimento": "Alimento Quatro",
         "porcao": "colheres",
-        "quantidade": "5"
+        "quantidade": "5",
+        "icone":  "feijao"
     }
 ]

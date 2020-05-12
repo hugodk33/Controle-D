@@ -18,12 +18,6 @@ const Pacientes = (props) => {
         </div>
       <div className="col-12 col-md-6 canvas-board"> 
       <div className="container" style={{padding: 0}}>
-        <div className="row">
-          <div className="col-12 text-center">
-            <IconeTituloBuscarPaciente />
-            <Titulo titulo={"Paciente"}/>
-          </div>
-        </div>
         <div className="row" style={{marginBottom: "15px"}}>
           <div className="col-12">
             <div className="img avatar"> </div>

@@ -2,7 +2,18 @@
 select , input {
     border: 1px solid #aaa;
     border-radius: 2px;
-    height: 39px;
+    height: 33px;
+}
+.organizar {
+    select , input {
+        height: 25px;
+    }
+}
+
+.meta-data {
+    p {
+        font-size: 12px;
+    }
 }
 
 input[type=checkbox] {
@@ -40,14 +51,29 @@ label {
     background-color: white;
     line-height: 10px;
 }
+.organizar {
+    label {
+        background-color: rgb(247, 247, 247);
+    }
+}
+
+.novoItem {
+    label {
+        background-color: rgb(247, 247, 247);
+    }
+    input {
+        background-color: rgb(247, 247, 247);
+    }
+}
     
 input {
     margin: 0;
-    border-radius: 3px;
     padding-left: 6px;
     padding-top: 4px;
     width: 100%;
-    margin-bottom: 9px;
+    margin-bottom: 17px;
+}::placeholder {
+    color: #8b8b8b
 }
 
 .InputN {
@@ -64,8 +90,8 @@ input {
         font-size: 16px;
         font-weight: bold;
         padding: 0;
-        height: 18.6px;
-        width: 18.6px;
+        height: 15.6px;
+        width: 15.6px;
         line-height: 0px;
         margin-left: 1px;
         border: none;
@@ -79,7 +105,7 @@ input {
 
 .InputSelect {
     select {
-        margin: 0;
+        margin: 0 0 2px 0;
     }   
 }
 
@@ -107,7 +133,7 @@ ul {
 }
 
 hr {
-    margin: "4px 0"
+    margin: 0
 }
 
 .lista {
@@ -142,6 +168,25 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background-color: #4b85e2;
     border-color: #4b85e2;
     border-radius: 0;
+}
+
+/*PAGINAÇÃO*/
+
+.barra-paginacao {
+    .paginacao-btn {
+        width: 5px;
+        height: 5px;
+        background-color: #d9d9d9;
+        margin: 3px 3px;
+        display: inline-block;
+        border-radius: 100%;
+    }
+    .paginacao-ativo {
+        width: 8px;
+        height: 8px;
+        background-color: #58a8ff;
+        margin-top: 2px;
+    }
 }
 
 @media (min-width: 300px) {

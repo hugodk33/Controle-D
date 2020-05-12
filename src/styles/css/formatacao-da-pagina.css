@@ -50,7 +50,7 @@
 .faixa .btn, .custom-form .btn {
   width: 100%;
   padding: 1px 0px;
-  height: 39px;
+  height: 33px;
   width: 100%;
   padding: 2px 0;
   max-width: 230px;
@@ -64,7 +64,7 @@
   background-color: #6699CC;
   padding-right: 0;
   background-image: linear-gradient(#6699CC, #58a8ff);
-  height: 100vh;
+  height: 115vh;
 }
 .menu-lateral li {
   clear: both;
@@ -113,6 +113,12 @@
 }
 .brand h4 {
   margin: 5px 0;
+}
+
+.meta p {
+  font-size: 11px;
+  margin-bottom: 2px;
+  color: #8c8c8c;
 }
 
 @media (min-width: 300px) {

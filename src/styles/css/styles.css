@@ -3,7 +3,15 @@
 select, input {
   border: 1px solid #aaa;
   border-radius: 2px;
-  height: 39px;
+  height: 33px;
+}
+
+.organizar select, .organizar input {
+  height: 25px;
+}
+
+.meta-data p {
+  font-size: 12px;
 }
 
 input[type=checkbox] {
@@ -42,13 +50,27 @@ label {
   line-height: 10px;
 }
 
+.organizar label {
+  background-color: #f7f7f7;
+}
+
+.novoItem label {
+  background-color: #f7f7f7;
+}
+.novoItem input {
+  background-color: #f7f7f7;
+}
+
 input {
   margin: 0;
-  border-radius: 3px;
   padding-left: 6px;
   padding-top: 4px;
   width: 100%;
-  margin-bottom: 9px;
+  margin-bottom: 17px;
+}
+
+::placeholder {
+  color: #8b8b8b;
 }
 
 .InputN input {
@@ -62,8 +84,8 @@ input {
   font-size: 16px;
   font-weight: bold;
   padding: 0;
-  height: 18.6px;
-  width: 18.6px;
+  height: 15.6px;
+  width: 15.6px;
   line-height: 0px;
   margin-left: 1px;
   border: none;
@@ -75,7 +97,7 @@ input {
 }
 
 .InputSelect select {
-  margin: 0;
+  margin: 0 0 2px 0;
 }
 
 select {
@@ -100,7 +122,7 @@ ul .row {
 }
 
 hr {
-  margin: "4px 0";
+  margin: 0;
 }
 
 .lista i {
@@ -133,6 +155,22 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   background-color: #4b85e2;
   border-color: #4b85e2;
   border-radius: 0;
+}
+
+/*PAGINAÇÃO*/
+.barra-paginacao .paginacao-btn {
+  width: 5px;
+  height: 5px;
+  background-color: #d9d9d9;
+  margin: 3px 3px;
+  display: inline-block;
+  border-radius: 100%;
+}
+.barra-paginacao .paginacao-ativo {
+  width: 8px;
+  height: 8px;
+  background-color: #58a8ff;
+  margin-top: 2px;
 }
 
 @media (min-width: 300px) {
@@ -223,7 +261,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #909090;
   font-size: 14px;
   background-color: inherit;
-  padding: 6px 0;
+  padding: 2.5px 0;
 }
 
 .refeicao .Hora {
@@ -296,10 +334,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   border-radius: 100%;
   padding-top: 15px;
   text-align: center;
+  margin: 13px auto 0 auto;
 }
 .doses-de-insulina-output span {
   line-height: 11px;
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: bold;
 }
 .doses-de-insulina-output .subtitle {
   margin-top: 0;
@@ -448,7 +488,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .faixa .btn, .custom-form .btn {
   width: 100%;
   padding: 1px 0px;
-  height: 39px;
+  height: 33px;
   width: 100%;
   padding: 2px 0;
   max-width: 230px;
@@ -462,7 +502,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   background-color: #6699CC;
   padding-right: 0;
   background-image: linear-gradient(#6699CC, #58a8ff);
-  height: 100vh;
+  height: 115vh;
 }
 .menu-lateral li {
   clear: both;
@@ -511,6 +551,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .brand h4 {
   margin: 5px 0;
+}
+
+.meta p {
+  font-size: 11px;
+  margin-bottom: 2px;
+  color: #8c8c8c;
 }
 
 @media (min-width: 300px) {

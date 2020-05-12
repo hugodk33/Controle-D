@@ -8,7 +8,7 @@ const InputN = (props) => {
         <label>{props.label}</label>
         <input id={props.id} type={props.type} className={props.class} placeholder={props.placeholder} />
         <button className="text-center" ><SinaldeMais /></button>
-        <button className="text-center" style={{top: "20px"}}><SinaldeMenos /></button>
+        <button className="text-center" style={{top: "17px"}}><SinaldeMenos /></button>
     </div>
     )
 };
