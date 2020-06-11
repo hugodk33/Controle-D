@@ -6,9 +6,9 @@ import pacientesAlimentosReducer from './../pages/paciente/refeicoes/refeicoes-r
 
 const rootReducer = combineReducers({
     Alimentos: alimentosReducer,
-    Pacientes: pacientesReducer,
-    Refeicoes: refeicoesReducer,
-    AlimentosPacientes: pacientesAlimentosReducer
+    Pacientes: pacientesReducer
+    // ,Refeicoes: refeicoesReducer
+    // ,AlimentosPacientes: pacientesAlimentosReducer
 })
 
-export default pacientesAlimentosReducer
+export default rootReducer

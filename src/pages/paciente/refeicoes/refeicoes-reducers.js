@@ -1,19 +1,23 @@
-//const INITIAL_STATE = { description: '', list: [] }
-import AlimentosPacientesJson from "../../jsons/alimentos-pacientes"
-
-export default (states = AlimentosPacientesJson, action) => {
-    return states
-    /*
-    switch(action.type) {
-        /*
-        case 'DESCRIPTION_CHANGED':
-            return { ...state, description: action.payload }
-        case 'TODO_SEARCHED':
-            return { ...state, list: action.payload }
-        case 'TODO_CLEAR':
-            return { ...state, description: '' }
-        default:
-            return state
-        
-    }*/
+import { create } from "./refeicoes-actions";
+import {createSlice } from '@reduxjs/toolkit'
+let initialState = {
+    refeicoes:[]
 }
+
+const refeicaoSlice = createSlice({
+    name: 'AlimentosReducer',
+    initialState,
+    reducers: {
+      setAlimentos(state, action) {
+        state.alimentos = action.payload
+      }
+    }
+  })
+
+  export const {
+    setAlimentos: setRefeicoes,
+  } = refeicaoSlice.actions
+  
+  const refeicoesReducer = refeicaoSlice.reducer
+
+  export default refeicoesReducer

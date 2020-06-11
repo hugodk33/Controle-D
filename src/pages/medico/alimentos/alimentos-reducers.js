@@ -1,19 +1,27 @@
-//const INITIAL_STATE = { description: '', list: [] }
-import AlimentosJson from "../../jsons/alimentos"
-
-export default (state = AlimentosJson, action) => {
-    return state
-    /*
-    switch(action.type) {
-        /*
-        case 'DESCRIPTION_CHANGED':
-            return { ...state, description: action.payload }
-        case 'TODO_SEARCHED':
-            return { ...state, list: action.payload }
-        case 'TODO_CLEAR':
-            return { ...state, description: '' }
-        default:
-            return state
-        
-    }*/
+import {createSlice } from '@reduxjs/toolkit'
+let initialState = {
+    alimentos:[],
+    isLoading:false
 }
+
+const alimentoSlice = createSlice({
+    name: 'AlimentosReducer',
+    initialState,
+    reducers: {
+      setAlimentos(state, action) {
+        state.alimentos = action.payload
+      },
+      setAlimentoIsLoading(state,action){
+        state.isLoading = action.payload
+      }
+    }
+  })
+
+  export const {
+    setAlimentos,
+    setAlimentoIsLoading,
+  } = alimentoSlice.actions
+  
+  const alimentosReducer = alimentoSlice.reducer
+  
+  export default alimentosReducer

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 
-import { createStore } from 'redux'
+import { createStore, combineReducers } from 'redux'
 import { Provider } from 'react-redux'
 
 import rootReducer from './redux/reducer'
@@ -16,7 +16,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import homePage from './pages/home-page';
 import signUp from './pages/singup';
 
-import Top from './pages/templates/Head';
+import Top from './pages/templates/head';
 
 import paciente from './pages/paciente/paciente-page';
 import cadastrarRefeicao from './pages/paciente/refeicoes/cadastrar-refeicao';
@@ -29,8 +29,16 @@ import listarPaciente from './pages/medico/pacientes/listar-pacientes-page';
 import pacientes from './pages/medico/pacientes/pacientes-page';
 import cadastrarAlimento from './pages/medico/alimentos/cadastrar-alimento-page';
 import listarAlimentos from './pages/medico/alimentos/listar-alimentos-page';
+import alimentosReducer from './pages/paciente/refeicoes/refeicoes-reducers';
+import { configureStore } from '@reduxjs/toolkit';
 
-const store = createStore(rootReducer)
+var reducer = combineReducers({
+  alimento:alimentosReducer
+})
+
+const store = configureStore({
+  reducer:rootReducer
+})
 
 ReactDOM.render( 
   <Provider store={store}>

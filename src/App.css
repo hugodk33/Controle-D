@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+.btn-primary  {
+  border-radius:2px !important
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

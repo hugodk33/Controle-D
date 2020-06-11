@@ -559,6 +559,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #8c8c8c;
 }
 
+.btn {
+  border-radius:2px !important
+}
+
 @media (min-width: 300px) {
   /*
   .custom-form {
