@@ -13,9 +13,9 @@
 /*FORMAS CENTRALIZADAS, COMO CALENDARIO E SOMA DOS CARBOIDRATOS*/
 .dinamic {
   text-align: center;
-  padding: 5px 0;
+  /*padding: 5px 0;*/
   .row {
-    margin: 0 10px;
+    
   }
   .item-calendario {
     width: 15%;
@@ -94,12 +94,6 @@
     margin-top: 5px;
     margin-right: 15px;
   }
-}
-
-.soma-span {
-  position: absolute;
-  top: 7px;
-  left: 0px;
 }
 
 .brand {

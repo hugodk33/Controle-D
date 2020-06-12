@@ -9,6 +9,7 @@ import ItemPaciente from '../../templates/ItensListas/ItemPaciente';
 import PaginacaoBtn from '../../templates/ItensListas/paginacao/marcadores-de-paginacao';
 import pacientes from "../../jsons/pacientes"
 
+import Button from "../../templates/Inputs/Btn";
 import {IconeTituloBuscarPaciente} from '../../templates/icons/icones-navegacao'
 import {IconeBuscar} from '../../templates/icons/icones-botoes'
 
@@ -35,7 +36,7 @@ const ListarPacientes = (props) => {
           <div className="row custom-form">
             <Input id="buscar-paciente" label="BUSCAR PACIENTE" placeholder="digite o nome do paciente" type={"text"} col="9" />
             <div className="col-3">
-              <button className="btn btn-primary"><IconeBuscar /></button>
+              <Button icone={"buscar"} titulo={"BUSCAR PACIENTE"} />
             </div>
           </div>
           <div className="row" style={{backgroundColor: "rgb(247, 247, 247)", width: "100%", padding:"7px" , margin: "0 5px"}}>
