@@ -20,7 +20,6 @@ const TituloForm = (props) => {
   return (
     <div className={"col-12 titulo-formulario text-left"}>
       <h5>{icones(props.icone)} {" " + props.titulo} </h5>
-      <hr />
     </div>
   );
 };

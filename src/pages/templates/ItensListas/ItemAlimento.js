@@ -15,10 +15,7 @@ const ItemAlimento = (props) => {
                         <SubRowItem valor={props.data.calorias} subtitulo="CAL." col="3" />
                         <SubRowItem valor={props.data.carbo} subtitulo="CARB." col="3" />
                     </div>
-                </div>          
-                <div className="col-12">
-                    <hr/>
-                </div>   
+                </div>     
             </div>
         </li>
     )

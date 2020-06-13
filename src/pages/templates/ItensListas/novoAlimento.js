@@ -20,7 +20,7 @@ const ItemAlimento = (props) => {
                 <InputSelect label="PORÇÃO" />
             </div> 
             <div className="col-3 col-sm-3" style={{textAlign: "center"}}>
-                <Button icone={"adicionar"} titulo={"ADICIONAR ALIMENTO"} />
+                <Button icone={"adicionar-refeicao"} titulo={"ADICIONAR ALIMENTO"} />
             </div>
         </div>
     )

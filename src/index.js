@@ -35,7 +35,6 @@ const store = createStore(rootReducer)
 ReactDOM.render( 
   <Provider store={store}>
   <div className="App">
-    <Top />
     <BrowserRouter basename={process.env.PUBLIC_URL || ''}>
       <Route exact path="/" component={homePage} />
       <Route exact path="/signup" component={signUp} />

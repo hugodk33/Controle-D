@@ -29,13 +29,14 @@ const CadastrarAlimento = () => {
           </div>
         </div>        
         <div className="row custom-form">
-          <TituloForm />
+          <TituloForm icone="alimento" titulo="Alimento"/>
           <Input id="nome-do-alimento" label="ALIMENTO" type={"text"} col={"12"} />
           <InputSelect id="porcao" label="PORÇÃO" placeholder="" type={"text"} col={"6 col-sm-6"}/>
           <InputSelect id="icone" label="ÍCONE" placeholder="" type={"text"} col={"6 col-sm-6"}/>
-          <TituloForm />          <InputSelect id="insulina" label="INSULÍNA" placeholder="" type={"text"} col={"6"}/>
+          <TituloForm icone="medico" titulo="Insulina"/>          
+          <InputSelect id="insulina" label="INSULÍNA" placeholder="" type={"text"} col={"6"}/>
           <InputSelect id="risco" label="RISCO" placeholder="" type={"text"} col={"6"}/>
-          <TituloForm />
+          <TituloForm icone="refeicao" titulo="Propriedades"/>
           <InputN id="calorias" label="CALORIAS" placeholder="" type={"text"} col={"4 col-sm-4"}/>
           <InputN id="carboidratos" label="CARBO" placeholder="" type={"text"} col={"4 col-sm-4"}/>
           <InputN id="fibra" label="FIBRA" placeholder="" type={"text"} col={"4 col-sm-4"}/>
@@ -43,7 +44,7 @@ const CadastrarAlimento = () => {
           <InputN id="gordura" label="GORDURA" placeholder="" type={"text"} col={"4 col-sm-4"}/>
           <div className="col-12"><br /></div> 
           <div className="col-md-4 text-right" style={{marginLeft: "auto"}}>
-            <Button icone={"buscar"} titulo={"CADASTRAR ALIMENTO"} />
+            <Button icone={"adicionar-alimento"} titulo={"CADASTRAR ALIMENTO"} />
           </div>          
         </div>
       </div>

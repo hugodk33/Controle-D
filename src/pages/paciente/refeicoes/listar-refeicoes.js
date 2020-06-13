@@ -27,10 +27,10 @@ const ListarRefeicoes = (props) => {
               <Titulo  titulo="Refeições"/>
             </div>
           </div>
-          <div className="row custom-form">
-            <Input id="buscar-medico" label="BUSCAR MÉDICO" placeholder="digite o nome do médico" type={"text"} col="9" />
+          <div className="row">
+            <Input id="buscar-medico" label="BUSCAR REFEIÇÃO" placeholder="digite o nome do médico" type={"text"} col="9" />
             <div className="col-3">
-              <Button icone={"buscar"} titulo={"BUSCAR REFEIÇÃO"} />
+              <Button icone={"buscar-refeicao"} titulo={"BUSCAR REFEIÇÃO"} />
             </div>
           </div>
           <ul className="lista">

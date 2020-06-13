@@ -27,9 +27,6 @@ const ItemRefeicao = (props) => {
                         <p className="subtitle">DOSES</p>
                     </div>
                 </div> 
-                <div className="col-12" style={{padding:"0", textAlign: "center"}}>
-                    <hr/>
-                </div>   
             </div>
         </li>
     )

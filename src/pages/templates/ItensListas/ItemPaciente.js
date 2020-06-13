@@ -21,9 +21,6 @@ const ItemPaciente = (props) => {
                         <p style={{marginBottom: "6px"}}>Última Entrada: <b> 11/11/11</b></p>
                            
                     </div> 
-                </div>         
-                <div className="col-12">
-                    <hr/>
                 </div>   
             </div>
         </li>

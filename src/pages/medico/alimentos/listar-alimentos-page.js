@@ -38,7 +38,7 @@ const ListarAlimento = (props,state) => {
             <div className="row custom-form">
               <Input id="buscar-alimento" label="BUSCAR ALIMENTO" placeholder="digite o nome do alimento" type={"text"} col={9}/>
               <div className="col-3 ponta">
-                <Button icone={"buscar"} titulo={"BUSCAR ALIMENTOS"} />
+                <Button icone={"buscar-alimento"} titulo={"BUSCAR ALIMENTOS"} />
               </div>
                 <OrganizaLista />
             </div>

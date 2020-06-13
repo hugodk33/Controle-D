@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import {IconeBuscar , IconeAdicionarRefeicao} from '../icons/icones-botoes'
+import { IconeBuscar , IconeBuscarPaciente , IconeBuscarMedico, IconeBuscarRefeicoes,  IconeBuscarAlimento , IconeAdicionarPaciente , IconeAdicionarAlimento , IconeAdicionarRefeicao } from '../icons/icones-botoes'
 import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles((theme) => ({
@@ -17,10 +17,22 @@ const useStyles = makeStyles((theme) => ({
 
 function icones(value) {
     switch(value) {
-      case("buscar"):
-        return <IconeBuscar />
-      case("adicionar"):
-        return <IconeAdicionarRefeicao />   
+        case("buscar"):
+            return <IconeBuscar />  
+        case("buscar-paciente"):
+            return <IconeBuscarPaciente />  
+        case("buscar-medico"):
+            return <IconeBuscarMedico /> 
+        case("buscar-refeicao"):
+            return <IconeBuscarRefeicoes /> 
+        case("buscar-alimento"):
+            return <IconeBuscarAlimento />  
+        case("adicionar-paciente"):
+            return <IconeAdicionarPaciente />
+        case("adicionar-refeicao"):
+            return <IconeAdicionarRefeicao />  
+        case("adicionar-alimento"):
+            return <IconeAdicionarAlimento />                   
     }
 }
 
