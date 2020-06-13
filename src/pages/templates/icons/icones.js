@@ -14,7 +14,7 @@ import {
 
 
 const IconeCTN = (props) => {
-    const nomeAlimento = props.nomeAlimento.toUpperCase().normalize();
+    const nomeAlimento = (props.nomeAlimento || "").toUpperCase().normalize();
 
     if (nomeAlimento.includes('acerola'.toUpperCase().normalize()))
         return <IconeAcerola />
