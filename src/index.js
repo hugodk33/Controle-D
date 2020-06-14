@@ -24,7 +24,7 @@ import buscarRefeicao from './pages/paciente/refeicoes/listar-refeicoes';
 import buscarMedico from './pages/paciente/medicos/listar-medicos';
 
 import medico from './pages/medico/medico-page';
-import CadastrarPaciente from './pages/medico/pacientes/cadastrar-pacientes-page';
+import cadastrarPaciente from './pages/medico/pacientes/cadastrar-pacientes-page';
 import listarPaciente from './pages/medico/pacientes/listar-pacientes-page';
 import pacientes from './pages/medico/pacientes/pacientes-page';
 import cadastrarAlimento from './pages/medico/alimentos/cadastrar-alimento-page';
@@ -45,7 +45,7 @@ ReactDOM.render(
       <Route exact path="/medico" component={medico} />
       <Route exact path="/medico/alimentos/cadastrar-alimento" component={cadastrarAlimento} />
       <Route exact path="/medico/alimentos/listar-alimento" component={listarAlimentos} />
-      <Route exact path="/medico/pacientes/cadastrar-paciente" component={CadastrarPaciente} />
+      <Route exact path="/medico/pacientes/cadastrar-paciente" component={cadastrarPaciente} />
       <Route exact path="/medico/pacientes/listar-paciente" component={listarPaciente} />
       <Route exact path="/medico/pacientes/paciente" component={pacientes} />
     </BrowserRouter>

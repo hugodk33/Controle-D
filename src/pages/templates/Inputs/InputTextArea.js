@@ -1,11 +1,11 @@
 import React from 'react';
+import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 
 const InputText = (props) => {
 
     return (
     <div className={"textarea " + "col-" + props.col}>
-        <label>{props.label}</label>
-        <textarea id={props.id} type={props.type} className={props.class} placeholder={props.placeholder} />
+        <TextareaAutosize aria-label="empty textarea" placeholder="Empty" rows="4" />;
     </div>
     )
 };
