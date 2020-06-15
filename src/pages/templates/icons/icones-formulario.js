@@ -2,7 +2,7 @@ import React from 'react';
 
 const IconeFormPaciente = (props) => {
     return (
-        <svg  height="20px" width="20px"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg  height="25px" width="25px"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 108 108" xmlSpace="preserve">
             <g>
                 <path fill="rgb(59, 111, 156)" d="M9.8,26.2v55.6h88.5V26.2H9.8z M93.3,76.8H14.7V31.2h78.6V76.8z"/>
@@ -20,7 +20,7 @@ const IconeFormPaciente = (props) => {
 
 const IconeFormMedico = (props) => {
     return (
-        <svg  height="20px" width="20px"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg  height="25px" width="25px"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 108 108" xmlSpace="preserve">
             <path fill="rgb(59, 111, 156)" d="M100.3,34.2c0-7.1-5.8-12.9-12.9-12.9s-12.9,5.8-12.9,12.9c0,6.2,4.4,11.4,10.2,12.6v33.1c0,10-8.1,18.1-18.1,18.1h-5.8
         c-10,0-18.1-8.1-18.1-18.1V64.5h3.2c13.3,0,24.1-10.8,24.1-24.1V13.6c1.4-0.9,2.3-2.5,2.3-4.3c0-2.9-2.4-5.3-5.3-5.3
@@ -34,7 +34,7 @@ const IconeFormMedico = (props) => {
 
 const IconeFormRefeicao= (props) => {
     return (
-        <svg  height="20px" width="20px"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg  height="25px" width="25px"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 108 108" xmlSpace="preserve">
             <g>
                 <path fill="rgb(59, 111, 156)" d="M45.3,4.2c-1.7,0-3.1,1.3-3.1,3v19.9c0,2.9-1.8,5.4-4.4,6.6V7.2c0-1.6-1.4-3-3.1-3c-1.7,0-3.1,1.3-3.1,3v26.5
@@ -49,7 +49,7 @@ const IconeFormRefeicao= (props) => {
 
 const IconeFormAlimento = (props) => {
     return (
-        <svg  height="20px" width="20px"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg  height="25px" width="25px"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         viewBox="0 0 108 108" xmlSpace="preserve">
             <path fill="rgb(59, 111, 156)" d="M84.3,48.9c-2-6.5-6.3-11.4-12-13.5c-4.8-1.8-10.1-1.6-15.1,0.7c1.1-6.8,5.1-9.4,5.3-9.6l-1.6-2.5l-1.6-2.6
 	c-0.2,0.1-3.4,2.1-5.7,6.7c-0.6-2.5-2.2-4.8-4.7-6.4c-3.1-2-6.8-2.1-9.7-0.8c0.1,3.2,1.8,6.4,5,8.4c2.7,1.7,5.7,2,8.3,1.3
@@ -64,7 +64,7 @@ const IconeFormAlimento = (props) => {
 
 const IconeFormAtributo = (props) => {
     return (
-        <svg  height="20px" width="20px"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg  height="25px" width="25px"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 108 108" xmlSpace="preserve">
             <path fill="rgb(59, 111, 156)" d="M15.3,99c-2.4,0-3.6-1.2-3.6-3.6V10.2c0-2.4,1.2-3.6,3.6-3.6h69.3c2.6,0,3.9,1.8,3.9,3.6v45c0,2-1.3,3.4-3.1,3.4
                 c-1.7,0-3.1-1.3-3.1-2.8V15.2L82.2,15C82,14.6,82,14.6,82,14.1v-1H17.8v79.8h29.4c2,0,3.4,1.3,3.4,3.4c0,1.6-1.4,2.8-3.1,2.8H15.3z"

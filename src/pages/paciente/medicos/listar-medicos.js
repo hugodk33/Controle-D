@@ -6,8 +6,9 @@ import Menu from "../../templates/MenuPaciente";
 import Input from '../../templates/Inputs/Input';
 import ItemPaciente from '../../templates/ItensListas/ItemPaciente';
 
+import Button from "../../templates/Inputs/Btn";
+
 import { IconeTituloBuscarMedico } from '../../templates/icons/icones-navegacao'
-import { IconeBuscar } from '../../templates/icons/icones-botoes'
 import { withRouter } from 'react-router-dom';
 
 const ListarMedicos = (props) => {
@@ -31,7 +32,7 @@ const ListarMedicos = (props) => {
           <div className="row custom-form">
             <Input id="buscar-medico" label="BUSCAR MÉDICO" placeholder="digite o nome do médico" type={"text"} col="9" />
             <div className="col-3">
-              <button className="btn btn-primary"><IconeBuscar /></button>
+              <Button icone={"buscar-medico"} titulo={"BUSCAR REFEIÇÃO"} />
             </div>
           </div>
           <ul className="lista">

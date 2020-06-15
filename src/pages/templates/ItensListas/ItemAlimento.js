@@ -17,10 +17,7 @@ const ItemAlimento = (props) => {
                         {props.alimento.Caloria && <SubRowItem valor={props.alimento.Caloria.Qtd} subtitulo="CAL." col="3" />}
                         
                     </div>
-                </div>          
-                <div className="col-12">
-                    <hr/>
-                </div>   
+                </div>     
             </div>
         </li>
     )

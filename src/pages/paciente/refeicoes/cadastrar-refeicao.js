@@ -2,25 +2,33 @@ import React from 'react';
 import { connect, createSelectorHook, useSelector } from 'react-redux'
 import { compose , bindActionCreators } from 'redux'
 import Titulo from "../../templates/Titulo";
+import TituloForm from "../../templates/TituloForm";
 import Menu from "../../templates/MenuPaciente";
 import Input from "../../templates/Inputs/Input";
 import InputN from "../../templates/Inputs/InputN";
 import InputSelect from "../../templates/Inputs/InputSelect";
+import OrganizaLista from '../../templates/ItensListas/paginacao/organiza-lista';
 import PaginacaoBtn from '../../templates/ItensListas/paginacao/marcadores-de-paginacao';
 import ItemAlimentoDiario from "../../templates/ItensListas/itemAlimentoDiario";
-import SomatoriaAlimentos from "../../templates/SomatoriaAlimentos";
+import Somatoria from "../../templates/Somatoria";
 import ItemRefeicao from "../../templates/ItensListas/ItemRefeicao";
 import NovoAlimento from "../../templates/ItensListas/novoAlimento";
 import SubRowItem from "../../templates/ItensListas/SubRowItem";
 import { withRouter } from 'react-router-dom';
+import { Select } from '@material-ui/core';
+
 
 import alimentosRefeicao from '../../jsons/alimentos-pacientes.json'
 
+import {IconeFormAlimento, IconeFormAtributo , IconeFormMedico } from '../../templates/icons/icones-formulario'
 import { IconeTituloAdicionarRefeicao } from '../../templates/icons/icones-navegacao'
+
 
 const CadastrarRefeicao = (props, state) => {
 
   //const alimentosRefeicao = useSelector(state => state.AlimentosPacientes)
+  //<NovoAlimento />
+  //<InputSelect id="organizar-alimento" label="ORGANIZAR POR: " col="6 col-sm-4"/>
 
   return (
     <div>
@@ -36,7 +44,8 @@ const CadastrarRefeicao = (props, state) => {
                 <Titulo titulo={"Cadastrar Refeição"}/>
               </div>
               <div className="col-12" style={{padding: "0"}}>
-                <div className="row" style={{margin: "0 4px"}}>
+                <div className="row">
+                  <TituloForm icone="refeicao" titulo={"Refeição"} />
                   <Input label="NOME DA REFEIÇÃO" col="12"/>
                   <Input label="HORA" col="4"/>
                   <Input label="DATA" col="4"/>
@@ -45,31 +54,23 @@ const CadastrarRefeicao = (props, state) => {
               </div>
             </div>
             <div class="row">
-              <div class="col-md-8 dinamic" style={{marginBottom: "10px"}}>
-                <div className="row subrow" style={{maxWidth: "100%", backgroundColor: "rgb(247, 247, 247)"}}>
-                  <SomatoriaAlimentos col="3 ponta-esq" subtitulo={'Alimento 1'} valor={'10'} soma={false}/>
-                  <SomatoriaAlimentos col="3" subtitulo={'Alimento 2'} valor={'13'} soma={true}/>
-                  <SomatoriaAlimentos col="3" subtitulo={'Alimento 3'} valor={'11'} soma={true}/>
-                  <SomatoriaAlimentos col="3 ponta-dir" subtitulo={'Alimento 4'} valor={'12'} soma={true}/>
-                </div> 
-              </div>
-              <div className="col-md-2" style={{padding: "0"}}>
-                <div class="doses-de-insulina-output">
-                  <span>10</span>
-                  <p class="subtitle">DOSES</p>
-                </div>
-              </div>
+              <TituloForm icone="medico" titulo={"Insulina"} />
+              <Somatoria />
             </div>
-            <InputSelect id="organizar-alimento" label="ORGANIZAR POR: " col="6 col-sm-4"/>
-            <div class="col-md-12">
-              <ul className="lista">
-                { 
-                  alimentosRefeicao.map((a , b) => {
-                    return <ItemAlimentoDiario key={b} data={a}/>
-                  })
-                }
-              </ul>
-              <NovoAlimento />
+            <NovoAlimento />
+            <div class="row">
+              <OrganizaLista />
+              <PaginacaoBtn />
+              <div class="col-md-12">
+                <ul className="lista">
+                  { 
+                    alimentosRefeicao.map((a , b) => {
+                      return <ItemAlimentoDiario key={b} data={a}/>
+                    })
+                  }
+                </ul>
+              </div>
+              <PaginacaoBtn />
             </div>
           </div>
         </div>

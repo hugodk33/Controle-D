@@ -5,6 +5,7 @@ import Titulo from "../../templates/Titulo";
 import Menu from "../../templates/MenuMedico";
 import Input from '../../templates/Inputs/Input';
 import InputSelect from '../../templates/Inputs/InputSelect';
+import OrganizaLista from '../../templates/ItensListas/paginacao/organiza-lista';
 import PaginacaoBtn from '../../templates/ItensListas/paginacao/marcadores-de-paginacao';
 import ItemAlimento from '../../templates/ItensListas/ItemAlimento';
 
@@ -12,6 +13,9 @@ import alimentos from "../../jsons/alimentos";
 
 import { IconeTituloBuscarAlimento } from '../../templates/icons/icones-navegacao'
 import { IconeBuscar } from '../../templates/icons/icones-botoes'
+import Button from "../../templates/Inputs/Btn";
+import {IconeTituloBuscarAlimento} from '../../templates/icons/icones-navegacao'
+import {IconeBuscar} from '../../templates/icons/icones-botoes'
 
 import { withRouter } from 'react-router-dom';
 import { setAlimentos } from './alimentos-reducers';
@@ -54,16 +58,9 @@ const ListarAlimento = (props, state) => {
               <Input id="buscar-alimento" onChange={event => setDescricao(event.target.value)} label="BUSCAR ALIMENTO"
                 placeholder="digite o nome do alimento" type={"text"} col={9} />
               <div className="col-3 ponta">
-                <button className="btn btn-primary ponta" disabled={isLoading} onClick={() => getAlimentos(descricao)}>
-                  {!isLoading && <IconeBuscar isLoading={isLoading}/>}
-                  {isLoading && <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>}
-                  </button>
+                <Button icone={"buscar-alimento"} isLoading={isLoading} titulo={"BUSCAR ALIMENTOS"} />
               </div>
-              <div className="row" style={{ backgroundColor: "rgb(247, 247, 247)", width: "100%", padding: "7px", margin: "0 5px" }}>
-                <InputSelect id="organizar-alimento" label="ORGANIZAR POR: " col="6 col-sm-4 organizar" />
-                <div className="col-6 col-sm-8">
-                </div>
-              </div>
+                <OrganizaLista />
             </div>
             <PaginacaoBtn />
             <ul className="lista">

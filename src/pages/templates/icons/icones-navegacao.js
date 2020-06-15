@@ -147,7 +147,7 @@ const IconeMenuAdicionarRefeicao = (props) => {
 
 const IconeTituloBuscarPaciente = (props) => {
     return (
-        <svg version="1.1" height="37px" width="37px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg version="1.1" height="29px" width="29px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 31 31">
             <g>
                 <path fill="#b6b6b6" d="M8.8,9.5c1.9,0,3.5,1.6,3.5,3.5h1.5c0-2-1.1-3.7-2.8-4.5c0.5-0.5,0.8-1.2,0.8-2c0-1.6-1.3-3-3-3c-1.6,0-3,1.3-3,3
@@ -168,7 +168,7 @@ const IconeTituloBuscarPaciente = (props) => {
 
 const IconeTituloBuscarMedico = (props) => {
     return (
-        <svg version="1.1" height="37px" width="37px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg version="1.1" height="29px" width="29px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 31 31" xmlSpace="preserve">
             <g>
                 <path fill="#58a8ff" d="M24.1,23.1c2-2.6,1.8-6.4-0.5-8.7c-2.6-2.6-6.8-2.6-9.4,0c-2.6,2.6-2.6,6.8,0,9.4c2.4,2.4,6.1,2.6,8.7,0.5l6.2,6.2l1.2-1.2
@@ -190,7 +190,7 @@ const IconeTituloBuscarMedico = (props) => {
 
 const IconeTituloBuscarRefeicoes = (props) => {
     return (
-        <svg version="1.1" height="37px" width="37px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg version="1.1" height="29px" width="29px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 31 31" xmlSpace="preserve">
             <g>
                 <path fill="#b6b6b6" d="M8.6,0.5c-0.5,0-0.9,0.4-0.9,0.9v5.9c0,0.9-0.5,1.6-1.3,2V1.4c0-0.5-0.4-0.9-0.9-0.9C5,0.5,4.5,0.9,4.5,1.4v7.9
@@ -210,7 +210,7 @@ const IconeTituloBuscarRefeicoes = (props) => {
 
 const IconeTituloBuscarAlimento = (props) => {
     return (
-        <svg version="1.1" heigth="37px" width="37px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg version="1.1" heigth="29px" width="29px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 31 31" xmlSpace="preserve">
             <g>
                 <path fill="#b6b6b6" d="M19.1,9.2c-0.6-2-1.9-3.4-3.6-4c-1.4-0.5-3-0.5-4.5,0.2c0.3-2,1.5-2.8,1.6-2.9L12,1.8L11.6,1c-0.1,0-1,0.6-1.7,2
@@ -229,7 +229,7 @@ const IconeTituloBuscarAlimento = (props) => {
 
 const IconeTituloAdicionarPaciente = (props) => {
     return (
-        <svg version="1.1" height="37px" width="37px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg version="1.1" height="29px" width="29px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 31 31" xmlSpace="preserve">
             <g>
                 <path fill="#b6b6b6" d="M11.9,9.4c0.5-0.5,0.8-1.2,0.8-2c0-1.6-1.3-3-3-3c-1.6,0-3,1.3-3,3c0,0.8,0.3,1.5,0.8,2c-1.7,0.8-2.8,2.5-2.8,4.5h1.5
@@ -250,7 +250,7 @@ const IconeTituloAdicionarPaciente = (props) => {
 
 const IconeTituloAdicionarAlimento = (props) => {
     return (
-        <svg version="1.1" height="37px" width="37px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg version="1.1" height="29px" width="29px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     viewBox="0 0 31 31" xmlSpace="preserve">
             <g>
                 <path fill="#b6b6b6" d="M19.7,9.9c-0.6-2-1.9-3.4-3.6-4c-1.4-0.5-3-0.5-4.5,0.2c0.3-2,1.5-2.8,1.6-2.9l-0.5-0.8l-0.5-0.8c-0.1,0-1,0.6-1.7,2
@@ -269,7 +269,7 @@ const IconeTituloAdicionarAlimento = (props) => {
 
 const IconeTituloAdicionarRefeicao = (props) => {
     return (
-        <svg version="1.1" height="37px" width="37px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg version="1.1" height="29px" width="29px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 31 31" xmlSpace="preserve">
         <g>
             <path fill="#b6b6b6" d="M8.5,0.7C8,0.7,7.5,1.1,7.5,1.5v5.9c0,0.9-0.5,1.6-1.3,2V1.5c0-0.5-0.4-0.9-0.9-0.9S4.4,1,4.4,1.5v7.9

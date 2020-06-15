@@ -11,6 +11,10 @@ import pacientes from "../../jsons/pacientes"
 
 import { IconeTituloBuscarPaciente } from '../../templates/icons/icones-navegacao'
 import { IconeBuscar } from '../../templates/icons/icones-botoes'
+import Button from "../../templates/Inputs/Btn";
+import OrganizaLista from '../../templates/ItensListas/paginacao/organiza-lista';
+import {IconeTituloBuscarPaciente} from '../../templates/icons/icones-navegacao'
+import {IconeBuscar} from '../../templates/icons/icones-botoes'
 
 import { withRouter } from 'react-router-dom';
 import { getAllPacientes } from './pacientes-action';
@@ -51,19 +55,11 @@ const ListarPacientes = (props) => {
                 <Titulo titulo="Pacientes" />
               </div>
             </div>
-            <div className="row custom-form">
-              <Input id="buscar-paciente" label="BUSCAR PACIENTE" onChange={event => setNome(event.target.value)} placeholder="digite o nome do paciente" type={"text"} col="9" />
-              <div className="col-3">
-                <button disabled={isLoading} type="submit" onClick={() => getPacientes(nome)} className="btn btn-primary">
-                  {!isLoading && <IconeBuscar isLoading={isLoading}/>}
-                  {isLoading && <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>}
-                  </button>
-              </div>
-            </div>
-            <div className="row" style={{ backgroundColor: "rgb(247, 247, 247)", width: "100%", padding: "7px", margin: "0 5px" }}>
-              <InputSelect id="organizar-alimento" label="ORGANIZAR POR: " col="6 col-sm-4 organizar" />
-              <div className="col-6 col-sm-8">
-              </div>
+          </div>
+          <div className="row">
+            <Input id="buscar-paciente" label="BUSCAR PACIENTE" placeholder="digite o nome do paciente" type={"text"} col="9" />
+            <div className="col-3">
+              <Button icone={"buscar-paciente"} isLoading={isLoading} titulo={"BUSCAR PACIENTE"} />
             </div>
             <PaginacaoBtn />
             <ul className="lista">
@@ -75,6 +71,16 @@ const ListarPacientes = (props) => {
             </ul>
             <PaginacaoBtn />
           </div>
+          <OrganizaLista />
+          <PaginacaoBtn />
+          <ul className="lista">
+            { 
+              pacientes.map((a , b) => {
+                return <ItemPaciente key={b} data={a}/>
+              })
+            }
+          </ul>
+          <PaginacaoBtn />
         </div>
       </div>
     </div>

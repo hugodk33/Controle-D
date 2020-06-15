@@ -1,30 +1,28 @@
 import React from 'react';
 import SubRowItem from "./SubRowItem";
+import TituloForm from "../../templates/TituloForm";
 import InputSelect from "../Inputs/InputSelect";
 import InputN from "../Inputs/InputN";
+import Button from "../Inputs/Btn";
+import { IconeAdicionarRefeicao } from '../icons/icones-botoes'
 
 const ItemAlimento = (props) => {
     return (
-        <div className="row novoItem" style={{marginTop: "25px", backgroundColor: "#f7f7f7", padding: "10px"}}>
-                <div className="col-4 col-sm-4">
-                    <InputSelect label="ALIMENTO"/>
-                </div>
-                <div className="col-4 col-sm-4">
-                    <InputN label="QUANT." />
-                </div> 
-                <div className="col-4 col-sm-4">
-                    <InputSelect label="PORÇÃO" />
-                </div>            
-                <div className="col-5">
-                    <hr/>
-                </div>
-                <div className="col-2" style={{textAlign: "center"}}>
-                    <button className="btn btn-primary btn-soma"></button>
-                </div>
-                <div className="col-5">
-                    <hr/>
-                </div>   
+        <div className="row" style={{marginTop: "25px"}}>
+            <TituloForm icone="alimento" titulo="Alimentos"/>
+            <div className="col-4 col-sm-3" style={{marginBottom: "10px"}}>
+                <InputSelect label="ALIMENTO"/>
             </div>
+            <div className="col-4 col-sm-3" style={{marginBottom: "10px"}}>
+                <InputN label="QUANT." />
+            </div> 
+            <div className="col-4 col-sm-3" style={{marginBottom: "10px"}}>
+                <InputSelect label="PORÇÃO" />
+            </div> 
+            <div className="col-3 col-sm-3" style={{textAlign: "center"}}>
+                <Button icone={"adicionar-refeicao"} titulo={"ADICIONAR ALIMENTO"} />
+            </div>
+        </div>
     )
 };
 
