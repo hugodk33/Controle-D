@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 const useStyles = makeStyles((theme) => ({
     root: {
         padding: "12px 11px 0" ,
-        height: 56 ,
+        height: "2.850em" ,
         width: '100%',
         '& > *': {
             marginBottom: 12,
@@ -42,8 +42,8 @@ const Input = (props) => {
 
     return (
     <div className={"col-" + props.col}>
-        <Button  className={classes.root} variant="contained" color="primary">
-            {icones(props.icone)}
+        <Button className={classes.root} variant="contained" onClick={props.onClick} color="primary">
+            { !props.isLoading ? icones(props.icone) : <span className="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>} 
             {props.titulo}
         </Button>
     </div>

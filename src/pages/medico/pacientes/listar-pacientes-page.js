@@ -10,10 +10,8 @@ import PaginacaoBtn from '../../templates/ItensListas/paginacao/marcadores-de-pa
 import pacientes from "../../jsons/pacientes"
 
 import { IconeTituloBuscarPaciente } from '../../templates/icons/icones-navegacao'
-import { IconeBuscar } from '../../templates/icons/icones-botoes'
 import Button from "../../templates/Inputs/Btn";
 import OrganizaLista from '../../templates/ItensListas/paginacao/organiza-lista';
-import {IconeTituloBuscarPaciente} from '../../templates/icons/icones-navegacao'
 import {IconeBuscar} from '../../templates/icons/icones-botoes'
 
 import { withRouter } from 'react-router-dom';
@@ -57,19 +55,10 @@ const ListarPacientes = (props) => {
             </div>
           </div>
           <div className="row">
-            <Input id="buscar-paciente" label="BUSCAR PACIENTE" placeholder="digite o nome do paciente" type={"text"} col="9" />
+            <Input id="buscar-paciente" onChange={event => setNome(event.target.value)} label="BUSCAR PACIENTE" placeholder="digite o nome do paciente" type={"text"} col="9" />
             <div className="col-3">
-              <Button icone={"buscar-paciente"} isLoading={isLoading} titulo={"BUSCAR PACIENTE"} />
+              <Button  onClick={() => getPacientes(nome)}  icone={"buscar-paciente"} isLoading={isLoading} titulo={"BUSCAR PACIENTE"} />
             </div>
-            <PaginacaoBtn />
-            <ul className="lista">
-              {
-                pacientes.map((a, b) => {
-                  return <ItemPaciente key={b} data={a} />
-                })
-              }
-            </ul>
-            <PaginacaoBtn />
           </div>
           <OrganizaLista />
           <PaginacaoBtn />

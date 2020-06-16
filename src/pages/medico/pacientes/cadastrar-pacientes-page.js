@@ -7,11 +7,10 @@ import InputN from '../../templates/Inputs/InputN';
 import InputSelect from '../../templates/Inputs/InputSelect';
 import InputText from '../../templates/Inputs/InputTextArea';
 import Button from "../../templates/Inputs/Btn";
-import { IconeTituloAdicionarPaciente } from '../../templates/icons/icones-navegacao'
 import { IconeFormAtributo, IconeFormMedico, IconeFormPaciente } from '../../templates/icons/icones-formulario'
 import { IconeTituloAdicionarPaciente } from '../../templates/icons/icones-navegacao'
-import { IconeFormAtributo, IconeFormMedico, IconeFormPaciente } from '../../templates/icons/icones-formulario'
 import { Form, withFormik } from 'formik';
+import { getAllPacientes } from './pacientes-action';
 
 const paciente = {};
 

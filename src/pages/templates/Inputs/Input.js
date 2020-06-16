@@ -1,6 +1,7 @@
 import React from 'react';
 import { Field } from 'formik';
 import { makeStyles } from '@material-ui/core/styles';
+import { TextField } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -29,8 +30,8 @@ const Input = (props) => {
     return (
     <div className={"col-" + props.col}>
         <form className={classes.root} noValidate autoComplete="off">
-        {!props.isFormik && <TextField id="outlined-basic" onChange={onChange} className={props.class} label={props.label} variant="outlined" />} 
-        {props.isFormik && <TextField id="outlined-basic"  name={props.name} label={props.label} variant="outlined" />} 
+        {!props.isFormik && <TextField size="small" id="outlined-basic" onChange={onChange} className={props.class} label={props.label} variant="outlined" />} 
+        {props.isFormik && <TextField size="small" id="outlined-basic"  name={props.name} label={props.label} variant="outlined" />} 
         </form>
     </div>
     )

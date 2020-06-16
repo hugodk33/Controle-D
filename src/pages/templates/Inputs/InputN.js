@@ -19,12 +19,12 @@ const useStyles = makeStyles((theme) => ({
 
 const useStyles2 = makeStyles((theme) => ({
     root: {
-        minWidth: 25,
-        height: 25,
-        marginBottom: 3,
-        marginTop: 0,
+        height: 18,
         padding: 3,
-        boxShadow: '1px 1px 3px #d9d9d9'
+        minWidth: 19,
+        boxShadow: '1px 1px 3px #d9d9d9',
+        marginTop: -12,
+        marginBottom: 0
     }
 }));
 
@@ -37,7 +37,7 @@ const InputN = (props) => {
     <div className={"col-" + props.col}>
         <div className="holder-inputN">
             <form className={classes.root} noValidate autoComplete="off">
-                <TextField id="outlined-basic" label={props.label} variant="outlined" />
+                <TextField size="small" id="outlined-basic" label={props.label} variant="outlined" />
             </form>
         </div>
         <div className="holder-btn-inputN">

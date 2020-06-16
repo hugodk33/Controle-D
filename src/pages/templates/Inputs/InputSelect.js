@@ -30,7 +30,7 @@ const InputSelect = (props) => {
 
     return (
     <div className={"col-" + props.col + " InputSelect"} style={{color: "#cdcdcd"}}>
-        <FormControl variant="outlined" className={classes.formControl}>
+        <FormControl size="small" variant="outlined" className={classes.formControl}>
           <InputLabel id="demo-simple-select-outlined-label">{props.label}</InputLabel>
             <Select
               labelId="demo-simple-select-outlined-label"

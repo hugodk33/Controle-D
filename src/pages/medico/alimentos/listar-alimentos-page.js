@@ -12,9 +12,7 @@ import ItemAlimento from '../../templates/ItensListas/ItemAlimento';
 import alimentos from "../../jsons/alimentos";
 
 import { IconeTituloBuscarAlimento } from '../../templates/icons/icones-navegacao'
-import { IconeBuscar } from '../../templates/icons/icones-botoes'
 import Button from "../../templates/Inputs/Btn";
-import {IconeTituloBuscarAlimento} from '../../templates/icons/icones-navegacao'
 import {IconeBuscar} from '../../templates/icons/icones-botoes'
 
 import { withRouter } from 'react-router-dom';
@@ -58,7 +56,7 @@ const ListarAlimento = (props, state) => {
               <Input id="buscar-alimento" onChange={event => setDescricao(event.target.value)} label="BUSCAR ALIMENTO"
                 placeholder="digite o nome do alimento" type={"text"} col={9} />
               <div className="col-3 ponta">
-                <Button icone={"buscar-alimento"} isLoading={isLoading} titulo={"BUSCAR ALIMENTOS"} />
+                <Button  onClick={() => getAlimentos(descricao)}  icone={"buscar-alimento"} isLoading={isLoading} titulo={"BUSCAR ALIMENTOS"} />
               </div>
                 <OrganizaLista />
             </div>
