@@ -61,7 +61,7 @@ const ListarPacientes = (props) => {
             </div>
           </div>
           <OrganizaLista />
-          <PaginacaoBtn />
+          <PaginacaoBtn label="ORDENAR POR"/>
           <ul className="lista">
             { 
               pacientes.map((a , b) => {

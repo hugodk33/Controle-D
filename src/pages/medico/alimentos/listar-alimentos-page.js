@@ -58,7 +58,7 @@ const ListarAlimento = (props, state) => {
               <div className="col-3 ponta">
                 <Button  onClick={() => getAlimentos(descricao)}  icone={"buscar-alimento"} isLoading={isLoading} titulo={"BUSCAR ALIMENTOS"} />
               </div>
-                <OrganizaLista />
+                <OrganizaLista label="ORDENAR POR"/>
             </div>
             <PaginacaoBtn />
             <ul className="lista">

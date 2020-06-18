@@ -10,7 +10,6 @@ import Button from "../../templates/Inputs/Btn";
 import { IconeFormAtributo, IconeFormMedico, IconeFormPaciente } from '../../templates/icons/icones-formulario'
 import { IconeTituloAdicionarPaciente } from '../../templates/icons/icones-navegacao'
 import { Form, withFormik } from 'formik';
-import { getAllPacientes } from './pacientes-action';
 
 const paciente = {};
 

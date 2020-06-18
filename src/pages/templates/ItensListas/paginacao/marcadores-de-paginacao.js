@@ -16,7 +16,7 @@ const MarcadorPaginacao = (props) => {
   return (
     <div className={'col-12 text-center'}>
       <div className={classes.root }>
-          <Pagination count={3} color="primary" />
+      <Pagination count={3} color="primary" />
       </div>
     </div>
     )

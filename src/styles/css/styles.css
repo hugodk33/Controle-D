@@ -181,7 +181,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .lista li {
   padding: 5px 2px;
   margin-bottom: 15px;
-  box-shadow: 2px 2px 4px #dedede;
+  box-shadow: 1px 0px 5px #dedede
+}
+#ordenarPor .MuiFormLabel-root{
+  background: #f4f4f4;
 }
 
 @media (min-width: 300px) {

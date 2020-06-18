@@ -30,8 +30,10 @@ const Input = (props) => {
     return (
     <div className={"col-" + props.col}>
         <form className={classes.root} noValidate autoComplete="off">
-        {!props.isFormik && <TextField size="small" id="outlined-basic" onChange={onChange} className={props.class} label={props.label} variant="outlined" />} 
-        {props.isFormik && <TextField size="small" id="outlined-basic"  name={props.name} label={props.label} variant="outlined" />} 
+        {!props.isFormik && 
+          <TextField size="small" id="outlined-basic" onChange={onChange} className={props.class} label={props.label} variant="outlined" />} 
+        {props.isFormik && 
+          <TextField size="small" id="outlined-basic" label={props.label}  name={props.name}  variant="outlined" />} 
         </form>
     </div>
     )
