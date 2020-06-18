@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
 
 const InputSelect = (props) => {
     const classes = useStyles();
-    const [age, setAge] = React.useState('');
+    const [age, setAge] = React.useState(10);
   
     const handleChange = (event) => {
       setAge(event.target.value);
