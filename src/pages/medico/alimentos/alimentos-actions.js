@@ -1,6 +1,7 @@
 import alimentoAPI from "../../../apis/controleDAPi"
 import {createAction } from '@reduxjs/toolkit'
 import { setAlimentos, setAlimentoIsLoading} from "../../medico/alimentos/alimentos-reducers"
+import  alimentosMock  from "../../jsons/alimentos.json"
 
 export const createAlimento = createAction('createAlimento', alimento => {
 
@@ -13,11 +14,20 @@ export const getAllAlimentos = (descricao) => async dispatch => {
             descricao = descricao.normalize()
         }
         dispatch(setAlimentoIsLoading(true))
-        const alimentos = await alimentoAPI.get('alimento', {
-            params: {
-                descricao
-            }
-        })
+        // const alimentos = await alimentoAPI.get('alimento', {
+        //     params: {
+        //         descricao
+        //     }
+        // })
+        
+        //Mock
+        let alimentos = {
+            data: alimentosMock
+        }
+        if(descricao)
+            alimentos = alimentos.filter(x => x.descricao.normalize().includes(descricao))
+        //End Mock
+
         if(alimentos && alimentos.data)
             dispatch(setAlimentos(alimentos.data))
 

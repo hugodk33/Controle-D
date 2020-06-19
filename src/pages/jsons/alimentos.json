@@ -1,54 +1,378 @@
 [
     {
-        "alimento": "Purê de Maçã",
-        "icone":  "macan",
-        "carbo": "19",
-        "porcao": " ",
-        "gordura": " ",
-        "calorias": "7",
-        "fibra": " ",
-        "doses": " ",
-        "proteina": " ",
-        "insulina": " "
-        
+      "Id": 13,
+      "Descricao": "Banana, da terra, crua",
+      "UnidadeBase": "g",
+      "QtdBase": 100,
+      "Classificacao": 0,
+      "CategoriaId": 3,
+      "Categoria": {
+        "Id": 3,
+        "Descricao": "Frutas e derivados"
+      },
+      "UmidadeId": 168,
+      "EnergiaId": 13,
+      "ProteinaId": 165,
+      "Proteina": {
+        "Id": 165,
+        "Qtd": 1.43478260869565,
+        "Unidade": 0
+      },
+      "ColesterolId": 159,
+      "CarboidratoId": 158,
+      "Carboidrato": {
+        "Id": 158,
+        "Qtd": 33.6652173913044,
+        "Unidade": 0
+      },
+      "CalcioId": 157,
+      "ManganesId": 162,
+      "FosforoId": 161,
+      "FerroId": 160,
+      "Sodio": {
+        "Id": 167,
+        "Qtd": 99999,
+        "Unidade": 0
+      },
+      "SodioId": 167,
+      "Potassio": {
+        "Id": 164,
+        "Qtd": 328.03,
+        "Unidade": 0
+      },
+      "PotassioId": 164,
+      "RetinolId": 166,
+      "PiridoxinaId": 163,
+      "VitaminaCId": 169,
+      "AlimentosConsumo": []
     },
     {
-        "alimento": "Macarrão",
-        "icone":  "macarrao",
-        "carbo": "22",
-        "porcao": " ",
-        "gordura": " ",
-        "calorias": "1",
-        "fibra": " ",
-        "doses": " ",
-        "proteina": " ",
-        "insulina": " "
-        
+      "Id": 14,
+      "Descricao": "Banana, doce em barra",
+      "UnidadeBase": "g",
+      "QtdBase": 100,
+      "Classificacao": 0,
+      "CategoriaId": 3,
+      "Categoria": {
+        "Id": 3,
+        "Descricao": "Frutas e derivados"
+      },
+      "UmidadeId": 181,
+      "EnergiaId": 14,
+      "ProteinaId": 178,
+      "Proteina": {
+        "Id": 178,
+        "Qtd": 2.16875,
+        "Unidade": 0
+      },
+      "ColesterolId": 172,
+      "CarboidratoId": 171,
+      "Carboidrato": {
+        "Id": 171,
+        "Qtd": 75.6665833333333,
+        "Unidade": 0
+      },
+      "CalcioId": 170,
+      "ManganesId": 175,
+      "FosforoId": 174,
+      "FerroId": 173,
+      "Sodio": {
+        "Id": 180,
+        "Qtd": 9.88233333333333,
+        "Unidade": 0
+      },
+      "SodioId": 180,
+      "Potassio": {
+        "Id": 177,
+        "Qtd": 518.25,
+        "Unidade": 0
+      },
+      "PotassioId": 177,
+      "RetinolId": 179,
+      "PiridoxinaId": 176,
+      "VitaminaCId": 182,
+      "AlimentosConsumo": []
     },
     {
-        "alimento": "Arroz",
-        "icone":  "arroz",
-        "carbo": "34",
-        "porcao": " ",
-        "gordura": " ",
-        "calorias": "5",
-        "fibra": " ",
-        "doses": " ",
-        "proteina": " ",
-        "insulina": " "
-        
+      "Id": 15,
+      "Descricao": "Banana, figo, crua",
+      "UnidadeBase": "g",
+      "QtdBase": 100,
+      "Classificacao": 0,
+      "CategoriaId": 3,
+      "Categoria": {
+        "Id": 3,
+        "Descricao": "Frutas e derivados"
+      },
+      "UmidadeId": 194,
+      "EnergiaId": 15,
+      "ProteinaId": 191,
+      "Proteina": {
+        "Id": 191,
+        "Qtd": 1.13125,
+        "Unidade": 0
+      },
+      "ColesterolId": 185,
+      "CarboidratoId": 184,
+      "Carboidrato": {
+        "Id": 184,
+        "Qtd": 27.8044166666667,
+        "Unidade": 0
+      },
+      "CalcioId": 183,
+      "ManganesId": 188,
+      "FosforoId": 187,
+      "FerroId": 186,
+      "Sodio": {
+        "Id": 193,
+        "Qtd": 99999,
+        "Unidade": 0
+      },
+      "SodioId": 193,
+      "Potassio": {
+        "Id": 190,
+        "Qtd": 386.591666666667,
+        "Unidade": 0
+      },
+      "PotassioId": 190,
+      "RetinolId": 192,
+      "PiridoxinaId": 189,
+      "VitaminaCId": 195,
+      "AlimentosConsumo": []
     },
     {
-        "alimento": "Feijão de Corda",
-        "icone":  "feijao",
-        "carbo": "12",
-        "porcao": " ",
-        "gordura": " ",
-        "calorias": "3",
-        "fibra": " ",
-        "doses": " ",
-        "proteina": " ",
-        "insulina": " "
-        
-    }
+      "Id": 16,
+      "Descricao": "Banana, maçã, crua",
+      "UnidadeBase": "g",
+      "QtdBase": 100,
+      "Classificacao": 0,
+      "CategoriaId": 3,
+      "Categoria": {
+        "Id": 3,
+        "Descricao": "Frutas e derivados"
+      },
+      "UmidadeId": 207,
+      "EnergiaId": 16,
+      "ProteinaId": 204,
+      "Proteina": {
+        "Id": 204,
+        "Qtd": 1.7536231884058,
+        "Unidade": 0
+      },
+      "ColesterolId": 198,
+      "CarboidratoId": 197,
+      "Carboidrato": {
+        "Id": 197,
+        "Qtd": 22.3363768115942,
+        "Unidade": 0
+      },
+      "CalcioId": 196,
+      "ManganesId": 201,
+      "FosforoId": 200,
+      "FerroId": 199,
+      "Sodio": {
+        "Id": 206,
+        "Qtd": 99999,
+        "Unidade": 0
+      },
+      "SodioId": 206,
+      "Potassio": {
+        "Id": 203,
+        "Qtd": 264.386666666667,
+        "Unidade": 0
+      },
+      "PotassioId": 203,
+      "RetinolId": 205,
+      "PiridoxinaId": 202,
+      "VitaminaCId": 208,
+      "AlimentosConsumo": []
+    },
+    {
+        "Id": 46,
+        "Descricao": "Laranja, baía, crua",
+        "UnidadeBase": "g",
+        "QtdBase": 100,
+        "Classificacao": 0,
+        "CategoriaId": 3,
+        "Categoria": {
+          "Id": 3,
+          "Descricao": "Frutas e derivados"
+        },
+        "UmidadeId": 597,
+        "EnergiaId": 46,
+        "ProteinaId": 594,
+        "Proteina": {
+          "Id": 594,
+          "Qtd": 0.978260869565218,
+          "Unidade": 0
+        },
+        "ColesterolId": 588,
+        "CarboidratoId": 587,
+        "Carboidrato": {
+          "Id": 587,
+          "Qtd": 11.4684057971015,
+          "Unidade": 0
+        },
+        "CalcioId": 586,
+        "ManganesId": 591,
+        "FosforoId": 590,
+        "FerroId": 589,
+        "Sodio": {
+          "Id": 596,
+          "Qtd": 99999,
+          "Unidade": 0
+        },
+        "SodioId": 596,
+        "Potassio": {
+          "Id": 593,
+          "Qtd": 174.146666666667,
+          "Unidade": 0
+        },
+        "PotassioId": 593,
+        "RetinolId": 595,
+        "PiridoxinaId": 592,
+        "VitaminaCId": 598,
+        "AlimentosConsumo": []
+      },
+      {
+        "Id": 47,
+        "Descricao": "Laranja, baía, suco",
+        "UnidadeBase": "g",
+        "QtdBase": 100,
+        "Classificacao": 0,
+        "CategoriaId": 3,
+        "Categoria": {
+          "Id": 3,
+          "Descricao": "Frutas e derivados"
+        },
+        "UmidadeId": 610,
+        "EnergiaId": 47,
+        "ProteinaId": 607,
+        "Proteina": {
+          "Id": 607,
+          "Qtd": 0.652173913043478,
+          "Unidade": 0
+        },
+        "ColesterolId": 601,
+        "CarboidratoId": 600,
+        "Carboidrato": {
+          "Id": 600,
+          "Qtd": 8.69782608695652,
+          "Unidade": 0
+        },
+        "CalcioId": 599,
+        "ManganesId": 604,
+        "FosforoId": 603,
+        "FerroId": 602,
+        "Sodio": {
+          "Id": 609,
+          "Qtd": 99999,
+          "Unidade": 0
+        },
+        "SodioId": 609,
+        "Potassio": {
+          "Id": 606,
+          "Qtd": 172.56,
+          "Unidade": 0
+        },
+        "PotassioId": 606,
+        "RetinolId": 608,
+        "PiridoxinaId": 605,
+        "VitaminaCId": 611,
+        "AlimentosConsumo": []
+      },
+      {
+        "Id": 80,
+        "Descricao": "Pêra, Park, crua",
+        "UnidadeBase": "g",
+        "QtdBase": 100,
+        "Classificacao": 0,
+        "CategoriaId": 3,
+        "Categoria": {
+          "Id": 3,
+          "Descricao": "Frutas e derivados"
+        },
+        "UmidadeId": 1039,
+        "EnergiaId": 80,
+        "ProteinaId": 1036,
+        "Proteina": {
+          "Id": 1036,
+          "Qtd": 0.235416666666667,
+          "Unidade": 0
+        },
+        "ColesterolId": 1030,
+        "CarboidratoId": 1029,
+        "Carboidrato": {
+          "Id": 1029,
+          "Qtd": 16.0749166666667,
+          "Unidade": 0
+        },
+        "CalcioId": 1028,
+        "ManganesId": 1033,
+        "FosforoId": 1032,
+        "FerroId": 1031,
+        "Sodio": {
+          "Id": 1038,
+          "Qtd": 0.981666666666667,
+          "Unidade": 0
+        },
+        "SodioId": 1038,
+        "Potassio": {
+          "Id": 1035,
+          "Qtd": 102.223333333333,
+          "Unidade": 0
+        },
+        "PotassioId": 1035,
+        "RetinolId": 1037,
+        "PiridoxinaId": 1034,
+        "VitaminaCId": 1040,
+        "AlimentosConsumo": []
+      },
+      {
+        "Id": 77,
+        "Descricao": "Morango, cru",
+        "UnidadeBase": "g",
+        "QtdBase": 100,
+        "Classificacao": 0,
+        "CategoriaId": 3,
+        "Categoria": {
+          "Id": 3,
+          "Descricao": "Frutas e derivados"
+        },
+        "UmidadeId": 1000,
+        "EnergiaId": 77,
+        "ProteinaId": 997,
+        "Proteina": {
+          "Id": 997,
+          "Qtd": 0.894927536231884,
+          "Unidade": 0
+        },
+        "ColesterolId": 991,
+        "CarboidratoId": 990,
+        "Carboidrato": {
+          "Id": 990,
+          "Qtd": 6.81840579710146,
+          "Unidade": 0
+        },
+        "CalcioId": 989,
+        "ManganesId": 994,
+        "FosforoId": 993,
+        "FerroId": 992,
+        "Sodio": {
+          "Id": 999,
+          "Qtd": 99999,
+          "Unidade": 0
+        },
+        "SodioId": 999,
+        "Potassio": {
+          "Id": 996,
+          "Qtd": 184.396666666667,
+          "Unidade": 0
+        },
+        "PotassioId": 996,
+        "RetinolId": 998,
+        "PiridoxinaId": 995,
+        "VitaminaCId": 1001,
+        "AlimentosConsumo": []
+      }
 ]
