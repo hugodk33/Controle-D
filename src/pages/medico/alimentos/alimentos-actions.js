@@ -25,7 +25,7 @@ export const getAllAlimentos = (descricao) => async dispatch => {
             data: alimentosMock
         }
         if(descricao)
-            alimentos = alimentos.filter(x => x.descricao.normalize().includes(descricao))
+            alimentos.data = alimentos.data.filter(x => x.Descricao.toUpperCase().normalize().includes(descricao.toUpperCase()))
         //End Mock
 
         if(alimentos && alimentos.data)

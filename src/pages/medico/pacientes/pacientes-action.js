@@ -20,7 +20,7 @@ export const getAllPacientes = (nome) => async dispatch => {
             data: pacientesMock
         };
         if(nome)
-            pacientes = pacientes.filter(x => x.nome.normalize().includes(nome))
+            pacientes.data = pacientes.data.filter(x => x.Nome.toUpperCase().normalize().includes(nome.toUpperCase()))
         // ENDMOCK 
         if(pacientes && pacientes.data)
             dispatch(setPacientes(pacientes.data))
