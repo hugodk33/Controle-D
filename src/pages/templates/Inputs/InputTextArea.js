@@ -5,7 +5,7 @@ const InputText = (props) => {
 
     return (
     <div className={"textarea " + "col-" + props.col}>
-        <TextareaAutosize aria-label="empty textarea" placeholder="Empty" rows="4" />;
+        <TextareaAutosize aria-label="empty textarea" placeholder="Empty" rows="4" />
     </div>
     )
 };

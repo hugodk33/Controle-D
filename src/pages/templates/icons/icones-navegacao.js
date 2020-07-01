@@ -287,6 +287,22 @@ const IconeTituloAdicionarRefeicao = (props) => {
     )
 };
 
+const IconeSetaDeskTop = (props) => {
+    return (
+        <svg className="seta-desktop" version="1.1" height="15px" width="15px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 20 20" xmlSpace="preserve">
+            <polygon fill="white" points="12,10 20,20 20,10 20,0 "/>
+        </svg>
+    )
+}
 
+const IconeSetaMobile = (props) => {
+    return (
+        <svg version="1.1" height="15px" width="15px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 20 20" xmlSpace="preserve">
+            <path fill="white" d="M12.4,15.2L20,0H10H0l7.6,15.2C8.6,17.2,11.4,17.2,12.4,15.2z"/>
+        </svg>
+    )
+}
 
-export  {IconeMenuBuscarPaciente , IconeMenuBuscarMedico, IconeMenuBuscarRefeicoes,  IconeMenuBuscarAlimento , IconeMenuAdicionarPaciente , IconeMenuAdicionarAlimento , IconeMenuAdicionarRefeicao,IconeTituloBuscarPaciente , IconeTituloBuscarMedico, IconeTituloBuscarRefeicoes ,  IconeTituloBuscarAlimento , IconeTituloAdicionarPaciente , IconeTituloAdicionarAlimento , IconeTituloAdicionarRefeicao};
+export  {IconeMenuBuscarPaciente , IconeMenuBuscarMedico, IconeMenuBuscarRefeicoes,  IconeMenuBuscarAlimento , IconeMenuAdicionarPaciente , IconeMenuAdicionarAlimento , IconeMenuAdicionarRefeicao,IconeTituloBuscarPaciente , IconeTituloBuscarMedico, IconeTituloBuscarRefeicoes ,  IconeTituloBuscarAlimento , IconeTituloAdicionarPaciente , IconeTituloAdicionarAlimento , IconeTituloAdicionarRefeicao, IconeSetaMobile, IconeSetaDeskTop};

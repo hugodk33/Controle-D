@@ -22,7 +22,6 @@
 }
 
 .ItemSomatoriaAlimento {
-  width: 70px;
   margin: 4px;
   .valores {
     float: right;
@@ -31,7 +30,12 @@
   .soma-span {
     float: right;
     margin-top: 18px;
+  }
+  .esq {
     margin-left: 4px;
+  }
+  .dir {
+    margin-right: 4px;
   }
 }
 
@@ -72,11 +76,11 @@
   }
 }
 .holder-inputN {
-  width: calc(100% - 32px);
+  width: calc(100% - 25px);
   float: left;
 }
 .holder-btn-inputN {
-  width: 28px;
+  width: 20px;
   float: right;
 }
 .doses-de-insulina-output {
@@ -131,14 +135,24 @@
 }
 
 .quadro-calendario {
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   border-radius: 100%;
-  padding-top: 2px;
-  margin: 0px auto;
+  padding-top: 5px;
+  margin: 12px auto 2px;
+  display: inline-block;
   p {
     color: black;
+    line-height: 8px;
+    margin-bottom: 5px;
+    font-size: 13px;
   }
+}
+.ponta-esq {
+  margin-left: auto;
+}
+.ponta-dir {
+  margin-right: auto;
 }
 
 .quadro-calendario-ativado {
@@ -216,9 +230,90 @@
   hr {
     border-style: dashed;
   }
+  p {
+    margin: 0
+  }
+  .titulo-2 {
+    margin: 0 0 8px 0
+  }
+  .btn-lista {
+    float: right;
+    padding: 3px 6px;
+    margin: 18px 2px;
+    background-color: #f4f4f4;
+    max-width: 35px;
+    height: 35px;
+    border-radius: 100%;
+  }
+  .btn-paragraph {
+    max-width: 80px;
+  }
+}
+
+.btn-paragraph {
+  line-height: 12px;
+  font-size: 10px;
+  border: 1px gray solid;
+  padding: 2px 5px;
+  margin-bottom: 4px;
+}
+
+.menu-lateral .seta-desktop {
+  position: relative;
+  margin-right: -20.5px;
+  margin-top: 10px;
+  display: none;
+}
+
+.menu-lateral .btn-ativo .seta-desktop {
+  display: inline-block;
+}
+
+#somatoria hr {
+  width: 100%;
+  margin-top: 12px
+}
+
+.menu-lateral .btn-ativo span{
+  font-weight: bold;
+}
+.infos-login {
+  color: 'white'
+}
+
+.Bio {
+  max-width: 300px;
+  float: right;
+  h5 {  
+    color: white 
+  }
+  h4 {
+    color: white
+  }
+  a {
+    float: right;
+    color: white;
+  }
+  hr {
+    border: 1px solid white;
+  }
+}
+
+.avatar-bio {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: white;
+  display: inline-block;
 }
 
 @media (min-width: 300px) {
+  .infos-login {
+    margin-top: 15px
+  }
+  .infos-signup {
+    display: none;
+  }
   .doses-de-insulina-output {
     margin: 13px 0 4px;
   }
@@ -227,10 +322,34 @@
   }
   .ItemSomatoriaAlimento {
     float: left;
+    .esq {
+      display: inline-block;
+    }
+    .dir {
+      display: none;
+    }
+  }
+  .ItemSomatoriaAlimento:last-child {
+    .esq {
+      display: none;
+    }
+  }
+  .no-desktop {
+    display: inline-block;
+  }
+  .no-mobile {
+    display: none;
   }
 }
 
 @media (min-width: 768px) {
+  .infos-login {
+    margin-top: 100px
+  }
+  .infos-signup {
+    display: inline-block;
+    padding-top: 90px
+  }
   .doses-de-insulina-output {
     margin: 4px 0;
   }
@@ -239,5 +358,22 @@
   }
   .ItemSomatoriaAlimento {
     float: right;
+    .esq {
+      display: none
+    }
+    .dir {
+      display: inline-block;
+    }
+  }
+  .ItemSomatoriaAlimento:last-child {
+    .dir {
+      display: none;
+    }
+  }
+  .no-desktop {
+    display: none;
+  }
+  .no-mobile {
+    display: inline-block;
   }
 }

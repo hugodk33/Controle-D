@@ -112,6 +112,14 @@
   color: #8c8c8c;
 }
 
+.makeStyles-formControl-11 {
+  margin-bottom: 0;
+}
+
+.titulo-formulario {
+  padding: 16px 0 0;
+}
+
 @media (min-width: 300px) {
   /*
   .custom-form {

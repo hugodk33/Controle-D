@@ -4,7 +4,9 @@ import { connect, useSelector } from 'react-redux'
 import Titulo from "../../templates/Titulo";
 import Menu from "../../templates/MenuPaciente";
 import Input from '../../templates/Inputs/Input';
-import ItemPaciente from '../../templates/ItensListas/ItemPaciente';
+import Calendario from "../../templates/Calendario";
+import ItemRefeicao from "../../templates/ItensListas/ItemRefeicao";
+import refeicoes from "../../jsons/refeicoes";
 
 import Button from "../../templates/Inputs/Btn";
 
@@ -32,12 +34,19 @@ const ListarRefeicoes = (props) => {
             <div className="col-3">
               <Button icone={"buscar-refeicao"} titulo={"BUSCAR REFEIÇÃO"} />
             </div>
+            <Calendario />
           </div>
-          <ul className="lista">
-            { 
-              
-            }
-          </ul>
+          <div className="row">
+            <div className="col-12">
+              <ul className="lista">
+                {     
+                  refeicoes.map((a , b) => {
+                    return <ItemRefeicao key={b} data={a}/>
+                  })
+                }
+              </ul>
+            </div>
+          </div>
         </div>
     </div>
     </div>

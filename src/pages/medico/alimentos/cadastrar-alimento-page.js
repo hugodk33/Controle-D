@@ -2,6 +2,7 @@ import React from 'react';
 import Titulo from '../../templates/Titulo';
 import TituloForm from "../../templates/TituloForm";
 import Menu from '../../templates/MenuMedico';
+import Bio from '../../templates/Bio';
 import {IconeTituloAdicionarAlimento} from "../../templates/icons/icones-navegacao"
 //import Container from '../../templates/Container';
 import Input from '../../templates/Inputs/Input';
@@ -18,7 +19,8 @@ const CadastrarAlimento = () => {
     <div>
       <div className="row main" style={{margin:"0"}}>
         <div className="col-12 col-sm-3 menu-lateral">
-          <Menu />
+          <Bio />
+          <Menu ativo="cadastrar-alimento"/>
         </div>
       <div className="col-12 col-md-6 canvas-board"> 
       <div className="container">

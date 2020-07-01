@@ -7,9 +7,13 @@ import Input from '../../templates/Inputs/Input';
 import ItemPaciente from '../../templates/ItensListas/ItemPaciente';
 
 import Button from "../../templates/Inputs/Btn";
+import OrganizaLista from '../../templates/ItensListas/paginacao/organiza-lista';
+import PaginacaoBtn from '../../templates/ItensListas/paginacao/marcadores-de-paginacao';
 
 import { IconeTituloBuscarMedico } from '../../templates/icons/icones-navegacao'
 import { withRouter } from 'react-router-dom';
+
+import pacientes from "../../jsons/pacientes"
 
 const ListarMedicos = (props) => {
 
@@ -35,15 +39,14 @@ const ListarMedicos = (props) => {
               <Button icone={"buscar-medico"} titulo={"BUSCAR REFEIÇÃO"} />
             </div>
           </div>
+          <OrganizaLista />
+          <PaginacaoBtn label="ORDENAR POR"/>
           <ul className="lista">
             { 
-              /*
-              pacientes.map((a , b) => {
-                return <ItemPaciente key={b} data={a}/>
-              })
-              */
+              
             }
           </ul>
+          <PaginacaoBtn />
         </div>
     </div>
     </div>

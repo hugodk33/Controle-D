@@ -26,7 +26,7 @@ const CadastrarPaciente = () => {
     <div>
       <div className="row main" style={{ margin: "0" }}>
         <div className="col-12 col-sm-3 menu-lateral">
-          <Menu />
+          <Menu ativo="cadastrar-paciente"/>
         </div>
         <div className="col-12 col-md-6 canvas-board">
           <div className="container">

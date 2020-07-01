@@ -52,9 +52,10 @@ const useStyles = makeStyles((theme) => ({
   root: {
     borderRadius: 4,
     width: '100%',
+    marginBottom: 0,
     '& > *': {
       width: '100%',
-      marginBottom: 12,
+      marginBottom: 0,
       boxShadow: '1px 1px 3px #d9d9d9',
       borderRadius: 4
     },

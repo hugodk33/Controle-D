@@ -43,7 +43,7 @@ const ListarPacientes = (props) => {
     <div>
       <div className="row main" style={{ margin: "0" }}>
         <div className="col-12 col-sm-3 menu-lateral">
-          <Menu />
+          <Menu ativo="listar-paciente"/>
         </div>
         <div className="col-12 col-md-6 canvas-board">
           <div className="container">
@@ -53,23 +53,23 @@ const ListarPacientes = (props) => {
                 <Titulo titulo="Pacientes" />
               </div>
             </div>
-          </div>
-          <div className="row">
-            <Input id="buscar-paciente" onChange={event => setNome(event.target.value)} label="BUSCAR PACIENTE" placeholder="digite o nome do paciente" type={"text"} col="9" />
-            <div className="col-3">
-              <Button  onClick={() => getPacientes(nome)}  icone={"buscar-paciente"} isLoading={isLoading} titulo={"BUSCAR PACIENTE"} />
+            <div className="row">
+              <Input id="buscar-paciente" onChange={event => setNome(event.target.value)} label="BUSCAR PACIENTE" placeholder="digite o nome do paciente" type={"text"} col="9" />
+              <div className="col-3">
+                <Button  onClick={() => getPacientes(nome)}  icone={"buscar-paciente"} isLoading={isLoading} titulo={"BUSCAR PACIENTE"} />
+              </div>
             </div>
+            <OrganizaLista />
+            <PaginacaoBtn label="ORDENAR POR"/>
+            <ul className="lista">
+              { 
+                pacientes.map((a , b) => {
+                  return <ItemPaciente key={b} data={a}/>
+                })
+              }
+            </ul>
+            <PaginacaoBtn />
           </div>
-          <OrganizaLista />
-          <PaginacaoBtn label="ORDENAR POR"/>
-          <ul className="lista">
-            { 
-              pacientes.map((a , b) => {
-                return <ItemPaciente key={b} data={a}/>
-              })
-            }
-          </ul>
-          <PaginacaoBtn />
         </div>
       </div>
     </div>
