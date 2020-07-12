@@ -209,16 +209,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 @media (min-width: 300px) {
     .canvas-board {
         padding: 30px 0;
-    } 
-    .menu-lateral {
-        display: none;
-        position: absolute;
-        z-index: 1;
-        width: 95%;
-        top: 24px;
-        margin: 0 auto;
-        left: 8px;
-        padding-top: 0;
     }
     .main {
         padding: 0
@@ -236,15 +226,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 @media (min-width: 768px) {
     .canvas-board {
         
-    }      
-    .menu-lateral {
-        display: inline;
-        height: 900px;      
-        padding-top: 30px;
-        position: inherit;
-        margin: 0;
-        width: inherit;
-
     }
     .faixa {
         margin: 20px 0

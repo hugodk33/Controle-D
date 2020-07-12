@@ -7,7 +7,8 @@ import Input from '../../templates/Inputs/Input';
 import InputSelect from '../../templates/Inputs/InputSelect';
 import ItemPaciente from '../../templates/ItensListas/ItemPaciente';
 import PaginacaoBtn from '../../templates/ItensListas/paginacao/marcadores-de-paginacao';
-import pacientes from "../../jsons/pacientes"
+import pacientes from "../../jsons/pacientes";
+import Bio from '../../templates/Bio';
 
 import { IconeTituloBuscarPaciente } from '../../templates/icons/icones-navegacao'
 import Button from "../../templates/Inputs/Btn";
@@ -42,8 +43,11 @@ const ListarPacientes = (props) => {
   return (
     <div>
       <div className="row main" style={{ margin: "0" }}>
-        <div className="col-12 col-sm-3 menu-lateral">
-          <Menu ativo="listar-paciente"/>
+        <div className="col-12 col-sm-3 menu-lateral no-mobile">
+          <div className="menu-hold">
+            <Bio />
+            <Menu ativo="listar-paciente"/>
+          </div>  
         </div>
         <div className="col-12 col-md-6 canvas-board">
           <div className="container">
@@ -54,8 +58,8 @@ const ListarPacientes = (props) => {
               </div>
             </div>
             <div className="row">
-              <Input id="buscar-paciente" onChange={event => setNome(event.target.value)} label="BUSCAR PACIENTE" placeholder="digite o nome do paciente" type={"text"} col="9" />
-              <div className="col-3">
+              <Input id="buscar-paciente" onChange={event => setNome(event.target.value)} label="BUSCAR PACIENTE" placeholder="digite o nome do paciente" type={"text"} col="12 col-sm-9" />
+              <div className="col-12 col-sm-3" style={{marginBottom: "12px"}}>
                 <Button  onClick={() => getPacientes(nome)}  icone={"buscar-paciente"} isLoading={isLoading} titulo={"BUSCAR PACIENTE"} />
               </div>
             </div>
@@ -69,6 +73,12 @@ const ListarPacientes = (props) => {
               }
             </ul>
             <PaginacaoBtn />
+          </div>
+        </div>
+        <div className="col-12 menu-mobile no-desktop">
+          <div className="menu-hold">
+            <Bio mobile={true} />
+            <Menu ativo="listar-paciente"/>
           </div>
         </div>
       </div>

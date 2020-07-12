@@ -15,6 +15,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import homePage from './pages/home-page';
 import signUp from './pages/singup';
+import usuarioEdit from './pages/usuario/edicao';
 
 import Top from './pages/templates/head';
 
@@ -46,6 +47,7 @@ ReactDOM.render(
     <BrowserRouter basename={process.env.PUBLIC_URL || ''}>
       <Route exact path="/" component={homePage} />
       <Route exact path="/signup" component={signUp} />
+      <Route exact path="/user-edit" component={usuarioEdit} />
       <Route exact path="/paciente" component={paciente} />
       <Route exact path="/paciente/refeicoes/cadastrar-refeicao" component={cadastrarRefeicao} />
       <Route exact path="/paciente/refeicoes/buscar-refeicao" component={buscarRefeicao} />

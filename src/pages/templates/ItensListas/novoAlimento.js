@@ -23,7 +23,7 @@ const ItemAlimento = (props) => {
             <div className="col-6 col-sm-6" style={{marginBottom: "10px"}}>
                 <InputSelect label="PORÇÃO" />
             </div> 
-            <div className="col-6 col-sm-4" style={{textAlign: "center", marginBottom: '12px', marginLeft: 'auto'}}>
+            <div className="col-12 col-sm-4" style={{textAlign: "center", marginBottom: '12px', marginLeft: 'auto'}}>
                 <Button icone={"adicionar-refeicao"} titulo={"ADICIONAR ALIMENTO"} />
             </div>
         </div>

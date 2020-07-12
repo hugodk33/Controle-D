@@ -8,6 +8,7 @@ import Input from "../../templates/Inputs/Input";
 import InputN from "../../templates/Inputs/InputN";
 import InputSelect from "../../templates/Inputs/InputSelect";
 import OrganizaLista from '../../templates/ItensListas/paginacao/organiza-lista';
+import Bio from '../../templates/Bio';
 import PaginacaoBtn from '../../templates/ItensListas/paginacao/marcadores-de-paginacao';
 import ItemAlimentoDiario from "../../templates/ItensListas/itemAlimentoDiario";
 import Somatoria from "../../templates/Somatoria";
@@ -16,6 +17,7 @@ import NovoAlimento from "../../templates/ItensListas/novoAlimento";
 import SubRowItem from "../../templates/ItensListas/SubRowItem";
 import { withRouter } from 'react-router-dom';
 import { Select } from '@material-ui/core';
+import Button from "../../templates/Inputs/Btn";
 
 
 import alimentosRefeicao from '../../jsons/alimentos-pacientes.json'
@@ -33,8 +35,11 @@ const CadastrarRefeicao = (props, state) => {
   return (
     <div>
       <div className="row main" style={{margin:"0"}}>
-        <div className="col-12 col-sm-3 menu-lateral">
-          <Menu />
+        <div className="col-12 col-sm-3 menu-lateral no-mobile">
+          <div className="menu-hold">
+            <Bio />
+            <Menu ativo="cadastrar-refeicao"/>
+          </div>
         </div>
         <div className="col-12 col-md-6 canvas-board"> 
           <div className="container">
@@ -51,6 +56,9 @@ const CadastrarRefeicao = (props, state) => {
                   <Input label="DATA" col="4"/>
                   <InputSelect label="ÍCONE" col="4"/>
                 </div>
+              </div>
+              <div className="col-12 col-sm-4"  style={{textAlign: "center", marginBottom: '12px', marginLeft: 'auto'}}>
+                <Button icone={"adicionar-refeicao"} titulo={"CADASTRAR REFEIÇÃO"} />
               </div>
             </div>
             <div class="row">
@@ -72,6 +80,12 @@ const CadastrarRefeicao = (props, state) => {
               </div>
               <PaginacaoBtn />
             </div>
+          </div>
+        </div>
+        <div className="col-12 menu-mobile no-desktop">
+          <div className="menu-hold">
+            <Bio mobile={true} />
+            <Menu ativo="cadastrar-refeicao"/>
           </div>
         </div>
       </div>

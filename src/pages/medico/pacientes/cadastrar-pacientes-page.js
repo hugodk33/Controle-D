@@ -7,6 +7,7 @@ import InputN from '../../templates/Inputs/InputN';
 import InputSelect from '../../templates/Inputs/InputSelect';
 import InputText from '../../templates/Inputs/InputTextArea';
 import Button from "../../templates/Inputs/Btn";
+import Bio from '../../templates/Bio';
 import { IconeFormAtributo, IconeFormMedico, IconeFormPaciente } from '../../templates/icons/icones-formulario'
 import { IconeTituloAdicionarPaciente } from '../../templates/icons/icones-navegacao'
 import { Form, withFormik } from 'formik';
@@ -25,8 +26,11 @@ const CadastrarPaciente = () => {
   return (
     <div>
       <div className="row main" style={{ margin: "0" }}>
-        <div className="col-12 col-sm-3 menu-lateral">
-          <Menu ativo="cadastrar-paciente"/>
+        <div className="col-12 col-sm-3 menu-lateral no-mobile">
+          <div className="menu-hold">
+            <Bio />
+            <Menu ativo="cadastrar-paciente"/>
+          </div>
         </div>
         <div className="col-12 col-md-6 canvas-board">
           <div className="container">
@@ -39,13 +43,13 @@ const CadastrarPaciente = () => {
             <div className="row custom-form">
               <TituloForm icone="paciente" titulo="Paciente" />
               <Input id="nome-do-paciente" label="NOME DO PACIENTE" placeholder=" " type={"text"} col="12 col-sm-12" />
-              <InputSelect id="sexo" label="SEXO" placeholder=" " type={"text"} col="6" />
-              <Input id="data" label="DATA DE NASCIMENTO" placeholder=" " type={"text"} col="6" />
+              <InputSelect id="sexo" label="SEXO" placeholder=" " type={"text"} col="12 col-sm-6" />
+              <Input id="data" label="DATA DE NASCIMENTO" placeholder=" " type={"text"} col="12 col-sm-6" />
               <TituloForm icone="medico" titulo="Condiçao" />
               <InputN id="peso" label="PESO" placeholder=" " type={"text"} col="6" />
               <InputSelect id="diabetes" label="DIABETES" placeholder=" " type={"text"} col="6" />
-              <Input id="foto" label="FOTO" placeholder="" type={"text"} col="10" />
-              <div className="col-2">
+              <Input id="foto" label="FOTO" placeholder="" type={"text"} col="8 col-sm-10" />
+              <div className="col-4">
                 <Button titulo={"UPLOAD"} />
               </div>
               <TituloForm icone="medico" titulo="Observações" />
@@ -55,6 +59,12 @@ const CadastrarPaciente = () => {
                 <Button icone={"adicionar-paciente"} titulo={"CADASTRAR PACIENTE"} />
               </div>
             </div>
+          </div>
+        </div>
+        <div className="col-12 menu-mobile no-desktop">
+          <div className="menu-hold">
+            <Bio mobile={true} />
+            <Menu ativo="cadastrar-paciente"/>
           </div>
         </div>
       </div>

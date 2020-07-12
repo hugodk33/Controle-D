@@ -1,30 +1,39 @@
 import React from 'react';
-import { IconeMenuBuscarMedico , IconeMenuBuscarRefeicoes , IconeMenuAdicionarRefeicao } from './icons/icones-navegacao'
+import { IconeMenuBuscarMedico , IconeMenuBuscarRefeicoes , IconeMenuAdicionarRefeicao ,  IconeSetaDeskTop , IconeMobileMenuBuscarMedico , IconeMobileMenuBuscarRefeicoes , IconeMobileMenuAdicionarRefeicao , IconeSetaMobile } from './icons/icones-navegacao'
 import { Link } from 'react-router-dom'
 
 const MenuPaciente = (props) => {
 
     return (
-        <div className={"menu menu-lateral"}  style={{minHeight: window.innerHeight}}>
+        <div className={"menu"}  style={{minHeight: window.innerHeight}}>
             <ul>
                 <li> 
                     <Link to="/paciente/refeicoes/cadastrar-refeicao">
-                        <button type="button">
-                            <IconeMenuAdicionarRefeicao /><span> CADASTRAR REFEIÇÃO </span>
+                        <button className={props.ativo === "cadastrar-refeicao" ? "btn-ativo" : null} type="button">
+                            <IconeSetaDeskTop />
+                            <IconeMenuAdicionarRefeicao />
+                            <IconeSetaMobile />
+                            <IconeMobileMenuAdicionarRefeicao /><span> CADASTRAR REFEIÇÃO </span>
                         </button>
                     </Link>
                 </li>
                 <li> 
                     <Link to="/paciente/refeicoes/buscar-refeicao">
-                        <button type="button">
-                            <IconeMenuBuscarRefeicoes /><span> BUSCAR REFEIÇÃO </span>
+                        <button className={props.ativo === "listar-refeicao" ? "btn-ativo" : null} type="button">
+                            <IconeSetaDeskTop />
+                            <IconeMenuBuscarRefeicoes />
+                            <IconeSetaMobile />
+                            <IconeMobileMenuBuscarRefeicoes /><span> BUSCAR REFEIÇÃO </span>
                         </button>
                     </Link>
                 </li>
                 <li> 
                     <Link to="/paciente/medicos/buscar-medicos">
-                        <button type="button">
-                            <IconeMenuBuscarMedico /><span> PROCURAR MÉDICO  </span>                        
+                        <button className={props.ativo === "listar-medico" ? "btn-ativo" : null} type="button">
+                            <IconeSetaDeskTop />
+                            <IconeMenuBuscarMedico />
+                            <IconeSetaMobile />
+                            <IconeMobileMenuBuscarMedico /><span> PROCURAR MÉDICO  </span>                        
                         </button>
                     </Link>
                 </li>

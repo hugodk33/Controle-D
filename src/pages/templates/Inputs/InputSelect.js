@@ -12,6 +12,7 @@ const useStyles = makeStyles((theme) => ({
   formControl: {
     minWidth: '100%',
     boxShadow: '1px 1px 3px #d9d9d9',
+    marginBottom: 12,
     borderRadius: 4
   },
   selectEmpty: {

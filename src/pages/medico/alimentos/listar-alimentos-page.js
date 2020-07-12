@@ -8,6 +8,7 @@ import InputSelect from '../../templates/Inputs/InputSelect';
 import OrganizaLista from '../../templates/ItensListas/paginacao/organiza-lista';
 import PaginacaoBtn from '../../templates/ItensListas/paginacao/marcadores-de-paginacao';
 import ItemAlimento from '../../templates/ItensListas/ItemAlimento';
+import Bio from '../../templates/Bio';
 
 import alimentos from "../../jsons/alimentos";
 
@@ -41,8 +42,11 @@ const ListarAlimento = (props, state) => {
   return (
     <div>
       <div className="row main" style={{ margin: "0" }}>
-        <div className="col-12 col-sm-3 menu-lateral">
-          <Menu ativo="listar-alimento"/>
+        <div className="col-12 col-sm-3 menu-lateral no-mobile">
+          <div className="menu-hold">
+            <Bio />
+            <Menu ativo="listar-alimento"/>
+          </div>
         </div>
         <div className="col-12 col-md-6 canvas-board">
           <div className="container">
@@ -54,8 +58,8 @@ const ListarAlimento = (props, state) => {
             </div>
             <div className="row custom-form">
               <Input id="buscar-alimento" onChange={event => setDescricao(event.target.value)} label="BUSCAR ALIMENTO"
-                placeholder="digite o nome do alimento" type={"text"} col={9} />
-              <div className="col-3 ponta">
+                placeholder="digite o nome do alimento" type={"text"} col={"12 col-sm-9"} />
+              <div className="col-12 col-sm-3 ponta" style={{marginBottom: "12px"}}>
                 <Button  onClick={() => getAlimentos(descricao)}  icone={"buscar-alimento"} isLoading={isLoading} titulo={"BUSCAR ALIMENTOS"} />
               </div>
                 <OrganizaLista label="ORDENAR POR"/>
@@ -69,6 +73,12 @@ const ListarAlimento = (props, state) => {
               }
             </ul>
             <PaginacaoBtn />
+          </div>
+        </div>
+        <div className="col-12 menu-mobile no-desktop">
+          <div className="menu-hold">
+            <Bio mobile={true} />
+            <Menu ativo="listar-alimento"/>
           </div>
         </div>
       </div>

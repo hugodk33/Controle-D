@@ -2,7 +2,7 @@ import React from 'react';
 
 const IconeMenuBuscarPaciente = (props) => {
     return (
-        <svg version="1.1" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg className="no-mobile" version="1.1" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 31 31">
             <g>
                 <path fill="white" d="M8.8,9.5c1.9,0,3.5,1.6,3.5,3.5h1.5c0-2-1.1-3.7-2.8-4.5c0.5-0.5,0.8-1.2,0.8-2c0-1.6-1.3-3-3-3c-1.6,0-3,1.3-3,3
@@ -23,7 +23,7 @@ const IconeMenuBuscarPaciente = (props) => {
 
 const IconeMenuBuscarMedico = (props) => {
     return (
-        <svg version="1.1" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg className="no-mobile" version="1.1" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 31 31" xmlSpace="preserve">
             <g>
                 <path fill="aqua" d="M24.1,23.1c2-2.6,1.8-6.4-0.5-8.7c-2.6-2.6-6.8-2.6-9.4,0c-2.6,2.6-2.6,6.8,0,9.4c2.4,2.4,6.1,2.6,8.7,0.5l6.2,6.2l1.2-1.2
@@ -45,7 +45,7 @@ const IconeMenuBuscarMedico = (props) => {
 
 const IconeMenuBuscarRefeicoes = (props) => {
     return (
-        <svg version="1.1" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg className="no-mobile" version="1.1" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 31 31" xmlSpace="preserve">
             <g>
                 <path fill="white" d="M8.6,0.5c-0.5,0-0.9,0.4-0.9,0.9v5.9c0,0.9-0.5,1.6-1.3,2V1.4c0-0.5-0.4-0.9-0.9-0.9C5,0.5,4.5,0.9,4.5,1.4v7.9
@@ -65,7 +65,7 @@ const IconeMenuBuscarRefeicoes = (props) => {
 
 const IconeMenuBuscarAlimento = (props) => {
     return (
-        <svg version="1.1" heigth="27px" width="35px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg className="no-mobile" version="1.1" heigth="27px" width="35px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 31 31" xmlSpace="preserve">
             <g>
                 <path fill="white" d="M19.1,9.2c-0.6-2-1.9-3.4-3.6-4c-1.4-0.5-3-0.5-4.5,0.2c0.3-2,1.5-2.8,1.6-2.9L12,1.8L11.6,1c-0.1,0-1,0.6-1.7,2
@@ -84,7 +84,7 @@ const IconeMenuBuscarAlimento = (props) => {
 
 const IconeMenuAdicionarPaciente = (props) => {
     return (
-        <svg version="1.1" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg className="no-mobile" version="1.1" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 31 31" xmlSpace="preserve">
             <g>
                 <path fill="white" d="M11.9,9.4c0.5-0.5,0.8-1.2,0.8-2c0-1.6-1.3-3-3-3c-1.6,0-3,1.3-3,3c0,0.8,0.3,1.5,0.8,2c-1.7,0.8-2.8,2.5-2.8,4.5h1.5
@@ -105,7 +105,7 @@ const IconeMenuAdicionarPaciente = (props) => {
 
 const IconeMenuAdicionarAlimento = (props) => {
     return (
-        <svg version="1.1" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg className="no-mobile" version="1.1" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     viewBox="0 0 31 31" xmlSpace="preserve">
             <g>
                 <path fill="white" d="M19.7,9.9c-0.6-2-1.9-3.4-3.6-4c-1.4-0.5-3-0.5-4.5,0.2c0.3-2,1.5-2.8,1.6-2.9l-0.5-0.8l-0.5-0.8c-0.1,0-1,0.6-1.7,2
@@ -124,7 +124,151 @@ const IconeMenuAdicionarAlimento = (props) => {
 
 const IconeMenuAdicionarRefeicao = (props) => {
     return (
-        <svg version="1.1" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg className="no-mobile" version="1.1" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 31 31" xmlSpace="preserve">
+        <g>
+            <path fill="white" d="M8.5,0.7C8,0.7,7.5,1.1,7.5,1.5v5.9c0,0.9-0.5,1.6-1.3,2V1.5c0-0.5-0.4-0.9-0.9-0.9S4.4,1,4.4,1.5v7.9
+                c-0.8-0.3-1.3-1.1-1.3-2V1.5c0-0.5-0.4-0.9-0.9-0.9c-0.5,0-0.9,0.4-0.9,0.9v5.9c0,1.7,1.1,3.1,2.6,3.7v17.8c0,0.8,0.7,1.4,1.5,1.4
+                s1.5-0.6,1.5-1.4V11.1c1.5-0.6,2.6-2,2.6-3.7V1.5C9.4,1.1,9,0.7,8.5,0.7z"/>
+            <g>
+                <path fill="white" d="M17.9,19.2c0.7-1.1,1.7-2,2.9-2.5V8.7V0.7c-3.4,0-6.1,2.7-6.1,5.9v5.6c0,2.4,1.3,4.5,3.2,5.7V19.2z"/>
+                <path fill="white" d="M17.9,27.1v1.8c0,0.8,0.7,1.4,1.5,1.4c0.6,0,1-0.3,1.3-0.8C19.6,29,18.6,28.2,17.9,27.1z"/>
+            </g>
+            <path fill="aqua" d="M23.9,17.3c-3.2,0-5.8,2.6-5.8,5.8c0,3.2,2.6,5.8,5.8,5.8c3.2,0,5.8-2.6,5.8-5.8C29.7,20,27.1,17.3,23.9,17.3z M27.5,23.2
+                c0,0.7-0.6,1.2-1.2,1.2h-1.1v1.1c0,0.7-0.6,1.2-1.2,1.2s-1.2-0.6-1.2-1.2v-1.1h-1.1c-0.7,0-1.2-0.6-1.2-1.2v0
+                c0-0.7,0.6-1.2,1.2-1.2h1.1v-1.1c0-0.7,0.6-1.2,1.2-1.2s1.2,0.6,1.2,1.2v1.1h1.1C27,21.9,27.5,22.5,27.5,23.2L27.5,23.2z"/>
+        </g>
+    </svg>
+    )
+};
+
+/* MOBILE */
+
+const IconeMobileMenuBuscarPaciente = (props) => {
+    return (
+        <svg className="no-desktop" version="1.1" height="25px" width="25px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 31 31">
+            <g>
+                <path fill="white" d="M8.8,9.5c1.9,0,3.5,1.6,3.5,3.5h1.5c0-2-1.1-3.7-2.8-4.5c0.5-0.5,0.8-1.2,0.8-2c0-1.6-1.3-3-3-3c-1.6,0-3,1.3-3,3
+                    c0,0.8,0.3,1.5,0.8,2C4.9,9.3,3.8,11,3.8,13h1.5C5.3,11,6.8,9.5,8.8,9.5z M8.8,5c0.8,0,1.5,0.7,1.5,1.5S9.6,8,8.8,8
+                    C7.9,8,7.3,7.3,7.3,6.5S7.9,5,8.8,5z"/>
+                <rect fill="white" x="15.1" y="3.9" width="8.9" height="2.2"/>
+                <rect fill="white" x="15.1" y="7.4" width="6.5" height="1.3"/>
+                <rect fill="white" x="15.1" y="10.2" width="8.9" height="1.3"/>
+                <path fill="white" d="M15.1,13.1c0.7-0.5,1.4-0.8,2.2-1h-2.2V13.1z"/>
+                <path fill="white" d="M24,12.1h-3c0.9,0.2,1.8,0.7,2.6,1.3H24V12.1z"/>
+                <path fill="white" d="M26.8,0.5H0.4v16.6h11.7c0.1-0.5,0.4-1,0.6-1.5H1.9V2h23.4v13.4c0.3,0.5,0.6,1.1,0.7,1.7h0.7V0.5z"/>
+                <path fill="aqua" d="M24.4,23.1c2-2.6,1.8-6.4-0.5-8.7c-2.6-2.6-6.8-2.6-9.4,0c-2.6,2.6-2.6,6.8,0,9.4c2.4,2.4,6.1,2.6,8.7,0.5l6.2,6.2l1.2-1.2
+                    L24.4,23.1z M22.9,22.9c-2.1,2.1-5.5,2.1-7.6,0c-2.1-2.1-2.1-5.5,0-7.6c2.1-2.1,5.5-2.1,7.6,0C25.1,17.4,25.1,20.8,22.9,22.9z"/>
+            </g>
+        </svg>  
+    )
+};
+
+const IconeMobileMenuBuscarMedico = (props) => {
+    return (
+        <svg className="no-desktop" version="1.1" height="25px" width="25px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 31 31" xmlSpace="preserve">
+            <g>
+                <path fill="aqua" d="M24.1,23.1c2-2.6,1.8-6.4-0.5-8.7c-2.6-2.6-6.8-2.6-9.4,0c-2.6,2.6-2.6,6.8,0,9.4c2.4,2.4,6.1,2.6,8.7,0.5l6.2,6.2l1.2-1.2
+                    L24.1,23.1z M22.7,22.9c-0.2,0.2-0.4,0.4-0.6,0.5c-2.1,1.5-5.1,1.4-7-0.5c-2.1-2.1-2.1-5.5,0-7.6c2.1-2.1,5.5-2.1,7.6,0
+                    c1.9,1.9,2.1,4.9,0.5,7C23.1,22.5,22.9,22.7,22.7,22.9z"/>
+                <circle fill="white" cx="24.4" cy="9.5" r="2.1"/>
+                <path fill="white" d="M17.4,3.3v8c0,0.2,0,0.5,0,0.7c0.6-0.1,1.2-0.2,1.8-0.2c0-0.2,0-0.3,0-0.5v-8c0.4-0.3,0.7-0.8,0.7-1.3
+                    c0-0.9-0.7-1.6-1.6-1.6s-1.6,0.7-1.6,1.6C16.7,2.6,17,3.1,17.4,3.3z"/>
+                <path fill="white" d="M24.4,5.7c-2.1,0-3.9,1.7-3.9,3.9c0,1.3,0.6,2.4,1.5,3.1c0.3,0.1,0.6,0.3,0.9,0.5c0.2,0.1,0.4,0.1,0.6,0.2v0.3
+                    c0.2,0.1,0.3,0.3,0.4,0.4c0.6,0.6,1,1.2,1.3,1.9v-2.6c1.7-0.4,2.9-1.9,2.9-3.7C28.3,7.4,26.5,5.7,24.4,5.7z M24.4,11.6
+                    c-1.1,0-2.1-0.9-2.1-2.1s0.9-2.1,2.1-2.1c1.1,0,2.1,0.9,2.1,2.1S25.6,11.6,24.4,11.6z"/>
+                <path fill="white" d="M18.2,28.5h-1.7c-3,0-5.4-2.4-5.4-5.4v-4.6h0.6c0-0.6,0.2-1.2,0.4-1.8c0,0,0,0-0.1,0H8.5c-3,0-5.4-2.4-5.4-5.4v-8
+                    c0.4-0.3,0.7-0.8,0.7-1.3c0-0.9-0.7-1.6-1.6-1.6S0.7,1.2,0.7,2.1c0,0.5,0.2,0.9,0.6,1.2v8c0,4,3.2,7.2,7.2,7.2h0.8v4.6
+                    c0,4,3.2,7.2,7.2,7.2h1.7c2.5,0,4.7-1.3,6-3.3l-1.3-1.3C22,27.4,20.2,28.5,18.2,28.5z"/>
+            </g>
+        </svg>
+    )
+};
+
+const IconeMobileMenuBuscarRefeicoes = (props) => {
+    return (
+        <svg className="no-desktop" version="1.1" height="25px" width="25px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 31 31" xmlSpace="preserve">
+            <g>
+                <path fill="white" d="M8.6,0.5c-0.5,0-0.9,0.4-0.9,0.9v5.9c0,0.9-0.5,1.6-1.3,2V1.4c0-0.5-0.4-0.9-0.9-0.9C5,0.5,4.5,0.9,4.5,1.4v7.9
+                    C3.8,9,3.2,8.2,3.2,7.3V1.4c0-0.5-0.4-0.9-0.9-0.9S1.4,0.9,1.4,1.4v5.9C1.4,9,2.5,10.4,4,11v17.8c0,0.8,0.7,1.4,1.5,1.4
+                    c0.8,0,1.5-0.6,1.5-1.4V11c1.5-0.6,2.6-2,2.6-3.7V1.4C9.5,0.9,9.1,0.5,8.6,0.5z"/>
+                <g>
+                    <path fill="white" d="M21,12.4V8.6V0.5h0c-3.4,0-6.1,2.7-6.1,5.9V12c0,0.2,0,0.4,0,0.6C16.8,11.7,19,11.6,21,12.4z"/>
+                    <path fill="white" d="M18.1,26.3v2.5c0,0.8,0.7,1.4,1.5,1.4c0.8,0,1.5-0.6,1.5-1.4v-3C20.1,26.1,19.1,26.3,18.1,26.3z"/>
+                </g>
+                <path fill="aqua" d="M29.6,29.3l-6.2-6.2c2-2.6,1.8-6.4-0.5-8.7c-2.6-2.6-6.8-2.6-9.4,0c-2.6,2.6-2.6,6.8,0,9.4c2.4,2.4,6.1,2.6,8.7,0.5
+                    l6.2,6.2L29.6,29.3z M14.4,22.9c-2.1-2.1-2.1-5.5,0-7.6c2.1-2.1,5.5-2.1,7.6,0c1.9,1.9,2.1,4.9,0.5,7c-0.2,0.2-0.3,0.4-0.5,0.6
+                    c-0.2,0.2-0.4,0.4-0.6,0.5C19.2,25,16.3,24.8,14.4,22.9z"/>
+            </g>
+        </svg>
+    )
+};
+
+const IconeMobileMenuBuscarAlimento = (props) => {
+    return (
+        <svg className="no-desktop" version="1.1" heigth="27px" width="25px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 31 31" xmlSpace="preserve">
+            <g>
+                <path fill="white" d="M19.1,9.2c-0.6-2-1.9-3.4-3.6-4c-1.4-0.5-3-0.5-4.5,0.2c0.3-2,1.5-2.8,1.6-2.9L12,1.8L11.6,1c-0.1,0-1,0.6-1.7,2
+                    C9.7,2.3,9.2,1.6,8.5,1.1c-0.9-0.6-2-0.6-2.9-0.2c0,0.9,0.5,1.9,1.5,2.5C7.8,3.8,8.8,4,9.5,3.7c-0.2,0.5-0.3,1-0.4,1.7
+                    C7.6,4.7,6,4.6,4.6,5.2c-1.7,0.6-3,2.1-3.6,4c-0.6,1.9-0.5,4,0.3,6c1.5,4.1,5.4,6.4,8.7,5.4c0.5,0.2,1,0.2,1.6,0.2
+                    c0.1,0,0.3,0,0.4,0c-0.2-0.7-0.3-1.4-0.2-2.1c-0.5,0-0.9-0.1-1.3-0.2L10,18.4l-0.4,0.1c-2.3,0.9-5.2-0.9-6.4-4.1
+                    C2.6,12.9,2.5,11.3,3,9.8c0.4-1.3,1.2-2.3,2.3-2.7C6.6,6.7,8.1,7,9.4,8L10,8.5L10.7,8c1.3-1,2.8-1.3,4.1-0.8
+                    c1.1,0.4,1.9,1.4,2.3,2.7c0.2,0.7,0.3,1.4,0.3,2.1c0.7-0.2,1.4-0.2,2.1-0.2C19.4,10.9,19.3,10,19.1,9.2z"/>
+                <path fill="aqua" d="M30.4,29.2l-6.2-6.2c2-2.6,1.8-6.4-0.5-8.7c-2.6-2.6-6.8-2.6-9.4,0c-2.6,2.6-2.6,6.8,0,9.4c2.4,2.4,6.1,2.6,8.7,0.5
+                    l6.2,6.2L30.4,29.2z M15.2,22.8c-2.1-2.1-2.1-5.5,0-7.6c2.1-2.1,5.5-2.1,7.6,0c1.9,1.9,2.1,4.9,0.5,7c-0.2,0.2-0.3,0.4-0.5,0.6
+                    c-0.2,0.2-0.4,0.4-0.6,0.5C20,24.9,17.1,24.7,15.2,22.8z"/>
+            </g>
+        </svg>
+    )
+};
+
+const IconeMobileMenuAdicionarPaciente = (props) => {
+    return (
+        <svg className="no-desktop" version="1.1" height="25px" width="25px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 31 31" xmlSpace="preserve">
+            <g>
+                <path fill="white" d="M11.9,9.4c0.5-0.5,0.8-1.2,0.8-2c0-1.6-1.3-3-3-3c-1.6,0-3,1.3-3,3c0,0.8,0.3,1.5,0.8,2c-1.7,0.8-2.8,2.5-2.8,4.5h1.5
+                    c0-1.9,1.6-3.5,3.5-3.5c1.9,0,3.5,1.6,3.5,3.5h1.5C14.7,11.9,13.6,10.2,11.9,9.4z M8.3,7.4c0-0.8,0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5
+                    s-0.7,1.5-1.5,1.5S8.3,8.2,8.3,7.4z"/>
+                <rect fill="white" x="16" y="4.8" width="8.9" height="2.2"/>
+                <rect fill="white" x="16" y="8.3" width="6.5" height="1.3"/>
+                <rect fill="white" x="16" y="11.1" width="8.9" height="1.3"/>
+                <rect fill="white" x="16" y="13" width="8.9" height="1.3"/>
+                <path fill="white" d="M23.7,16.6c1.5,0,2.9,0.5,4.1,1.3V1.4H1.4V18h18.1C20.7,17.1,22.1,16.6,23.7,16.6z M2.9,2.9h23.4v13.6H2.9V2.9z"/>
+                <path fill="aqua" d="M23.7,17.9c-3.2,0-5.8,2.6-5.8,5.8s2.6,5.8,5.8,5.8c3.2,0,5.8-2.6,5.8-5.8S27,17.9,23.7,17.9z M26.1,25H25v1.1
+                    c0,0.7-0.6,1.2-1.2,1.2s-1.2-0.6-1.2-1.2V25h-1.1c-0.7,0-1.2-0.6-1.2-1.2s0.6-1.2,1.2-1.2h1.1v-1.1c0-0.7,0.6-1.2,1.2-1.2
+                    s1.2,0.6,1.2,1.2v1.1h1.1c0.7,0,1.2,0.6,1.2,1.2S26.8,25,26.1,25z"/>
+            </g>
+        </svg>
+    )
+};
+
+const IconeMobileMenuAdicionarAlimento = (props) => {
+    return (
+        <svg className="no-desktop" version="1.1" height="25px" width="25px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 31 31" xmlSpace="preserve">
+            <g>
+                <path fill="white" d="M19.7,9.9c-0.6-2-1.9-3.4-3.6-4c-1.4-0.5-3-0.5-4.5,0.2c0.3-2,1.5-2.8,1.6-2.9l-0.5-0.8l-0.5-0.8c-0.1,0-1,0.6-1.7,2
+                    c-0.2-0.7-0.7-1.4-1.4-1.9c-0.9-0.6-2-0.6-2.9-0.2c0,0.9,0.5,1.9,1.5,2.5c0.8,0.5,1.7,0.6,2.5,0.4c-0.2,0.5-0.3,1-0.4,1.7
+                    C8.3,5.4,6.7,5.3,5.2,5.9c-1.7,0.6-3,2.1-3.6,4c-0.6,1.9-0.5,4,0.3,6c1.5,4.1,5.4,6.4,8.7,5.4c0.5,0.2,1,0.2,1.6,0.2
+                    c2.9,0,5.9-2.2,7.2-5.7C20.2,13.9,20.3,11.8,19.7,9.9z M17.5,15.1c-1.2,3.1-4.1,5-6.4,4.1l-0.4-0.1l-0.4,0.1
+                    c-2.3,0.9-5.2-0.9-6.4-4.1c-0.6-1.6-0.7-3.2-0.2-4.6C4,9.2,4.9,8.2,6,7.8C7.2,7.3,8.7,7.6,10,8.6l0.6,0.5l0.6-0.5
+                    c1.3-1,2.8-1.3,4.1-0.8c1.1,0.4,1.9,1.4,2.3,2.7C18.1,11.9,18.1,13.6,17.5,15.1z"/>
+                <path fill="aqua" d="M23.9,18.1c-3.2,0-5.8,2.6-5.8,5.8c0,3.2,2.6,5.8,5.8,5.8c3.2,0,5.8-2.6,5.8-5.8C29.7,20.7,27.1,18.1,23.9,18.1z
+                    M27.5,23.9c0,0.7-0.6,1.2-1.2,1.2h-1.1v1.1c0,0.7-0.6,1.2-1.2,1.2s-1.2-0.6-1.2-1.2v-1.1h-1.1c-0.7,0-1.2-0.6-1.2-1.2v0
+                    c0-0.7,0.6-1.2,1.2-1.2h1.1v-1.1c0-0.7,0.6-1.2,1.2-1.2s1.2,0.6,1.2,1.2v1.1h1.1C27,22.7,27.5,23.2,27.5,23.9L27.5,23.9z"/>
+            </g>
+        </svg>
+    )
+}
+
+const IconeMobileMenuAdicionarRefeicao = (props) => {
+    return (
+        <svg className="no-desktop" version="1.1" height="25px" width="25px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 31 31" xmlSpace="preserve">
         <g>
             <path fill="white" d="M8.5,0.7C8,0.7,7.5,1.1,7.5,1.5v5.9c0,0.9-0.5,1.6-1.3,2V1.5c0-0.5-0.4-0.9-0.9-0.9S4.4,1,4.4,1.5v7.9
@@ -287,9 +431,18 @@ const IconeTituloAdicionarRefeicao = (props) => {
     )
 };
 
+const IconeMobileMenuBio = (props) => {
+    return (
+        <svg style={{display: "inline-block", margin: "2px 0 6px"}} className="icon-bio" version="1.1" height="25px" width="25px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 30 30" xmlSpace="preserve">
+            <path fill="white" d="M22,15.57a9.35,9.35,0,1,0-13.9,0A14.35,14.35,0,0,0,.65,28.11a1.9,1.9,0,0,0,3.79,0,10.56,10.56,0,0,1,7.27-10,9,9,0,0,0,1.64.45h0a10,10,0,0,0,1.65.15,10,10,0,0,0,1.65-.15h0a9,9,0,0,0,1.64-.45,10.56,10.56,0,0,1,7.27,10,1.9,1.9,0,0,0,3.79,0A14.35,14.35,0,0,0,22,15.57ZM15,3.78a5.55,5.55,0,0,1,2.37,10.58h0a5.32,5.32,0,0,1-4.7,0h0A5.55,5.55,0,0,1,15,3.78Z"/>
+        </svg>
+    )
+}
+
 const IconeSetaDeskTop = (props) => {
     return (
-        <svg className="seta-desktop" version="1.1" height="15px" width="15px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg className="seta-desktop no-mobile" version="1.1" height="15px" width="15px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     viewBox="0 0 20 20" xmlSpace="preserve">
             <polygon fill="white" points="12,10 20,20 20,10 20,0 "/>
         </svg>
@@ -298,11 +451,11 @@ const IconeSetaDeskTop = (props) => {
 
 const IconeSetaMobile = (props) => {
     return (
-        <svg version="1.1" height="15px" width="15px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg className="seta-mobile no-desktop" version="1.1" height="15px" width="15px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     viewBox="0 0 20 20" xmlSpace="preserve">
-            <path fill="white" d="M12.4,15.2L20,0H10H0l7.6,15.2C8.6,17.2,11.4,17.2,12.4,15.2z"/>
+            <polygon fill="white" points="10 0 0 0 10 9 20 0 10 0"/>
         </svg>
     )
 }
 
-export  {IconeMenuBuscarPaciente , IconeMenuBuscarMedico, IconeMenuBuscarRefeicoes,  IconeMenuBuscarAlimento , IconeMenuAdicionarPaciente , IconeMenuAdicionarAlimento , IconeMenuAdicionarRefeicao,IconeTituloBuscarPaciente , IconeTituloBuscarMedico, IconeTituloBuscarRefeicoes ,  IconeTituloBuscarAlimento , IconeTituloAdicionarPaciente , IconeTituloAdicionarAlimento , IconeTituloAdicionarRefeicao, IconeSetaMobile, IconeSetaDeskTop};
+export  {IconeMenuBuscarPaciente , IconeMenuBuscarMedico, IconeMenuBuscarRefeicoes,  IconeMenuBuscarAlimento , IconeMenuAdicionarPaciente , IconeMenuAdicionarAlimento , IconeMenuAdicionarRefeicao, IconeMobileMenuBuscarPaciente , IconeMobileMenuBuscarMedico, IconeMobileMenuBuscarRefeicoes,  IconeMobileMenuBuscarAlimento , IconeMobileMenuAdicionarPaciente , IconeMobileMenuAdicionarAlimento , IconeMobileMenuAdicionarRefeicao , IconeTituloBuscarPaciente , IconeTituloBuscarMedico, IconeTituloBuscarRefeicoes ,  IconeTituloBuscarAlimento , IconeTituloAdicionarPaciente , IconeTituloAdicionarAlimento , IconeTituloAdicionarRefeicao, IconeMobileMenuBio , IconeSetaMobile, IconeSetaDeskTop};

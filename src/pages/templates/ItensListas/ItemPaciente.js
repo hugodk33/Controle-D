@@ -9,7 +9,7 @@ const ItemPaciente = (props) => {
                 <div className="col-2 col-sm-1 icone-container">
                     <i className={"fa fa-spinner"}/>
                 </div>
-                <div className="col-5 col-sm-7">
+                <div className="col-8 col-sm-7">
                     <p className="titulo-2">{props.data.Nome}</p>
                     <div className="row subrow">
                         <SubRowItem valor={props.data.Idade} subtitulo="IDADE" col="3" />
@@ -24,7 +24,7 @@ const ItemPaciente = (props) => {
                         <p style={{marginBottom: "6px"}}>Última Entrada: <b> 11/11/11</b></p>
                     </div>
                 </div>
-                <Edit col="4 col-sm-4"/>
+                <Edit col="2 col-sm-4"/>
             </div>
         </li>
     )

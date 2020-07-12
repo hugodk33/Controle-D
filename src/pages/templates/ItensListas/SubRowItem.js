@@ -10,7 +10,7 @@ const SubRowItem = (props) => {
     }
 
 return (
-    <div className={"col-" + props.col + " col-sm-2"} style={{maxWidth: "40px"}}>
+    <div className={"col-" + props.col + " col-sm-2"} style={{minWidth: "50px"}}>
         <p className="subtitle">{props.subtitulo}</p>
         <p className="subinfo">{valor}</p>
     </div>
