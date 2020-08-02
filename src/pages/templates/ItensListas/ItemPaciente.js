@@ -1,6 +1,7 @@
 import React from 'react';
 import SubRowItem from "./SubRowItem";
 import Edit from "../Inputs/Edit";
+import {IconeBtnMedico} from "../icons/icones-botoes";
 
 const ItemPaciente = (props) => {
     return (
@@ -18,7 +19,7 @@ const ItemPaciente = (props) => {
                         <SubRowItem valor={props.data.QtdInsulinaPorGramaCarbo} subtitulo="INS/CARB" col="3" />
                     </div>
                     <div className="meta" >
-                        <button className="btn btn-paragraph" style={{marginTop: '7px'}}>ASSOCIAR <br /> MÉDICO</button>
+                        <button className="btn btn-paragraph" style={{marginTop: '7px'}}><IconeBtnMedico /> ASSOCIAR <br /> MÉDICO</button>
                         <p>Atualizado em: <b> 11/11/11</b></p>
                         <p>Cadastrado por: <b> <a>Doutor Fulano</a></b></p>
                         <p style={{marginBottom: "6px"}}>Última Entrada: <b> 11/11/11</b></p>

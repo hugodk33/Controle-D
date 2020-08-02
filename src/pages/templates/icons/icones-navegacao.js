@@ -433,7 +433,7 @@ const IconeTituloAdicionarRefeicao = (props) => {
 
 const IconeMobileMenuBio = (props) => {
     return (
-        <svg style={{display: "inline-block", margin: "2px 0 6px"}} className="icon-bio" version="1.1" height="25px" width="25px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg style={{display: "inline-block", margin: "2px 0 3px"}} className="icon-bio" version="1.1" height="20px" width="2-px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     viewBox="0 0 30 30" xmlSpace="preserve">
             <path fill="white" d="M22,15.57a9.35,9.35,0,1,0-13.9,0A14.35,14.35,0,0,0,.65,28.11a1.9,1.9,0,0,0,3.79,0,10.56,10.56,0,0,1,7.27-10,9,9,0,0,0,1.64.45h0a10,10,0,0,0,1.65.15,10,10,0,0,0,1.65-.15h0a9,9,0,0,0,1.64-.45,10.56,10.56,0,0,1,7.27,10,1.9,1.9,0,0,0,3.79,0A14.35,14.35,0,0,0,22,15.57ZM15,3.78a5.55,5.55,0,0,1,2.37,10.58h0a5.32,5.32,0,0,1-4.7,0h0A5.55,5.55,0,0,1,15,3.78Z"/>
         </svg>

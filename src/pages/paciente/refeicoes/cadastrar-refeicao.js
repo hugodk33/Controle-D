@@ -44,6 +44,9 @@ const CadastrarRefeicao = (props, state) => {
         <div className="col-12 col-md-6 canvas-board"> 
           <div className="container">
             <div class="row">
+              <div class="col-12 text-center opcoes-de-usuario" style={{height: "Calc(" + window.innerHeight + " - 90px)", display: "none"}}>
+                <Bio />
+              </div>
               <div class="col-12 text-center">
                 <IconeTituloAdicionarRefeicao />
                 <Titulo titulo={"Cadastrar Refeição"}/>
@@ -84,8 +87,7 @@ const CadastrarRefeicao = (props, state) => {
         </div>
         <div className="col-12 menu-mobile no-desktop">
           <div className="menu-hold">
-            <Bio mobile={true} />
-            <Menu ativo="cadastrar-refeicao"/>
+            <Menu bio="true" ativo="cadastrar-refeicao"/>
           </div>
         </div>
       </div>

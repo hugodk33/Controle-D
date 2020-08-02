@@ -1,31 +1,23 @@
 import React from 'react';
 import {IconeListaEngrenagem} from './icons/icones-botoes';
-import {IconeMobileMenuBio} from './icons/icones-navegacao';
 
 const Bio = (props) => {
-
-    if(props.mobile) {
-        return (
-            <button class="btn btn-bio">
-                <IconeMobileMenuBio />
+    return (
+        <div className={"Bio"} style={{marginRight: '14px'}}>
+            <div className={"col-12 text-center"}>
+                <a className="btn btn-paragraph" style={{maxWidth: '60px', backgroundColor: "rgb(93, 108, 188)", border: "none", marginLeft: '3px'}}>Sair</a>
+                <a className="btn btn-paragraph" style={{maxWidth: '60px', backgroundColor: "rgb(93, 108, 188)", border: "none"}}><IconeListaEngrenagem /> Editar</a>
                 <br />
-                <span style={{marginTop: "12px"}}>OPÇÕES DE USUÁRIO</span>
-            </button>
-        )
-    } else {
-        return (
-            <div className={"Bio"} style={{marginRight: '14px'}}>
-                <div className={"col-12 text-center"}>
-                    <div className={"avatar-bio"}>
-                    </div>
-                    <h4>Nome do Fulano</h4>
-                    <hr />
-                    <h5>Médico</h5>
-                    <a className="btn btn-paragraph" style={{maxWidth: '60px', border: '1px solid white'}}><IconeListaEngrenagem /> Editar</a>
-                </div>        
             </div>
-        )
-    }
+            <div className={"col-12 text-center"}>
+                <div className={"avatar-bio"}>
+                </div>
+                <h4>Nome do Fulano</h4>
+                <hr />
+                <h5>Médico</h5>
+            </div>        
+        </div>
+    )
 };
 
 export default Bio;

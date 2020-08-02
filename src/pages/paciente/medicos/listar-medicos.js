@@ -55,8 +55,7 @@ const ListarMedicos = (props) => {
       </div>
       <div className="col-12 menu-mobile no-desktop">
         <div className="menu-hold">
-          <Bio mobile={true} />
-          <Menu ativo="listar-medico"/>
+          <Menu bio="true" ativo="listar-medico"/>
         </div>
       </div>
     </div>

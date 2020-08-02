@@ -55,8 +55,7 @@ const CadastrarAlimento = () => {
         </div>
         <div className="col-12 menu-mobile no-desktop">
           <div className="menu-hold">
-            <Bio mobile={true} />
-            <Menu ativo="cadastrar-alimento"/>
+            <Menu bio="true" ativo="cadastrar-alimento"/>
           </div>
         </div>
       </div>

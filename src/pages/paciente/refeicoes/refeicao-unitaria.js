@@ -5,8 +5,8 @@ import Titulo from "../../templates/Titulo";
 import Menu from "../../templates/MenuPaciente";
 import Input from '../../templates/Inputs/Input';
 import Calendario from "../../templates/Calendario";
-import ItemRefeicao from "../../templates/ItensListas/ItemRefeicao";
-import refeicoes from "../../jsons/refeicoes";
+import ItemAlimento from "../../templates/ItensListas/ItemAlimento";
+import alimentos from "../../jsons/alimentos";
 import Bio from '../../templates/Bio';
 
 import Button from "../../templates/Inputs/Btn";
@@ -14,7 +14,7 @@ import Button from "../../templates/Inputs/Btn";
 import { IconeTituloBuscarRefeicoes } from '../../templates/icons/icones-navegacao'
 import { withRouter } from 'react-router-dom';
 
-const ListarRefeicoes = (props) => {
+const Refeicoes = (props) => {
 
   return (
     <div>
@@ -22,7 +22,7 @@ const ListarRefeicoes = (props) => {
         <div className="col-12 col-sm-3 menu-lateral no-mobile">
           <div className="menu-hold">
             <Bio />
-            <Menu  ativo="listar-refeicao"/>
+            <Menu />
           </div>
         </div>
         <div className="col-12 col-md-6 canvas-board"> 
@@ -34,18 +34,16 @@ const ListarRefeicoes = (props) => {
               </div>
             </div>
             <div className="row">
-              <Input id="buscar-medico" label="BUSCAR REFEIÇÃO" placeholder="digite o nome do médico" type={"text"} col="12 col-sm-9" />
-              <div className="col-12 col-sm-3" style={{marginBottom: "12px"}} >
-                <Button icone={"buscar-refeicao"} titulo={"BUSCAR REFEIÇÃO"} />
-              </div>
-              <Calendario />
+                <div className="col-12">
+                    <h3>Nome da Refeição</h3>
+                </div>
             </div>
             <div className="row">
               <div className="col-12">
                 <ul className="lista">
                   {     
-                    refeicoes.map((a , b) => {
-                      return <ItemRefeicao key={b} data={a}/>
+                    alimentos.map((a , b) => {
+                      return <ItemAlimento key={b} alimento={a}/>
                     })
                   }
                 </ul>
@@ -63,5 +61,5 @@ const ListarRefeicoes = (props) => {
   );
 };
 
-export default withRouter(ListarRefeicoes);
+export default withRouter(Refeicoes);
 

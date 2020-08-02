@@ -100,7 +100,7 @@
     width: 24.7%;
     background-image: linear-gradient(#6699CC, #58a8ff);
     height: 100vh;
-    padding-top: 30px;
+    padding-top: 15px;
     .row {
       max-width: 300px;
       clear: both;
@@ -128,15 +128,15 @@
   height: 100px;
   text-align: left;
   li {
-    width: 25%;
+    width: 20%;
     display: inline-block;
   }
   span {
     color: white;
     margin: 5px 0 0 0;
-    font-size: 11px;
+    font-size: 10px;
     width: 100%;
-    font-weight: 400;
+    font-weight: 600;
   }
   button {
     background-color: inherit;
@@ -170,7 +170,7 @@
       width: 100%;
     }
     .menu {
-      width: 80%;
+      width: 100%;
       display: inline-block;
     }
   }

@@ -37,15 +37,14 @@ const usuarioEdit = () => {
           <Input id="confirmar-Senha" label="CONFIRMAR SENHA" placeholder="" type={"text"} col={"12 col-sm-6"}/>
           <div className="col-12"><br /></div> 
           <div className="col-md-4 text-right" style={{marginLeft: "auto"}}>
-            <Button icone={"adicionar-alimento"} titulo={"CONFIRMAR"} />
+            <Button icone={"adicionar-paciente"} titulo={"CONFIRMAR"} />
           </div> 
         </div>
       </div>
     </div>
     <div className="col-12 menu-mobile no-desktop">
       <div className="menu-hold">
-        <Bio mobile={true} />
-        <Menu ativo="cadastrar-alimento"/>
+        <Menu bio={true} ativo="bio"/>
       </div>
     </div>
   </div>

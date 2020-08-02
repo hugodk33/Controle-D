@@ -22,6 +22,7 @@ import Top from './pages/templates/head';
 import paciente from './pages/paciente/paciente-page';
 import cadastrarRefeicao from './pages/paciente/refeicoes/cadastrar-refeicao';
 import buscarRefeicao from './pages/paciente/refeicoes/listar-refeicoes';
+import Refeicao from './pages/paciente/refeicoes/refeicao-unitaria';
 import buscarMedico from './pages/paciente/medicos/listar-medicos';
 
 import medico from './pages/medico/medico-page';
@@ -51,6 +52,7 @@ ReactDOM.render(
       <Route exact path="/paciente" component={paciente} />
       <Route exact path="/paciente/refeicoes/cadastrar-refeicao" component={cadastrarRefeicao} />
       <Route exact path="/paciente/refeicoes/buscar-refeicao" component={buscarRefeicao} />
+      <Route exact path="/paciente/refeicoes/refeicao" component={Refeicao} />
       <Route exact path="/paciente/medicos/buscar-medicos" component={buscarMedico} />
       <Route exact path="/medico" component={medico} />
       <Route exact path="/medico/alimentos/cadastrar-alimento" component={cadastrarAlimento} />

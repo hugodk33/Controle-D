@@ -1,6 +1,7 @@
 import React from 'react';
 import {IconeMenuBuscarPaciente  , IconeMenuBuscarAlimento , IconeMenuAdicionarPaciente, IconeMenuAdicionarRefeicao , IconeMobileMenuBuscarPaciente  , IconeMobileMenuBuscarAlimento , IconeMobileMenuAdicionarPaciente, IconeMobileMenuAdicionarRefeicao , IconeSetaDeskTop , IconeSetaMobile } from './icons/icones-navegacao'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import {IconeMobileMenuBio} from './icons/icones-navegacao';
 
 const MenuMedico = (props) => {
     console.log('props.ativo')
@@ -9,6 +10,17 @@ const MenuMedico = (props) => {
     return (
         <div className={"menu"}>
             <ul>
+                { 
+                props.bio?   
+                <li>
+                    <button className={props.ativo === "Bio" ? "btn btn-ativo" : null }>
+                        <IconeSetaMobile />
+                        <IconeMobileMenuBio />
+                        <span>OPÇÕES DE USUÁRIO</span>
+                    </button>
+                </li>
+                : null 
+                }
                 <li> 
                     <Link to="/medico/alimentos/cadastrar-alimento">
                         <button className={props.ativo === "cadastrar-alimento" ? "btn-ativo" : null} type="button " >

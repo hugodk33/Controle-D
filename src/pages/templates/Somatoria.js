@@ -11,10 +11,9 @@ const Somatoria = (props) => {
             <div id="somatoria" class="moldura">
               <div class="row">
                 <div class=" col-md-7">
-                  <SomatoriaAlimentos subtitulo={'Alimento 1'} valor={'10'} soma={false}/>
-                  <SomatoriaAlimentos subtitulo={'Alimento 2'} valor={'13'} soma={true}/>
-                  <SomatoriaAlimentos subtitulo={'Alimento 3'} valor={'11'} soma={true}/>
-                  <SomatoriaAlimentos subtitulo={'Alimento 4'} valor={'12'} soma={true}/>
+                  <div style={{ border: "1px dashed gray", width: "100%", display: "inline-block", padding: "4px"}}>
+                    <h4 style={{marginBottom: "0", color: "gray"}}>Sem Alimentos Selecionados</h4>
+                  </div>
                 </div>
                 <div className="col-12 no-desktop">
                   <hr />
