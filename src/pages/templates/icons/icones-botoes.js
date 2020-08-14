@@ -194,4 +194,15 @@ const IconeBtnMedico = (props) => {
     )
 }
 
-export { SinaldeMais , SinaldeMenos , IconeBuscar , IconeBuscarPaciente , IconeBuscarMedico, IconeBuscarRefeicoes,  IconeBuscarAlimento , IconeAdicionarPaciente , IconeAdicionarAlimento , IconeAdicionarRefeicao , IconeListaEngrenagem, IconeBtnMedico}
+const IconeLogOut = (props) => {
+    return (
+        <svg height="12px" width="12px"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 15 15" xmlSpace="preserve" style={{marginTop: '-3px',float: "none"}}>
+            <g>
+                <path fill="white" d="M13.7,13.33V1.75a.84.84,0,0,0-.53-.44H6.57a1,1,0,0,0-.43.28A.71.71,0,0,0,6,2.05C6,2.6,6,3.14,6,3.69a.78.78,0,0,0,1.56,0V2.87H12.2v9.34H7.53v-.78a.79.79,0,0,0-.79-.77.78.78,0,0,0-.77.78c0,.51,0,1,0,1.53a.77.77,0,0,0,.42.72h7A.79.79,0,0,0,13.7,13.33Z"/>
+                <path fill="white" d="M9.85,6.76H4l.09-.1.9-.9A.78.78,0,0,0,4.7,4.48a.74.74,0,0,0-.84.17C3.08,5.42,2.3,6.2,1.53,7a2.26,2.26,0,0,0-.23.34v.42a1,1,0,0,0,.27.41l2.27,2.27a.78.78,0,1,0,1.1-1.11l-.89-.89A.31.31,0,0,0,4,8.35l0,0H9.85a.78.78,0,1,0,0-1.56Z"/>
+            </g>
+        </svg>
+    )
+}
+
+export { SinaldeMais , SinaldeMenos , IconeBuscar , IconeBuscarPaciente , IconeBuscarMedico, IconeBuscarRefeicoes,  IconeBuscarAlimento , IconeAdicionarPaciente , IconeAdicionarAlimento , IconeAdicionarRefeicao , IconeListaEngrenagem, IconeBtnMedico, IconeLogOut}

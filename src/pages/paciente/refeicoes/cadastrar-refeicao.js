@@ -9,6 +9,7 @@ import InputN from "../../templates/Inputs/InputN";
 import InputSelect from "../../templates/Inputs/InputSelect";
 import OrganizaLista from '../../templates/ItensListas/paginacao/organiza-lista';
 import Bio from '../../templates/Bio';
+import OpcoesDeUsuario from '../../templates/opcoesDeUsuario';
 import PaginacaoBtn from '../../templates/ItensListas/paginacao/marcadores-de-paginacao';
 import ItemAlimentoDiario from "../../templates/ItensListas/itemAlimentoDiario";
 import Somatoria from "../../templates/Somatoria";
@@ -44,9 +45,7 @@ const CadastrarRefeicao = (props, state) => {
         <div className="col-12 col-md-6 canvas-board"> 
           <div className="container">
             <div class="row">
-              <div class="col-12 text-center opcoes-de-usuario" style={{height: "Calc(" + window.innerHeight + " - 90px)", display: "none"}}>
-                <Bio />
-              </div>
+              <OpcoesDeUsuario />
               <div class="col-12 text-center">
                 <IconeTituloAdicionarRefeicao />
                 <Titulo titulo={"Cadastrar Refeição"}/>

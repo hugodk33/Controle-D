@@ -8,6 +8,7 @@ import Calendario from "../../templates/Calendario";
 import ItemRefeicao from "../../templates/ItensListas/ItemRefeicao";
 import refeicoes from "../../jsons/refeicoes";
 import Bio from '../../templates/Bio';
+import OpcoesDeUsuario from '../../templates/opcoesDeUsuario';
 
 import Button from "../../templates/Inputs/Btn";
 
@@ -28,6 +29,7 @@ const ListarRefeicoes = (props) => {
         <div className="col-12 col-md-6 canvas-board"> 
           <div className="container">
             <div className="row">
+              <OpcoesDeUsuario />
               <div className="col-12 text-center">
                 <IconeTituloBuscarRefeicoes />
                 <Titulo  titulo="Refeições"/>

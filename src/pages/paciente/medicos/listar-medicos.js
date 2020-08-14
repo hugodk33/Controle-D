@@ -6,6 +6,7 @@ import Menu from "../../templates/MenuPaciente";
 import Input from '../../templates/Inputs/Input';
 import ItemPaciente from '../../templates/ItensListas/ItemPaciente';
 import Bio from '../../templates/Bio';
+import OpcoesDeUsuario from '../../templates/opcoesDeUsuario';
 
 import Button from "../../templates/Inputs/Btn";
 import OrganizaLista from '../../templates/ItensListas/paginacao/organiza-lista';
@@ -32,6 +33,7 @@ const ListarMedicos = (props) => {
         <div className="col-12 col-md-6 canvas-board"> 
           <div className="container">
             <div className="row">
+              <OpcoesDeUsuario />
               <div className="col-12 text-center">
                 <IconeTituloBuscarMedico />
                 <Titulo  titulo="Médicos"/>

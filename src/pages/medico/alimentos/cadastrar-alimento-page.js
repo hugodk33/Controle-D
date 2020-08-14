@@ -3,6 +3,7 @@ import Titulo from '../../templates/Titulo';
 import TituloForm from "../../templates/TituloForm";
 import Menu from '../../templates/MenuMedico';
 import Bio from '../../templates/Bio';
+import OpcoesDeUsuario from '../../templates/opcoesDeUsuario';
 import {IconeTituloAdicionarAlimento} from "../../templates/icons/icones-navegacao"
 //import Container from '../../templates/Container';
 import Input from '../../templates/Inputs/Input';
@@ -27,6 +28,7 @@ const CadastrarAlimento = () => {
         <div className="col-12 col-md-6 canvas-board"> 
           <div className="container">
             <div className="row">
+              <OpcoesDeUsuario />
               <div className="col-12 text-center">
                 <IconeTituloAdicionarAlimento />
                 <Titulo titulo="Cadastrar Alimento"/>     

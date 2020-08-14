@@ -9,6 +9,7 @@ import ItemPaciente from '../../templates/ItensListas/ItemPaciente';
 import PaginacaoBtn from '../../templates/ItensListas/paginacao/marcadores-de-paginacao';
 import pacientes from "../../jsons/pacientes";
 import Bio from '../../templates/Bio';
+import OpcoesDeUsuario from '../../templates/opcoesDeUsuario';
 
 import { IconeTituloBuscarPaciente } from '../../templates/icons/icones-navegacao'
 import Button from "../../templates/Inputs/Btn";
@@ -52,6 +53,7 @@ const ListarPacientes = (props) => {
         <div className="col-12 col-md-6 canvas-board">
           <div className="container">
             <div className="row">
+              <OpcoesDeUsuario />
               <div className="col-12 text-center">
                 <IconeTituloBuscarPaciente />
                 <Titulo titulo="Pacientes" />

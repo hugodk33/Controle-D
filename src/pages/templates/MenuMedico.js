@@ -1,5 +1,5 @@
 import React from 'react';
-import {IconeMenuBuscarPaciente  , IconeMenuBuscarAlimento , IconeMenuAdicionarPaciente, IconeMenuAdicionarRefeicao , IconeMobileMenuBuscarPaciente  , IconeMobileMenuBuscarAlimento , IconeMobileMenuAdicionarPaciente, IconeMobileMenuAdicionarRefeicao , IconeSetaDeskTop , IconeSetaMobile } from './icons/icones-navegacao'
+import {IconeMenuBuscarPaciente  , IconeMenuBuscarAlimento , IconeMenuAdicionarPaciente, IconeMenuAdicionarRefeicao , IconeMenuUserEdit, IconeMobileMenuBuscarPaciente  , IconeMobileMenuBuscarAlimento , IconeMobileMenuAdicionarPaciente, IconeMobileMenuAdicionarRefeicao, IconeMobileMenuUserEdit , IconeSetaDeskTop , IconeSetaMobile } from './icons/icones-navegacao'
 import { Link } from 'react-router-dom';
 import {IconeMobileMenuBio} from './icons/icones-navegacao';
 
@@ -14,8 +14,10 @@ const MenuMedico = (props) => {
                 props.bio?   
                 <li>
                     <button className={props.ativo === "Bio" ? "btn btn-ativo" : null }>
+                        <IconeSetaDeskTop />
+                        <IconeMenuUserEdit />
                         <IconeSetaMobile />
-                        <IconeMobileMenuBio />
+                        <IconeMobileMenuUserEdit />
                         <span>OPÇÕES DE USUÁRIO</span>
                     </button>
                 </li>

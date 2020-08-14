@@ -8,6 +8,7 @@ import InputSelect from '../../templates/Inputs/InputSelect';
 import InputText from '../../templates/Inputs/InputTextArea';
 import Button from "../../templates/Inputs/Btn";
 import Bio from '../../templates/Bio';
+import OpcoesDeUsuario from '../../templates/opcoesDeUsuario';
 import { IconeFormAtributo, IconeFormMedico, IconeFormPaciente } from '../../templates/icons/icones-formulario'
 import { IconeTituloAdicionarPaciente } from '../../templates/icons/icones-navegacao'
 import { Form, withFormik } from 'formik';
@@ -35,6 +36,7 @@ const CadastrarPaciente = () => {
         <div className="col-12 col-md-6 canvas-board">
           <div className="container">
             <div className="row">
+              <OpcoesDeUsuario />
               <div className="col-12 text-center  ">
                 <IconeTituloAdicionarPaciente />
                 <Titulo titulo="Cadastrar Paciente" />

@@ -8,6 +8,7 @@ import Input from '../templates/Inputs/Input';
 import InputN from '../templates/Inputs/InputN';
 import InputSelect from '../templates/Inputs/InputSelect';
 import Button from "../templates/Inputs/Btn";
+import { IconeTituloUserEdit } from "../templates/icons/icones-navegacao";
 
 const usuarioEdit = () => {
 
@@ -23,6 +24,7 @@ const usuarioEdit = () => {
       <div className="container">
         <div className="row">
           <div className="col-12 text-center">
+            <IconeTituloUserEdit />
             <Titulo titulo="Editar Usuário"/>     
           </div>
         </div>        

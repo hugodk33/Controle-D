@@ -142,6 +142,35 @@ const IconeMenuAdicionarRefeicao = (props) => {
     )
 };
 
+const IconeMenuUserEdit = (props) => {
+    return (
+        <svg className="no-mobile" version="1.1" height="35px" width="35px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 31 31" xmlSpace="preserve">
+            <path fill="white" d="M11.08,17.73,11,17.68Z"/>
+            <path fill="white" d="M19.9,15.16l0,0Z"/>
+            <path fill="white" d="M13,16.51l-.29-.14Z"/>
+            <path fill="white" d="M13.58,16.74l-.3-.11Z"/>
+            <path fill="white" d="M10.09,17c-.13-.11-.25-.23-.37-.35C9.84,16.73,10,16.85,10.09,17Z"/>
+            <path fill="white" d="M12.38,16.19l-.23-.14Z"/>
+            <path fill="white" d="M18.31,16.37l-.29.14Z"/>
+            <path fill="white" d="M14.84,17a1.9,1.9,0,0,1-.25,0A1.9,1.9,0,0,0,14.84,17Z"/>
+            <path fill="white" d="M14.19,16.92l-.29-.08Z"/>
+            <path fill="white" d="M17.72,16.63l-.3.11Z"/>
+            <path fill="white" d="M10.59,17.38l-.26-.2Z"/>
+            <path fill="white" d="M17.1,16.84l-.29.08Z"/>
+            <path fill="white" d="M16.41,17a1.9,1.9,0,0,1-.25,0A1.9,1.9,0,0,0,16.41,17Z"/>
+            <path fill="white" d="M18.85,16.05l-.23.14Z"/>
+            <path fill="white" d="M20.67,17.18l-.26.2Z"/>
+            <path fill="white" d="M11.13,15.19l0,0Z"/>
+            <path fill="white" d="M20,17.68l-.08.05Z"/>
+            <path fill="white" d="M21.28,16.61c-.12.12-.24.24-.37.35C21,16.85,21.16,16.73,21.28,16.61Z"/>
+            <path fill="white" d="M10.11,13.9l.55.74,0,0A6,6,0,0,1,9.44,11a6.06,6.06,0,0,1,12.12,0,6,6,0,0,1-1.24,3.66l0,0,.55-.74.78.49a9.6,9.6,0,0,1,.83.59,8.06,8.06,0,1,0-14,0,9.6,9.6,0,0,1,.83-.59Z"/>
+            <path fill="white" d="M24.65,17.68c.2,0,.24,0,.24.25V19.1l1.29.54h0A11.78,11.78,0,0,0,22.5,15a9.6,9.6,0,0,0-.83-.59l-.78-.49-.55.74,0,0c-.13.17-.27.34-.42.5l0,0a6.37,6.37,0,0,1-1,.86l-.23.14-.31.18-.29.14-.3.12-.3.11-.32.1-.29.08-.4.07a1.9,1.9,0,0,1-.25,0,5.46,5.46,0,0,1-1.32,0,1.9,1.9,0,0,1-.25,0l-.4-.07-.29-.08-.32-.1-.3-.11-.3-.12-.29-.14-.31-.18-.23-.14a6.37,6.37,0,0,1-1-.86l0,0c-.15-.16-.29-.33-.42-.5l0,0-.55-.74-.78.49A9.6,9.6,0,0,0,8.5,15a11.7,11.7,0,0,0-4.63,8.24,1,1,0,0,0,.9,1.09,1,1,0,0,0,1.09-.9,9.74,9.74,0,0,1,3.82-6.84s0,0,0,0,.24.24.37.35l.24.22.26.2.4.3.09.05a8,8,0,0,0,8.85,0l.08-.05.4-.3.26-.2.24-.22c.13-.11.25-.23.37-.35l0,0a9.94,9.94,0,0,1,1.22,1.12h2.11Z"/>
+            <path fill="aqua" d="M29.68,22.73H28.61c-.05,0-.13,0-.14-.07-.17-.4-.32-.8-.48-1.23l.82-.81c.15-.14.15-.2,0-.34L27.35,18.8c-.13-.13-.2-.13-.33,0l-.83.83h0l-1.29-.54V17.93c0-.21,0-.25-.24-.25H22.54c-.16,0-.2.06-.2.25V19s0,.12-.08.13c-.39.17-.79.32-1.22.48l-.81-.82c-.15-.15-.2-.15-.35,0l-1.42,1.41c-.19.2-.19.23,0,.43l.78.78c-.17.42-.32.81-.47,1.2,0,.1-.09.1-.16.1q-.54,0-1.08,0c-.19,0-.24,0-.24.23V25c0,.19.05.24.23.24h1.09c.07,0,.13,0,.16.09.15.4.3.78.47,1.21l-.82.81c-.15.15-.16.2,0,.35.48.49,1,1,1.45,1.45.15.15.2.15.35,0l.81-.82,1.19.46c.09,0,.11.07.11.16v1.09c0,.19.05.24.24.24h2.07c.2,0,.24,0,.24-.25s0-.72,0-1.08c0,0,0-.13.08-.14.39-.17.79-.32,1.22-.48l.83.84c.09.1.18.13.28,0l1.54-1.54a.16.16,0,0,0,0-.27l-.23-.24-.63-.6c.17-.44.33-.82.47-1.21a.13.13,0,0,1,.16-.1H29.7c.19,0,.24-.05.24-.24V23C29.94,22.77,29.9,22.73,29.68,22.73ZM23.61,27a3,3,0,1,1,0-6.06,2.78,2.78,0,0,1,1,.19,3,3,0,0,1,2,2.86c0,.05,0,.1,0,.15A3,3,0,0,1,23.61,27Z"/>
+        </svg>
+    )
+};
+
 /* MOBILE */
 
 const IconeMobileMenuBuscarPaciente = (props) => {
@@ -282,6 +311,35 @@ const IconeMobileMenuAdicionarRefeicao = (props) => {
                 c0,0.7-0.6,1.2-1.2,1.2h-1.1v1.1c0,0.7-0.6,1.2-1.2,1.2s-1.2-0.6-1.2-1.2v-1.1h-1.1c-0.7,0-1.2-0.6-1.2-1.2v0
                 c0-0.7,0.6-1.2,1.2-1.2h1.1v-1.1c0-0.7,0.6-1.2,1.2-1.2s1.2,0.6,1.2,1.2v1.1h1.1C27,21.9,27.5,22.5,27.5,23.2L27.5,23.2z"/>
         </g>
+    </svg>
+    )
+};
+
+const IconeMobileMenuUserEdit = (props) => {
+    return (
+        <svg className="no-desktop" version="1.1" height="25px" width="25px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 31 31" xmlSpace="preserve">
+            <path fill="white" d="M11.08,17.73,11,17.68Z"/>
+            <path fill="white" d="M19.9,15.16l0,0Z"/>
+            <path fill="white" d="M13,16.51l-.29-.14Z"/>
+            <path fill="white" d="M13.58,16.74l-.3-.11Z"/>
+            <path fill="white" d="M10.09,17c-.13-.11-.25-.23-.37-.35C9.84,16.73,10,16.85,10.09,17Z"/>
+            <path fill="white" d="M12.38,16.19l-.23-.14Z"/>
+            <path fill="white" d="M18.31,16.37l-.29.14Z"/>
+            <path fill="white" d="M14.84,17a1.9,1.9,0,0,1-.25,0A1.9,1.9,0,0,0,14.84,17Z"/>
+            <path fill="white" d="M14.19,16.92l-.29-.08Z"/>
+            <path fill="white" d="M17.72,16.63l-.3.11Z"/>
+            <path fill="white" d="M10.59,17.38l-.26-.2Z"/>
+            <path fill="white" d="M17.1,16.84l-.29.08Z"/>
+            <path fill="white" d="M16.41,17a1.9,1.9,0,0,1-.25,0A1.9,1.9,0,0,0,16.41,17Z"/>
+            <path fill="white" d="M18.85,16.05l-.23.14Z"/>
+            <path fill="white" d="M20.67,17.18l-.26.2Z"/>
+            <path fill="white" d="M11.13,15.19l0,0Z"/>
+            <path fill="white" d="M20,17.68l-.08.05Z"/>
+            <path fill="white" d="M21.28,16.61c-.12.12-.24.24-.37.35C21,16.85,21.16,16.73,21.28,16.61Z"/>
+            <path fill="white" d="M10.11,13.9l.55.74,0,0A6,6,0,0,1,9.44,11a6.06,6.06,0,0,1,12.12,0,6,6,0,0,1-1.24,3.66l0,0,.55-.74.78.49a9.6,9.6,0,0,1,.83.59,8.06,8.06,0,1,0-14,0,9.6,9.6,0,0,1,.83-.59Z"/>
+            <path fill="white" d="M24.65,17.68c.2,0,.24,0,.24.25V19.1l1.29.54h0A11.78,11.78,0,0,0,22.5,15a9.6,9.6,0,0,0-.83-.59l-.78-.49-.55.74,0,0c-.13.17-.27.34-.42.5l0,0a6.37,6.37,0,0,1-1,.86l-.23.14-.31.18-.29.14-.3.12-.3.11-.32.1-.29.08-.4.07a1.9,1.9,0,0,1-.25,0,5.46,5.46,0,0,1-1.32,0,1.9,1.9,0,0,1-.25,0l-.4-.07-.29-.08-.32-.1-.3-.11-.3-.12-.29-.14-.31-.18-.23-.14a6.37,6.37,0,0,1-1-.86l0,0c-.15-.16-.29-.33-.42-.5l0,0-.55-.74-.78.49A9.6,9.6,0,0,0,8.5,15a11.7,11.7,0,0,0-4.63,8.24,1,1,0,0,0,.9,1.09,1,1,0,0,0,1.09-.9,9.74,9.74,0,0,1,3.82-6.84s0,0,0,0,.24.24.37.35l.24.22.26.2.4.3.09.05a8,8,0,0,0,8.85,0l.08-.05.4-.3.26-.2.24-.22c.13-.11.25-.23.37-.35l0,0a9.94,9.94,0,0,1,1.22,1.12h2.11Z"/>
+            <path fill="aqua" d="M29.68,22.73H28.61c-.05,0-.13,0-.14-.07-.17-.4-.32-.8-.48-1.23l.82-.81c.15-.14.15-.2,0-.34L27.35,18.8c-.13-.13-.2-.13-.33,0l-.83.83h0l-1.29-.54V17.93c0-.21,0-.25-.24-.25H22.54c-.16,0-.2.06-.2.25V19s0,.12-.08.13c-.39.17-.79.32-1.22.48l-.81-.82c-.15-.15-.2-.15-.35,0l-1.42,1.41c-.19.2-.19.23,0,.43l.78.78c-.17.42-.32.81-.47,1.2,0,.1-.09.1-.16.1q-.54,0-1.08,0c-.19,0-.24,0-.24.23V25c0,.19.05.24.23.24h1.09c.07,0,.13,0,.16.09.15.4.3.78.47,1.21l-.82.81c-.15.15-.16.2,0,.35.48.49,1,1,1.45,1.45.15.15.2.15.35,0l.81-.82,1.19.46c.09,0,.11.07.11.16v1.09c0,.19.05.24.24.24h2.07c.2,0,.24,0,.24-.25s0-.72,0-1.08c0,0,0-.13.08-.14.39-.17.79-.32,1.22-.48l.83.84c.09.1.18.13.28,0l1.54-1.54a.16.16,0,0,0,0-.27l-.23-.24-.63-.6c.17-.44.33-.82.47-1.21a.13.13,0,0,1,.16-.1H29.7c.19,0,.24-.05.24-.24V23C29.94,22.77,29.9,22.73,29.68,22.73ZM23.61,27a3,3,0,1,1,0-6.06,2.78,2.78,0,0,1,1,.19,3,3,0,0,1,2,2.86c0,.05,0,.1,0,.15A3,3,0,0,1,23.61,27Z"/>
     </svg>
     )
 };
@@ -431,6 +489,35 @@ const IconeTituloAdicionarRefeicao = (props) => {
     )
 };
 
+const IconeTituloUserEdit = (props) => {
+    return (
+        <svg version="1.1" height="29px" width="29px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 31 31" xmlSpace="preserve">
+        <path fill="#b6b6b6" d="M11.08,17.73,11,17.68Z"/>
+        <path fill="#b6b6b6" d="M19.9,15.16l0,0Z"/>
+        <path fill="#b6b6b6" d="M13,16.51l-.29-.14Z"/>
+        <path fill="#b6b6b6" d="M13.58,16.74l-.3-.11Z"/>
+        <path fill="#b6b6b6" d="M10.09,17c-.13-.11-.25-.23-.37-.35C9.84,16.73,10,16.85,10.09,17Z"/>
+        <path fill="#b6b6b6" d="M12.38,16.19l-.23-.14Z"/>
+        <path fill="#b6b6b6" d="M18.31,16.37l-.29.14Z"/>
+        <path fill="#b6b6b6" d="M14.84,17a1.9,1.9,0,0,1-.25,0A1.9,1.9,0,0,0,14.84,17Z"/>
+        <path fill="#b6b6b6" d="M14.19,16.92l-.29-.08Z"/>
+        <path fill="#b6b6b6" d="M17.72,16.63l-.3.11Z"/>
+        <path fill="#b6b6b6" d="M10.59,17.38l-.26-.2Z"/>
+        <path fill="#b6b6b6" d="M17.1,16.84l-.29.08Z"/>
+        <path fill="#b6b6b6" d="M16.41,17a1.9,1.9,0,0,1-.25,0A1.9,1.9,0,0,0,16.41,17Z"/>
+        <path fill="#b6b6b6" d="M18.85,16.05l-.23.14Z"/>
+        <path fill="#b6b6b6" d="M20.67,17.18l-.26.2Z"/>
+        <path fill="#b6b6b6" d="M11.13,15.19l0,0Z"/>
+        <path fill="#b6b6b6" d="M20,17.68l-.08.05Z"/>
+        <path fill="#b6b6b6" d="M21.28,16.61c-.12.12-.24.24-.37.35C21,16.85,21.16,16.73,21.28,16.61Z"/>
+        <path fill="#b6b6b6" d="M10.11,13.9l.55.74,0,0A6,6,0,0,1,9.44,11a6.06,6.06,0,0,1,12.12,0,6,6,0,0,1-1.24,3.66l0,0,.55-.74.78.49a9.6,9.6,0,0,1,.83.59,8.06,8.06,0,1,0-14,0,9.6,9.6,0,0,1,.83-.59Z"/>
+        <path fill="#b6b6b6" d="M24.65,17.68c.2,0,.24,0,.24.25V19.1l1.29.54h0A11.78,11.78,0,0,0,22.5,15a9.6,9.6,0,0,0-.83-.59l-.78-.49-.55.74,0,0c-.13.17-.27.34-.42.5l0,0a6.37,6.37,0,0,1-1,.86l-.23.14-.31.18-.29.14-.3.12-.3.11-.32.1-.29.08-.4.07a1.9,1.9,0,0,1-.25,0,5.46,5.46,0,0,1-1.32,0,1.9,1.9,0,0,1-.25,0l-.4-.07-.29-.08-.32-.1-.3-.11-.3-.12-.29-.14-.31-.18-.23-.14a6.37,6.37,0,0,1-1-.86l0,0c-.15-.16-.29-.33-.42-.5l0,0-.55-.74-.78.49A9.6,9.6,0,0,0,8.5,15a11.7,11.7,0,0,0-4.63,8.24,1,1,0,0,0,.9,1.09,1,1,0,0,0,1.09-.9,9.74,9.74,0,0,1,3.82-6.84s0,0,0,0,.24.24.37.35l.24.22.26.2.4.3.09.05a8,8,0,0,0,8.85,0l.08-.05.4-.3.26-.2.24-.22c.13-.11.25-.23.37-.35l0,0a9.94,9.94,0,0,1,1.22,1.12h2.11Z"/>
+        <path fill="aqua" d="M29.68,22.73H28.61c-.05,0-.13,0-.14-.07-.17-.4-.32-.8-.48-1.23l.82-.81c.15-.14.15-.2,0-.34L27.35,18.8c-.13-.13-.2-.13-.33,0l-.83.83h0l-1.29-.54V17.93c0-.21,0-.25-.24-.25H22.54c-.16,0-.2.06-.2.25V19s0,.12-.08.13c-.39.17-.79.32-1.22.48l-.81-.82c-.15-.15-.2-.15-.35,0l-1.42,1.41c-.19.2-.19.23,0,.43l.78.78c-.17.42-.32.81-.47,1.2,0,.1-.09.1-.16.1q-.54,0-1.08,0c-.19,0-.24,0-.24.23V25c0,.19.05.24.23.24h1.09c.07,0,.13,0,.16.09.15.4.3.78.47,1.21l-.82.81c-.15.15-.16.2,0,.35.48.49,1,1,1.45,1.45.15.15.2.15.35,0l.81-.82,1.19.46c.09,0,.11.07.11.16v1.09c0,.19.05.24.24.24h2.07c.2,0,.24,0,.24-.25s0-.72,0-1.08c0,0,0-.13.08-.14.39-.17.79-.32,1.22-.48l.83.84c.09.1.18.13.28,0l1.54-1.54a.16.16,0,0,0,0-.27l-.23-.24-.63-.6c.17-.44.33-.82.47-1.21a.13.13,0,0,1,.16-.1H29.7c.19,0,.24-.05.24-.24V23C29.94,22.77,29.9,22.73,29.68,22.73ZM23.61,27a3,3,0,1,1,0-6.06,2.78,2.78,0,0,1,1,.19,3,3,0,0,1,2,2.86c0,.05,0,.1,0,.15A3,3,0,0,1,23.61,27Z"/>
+    </svg>
+    )
+};
+
 const IconeMobileMenuBio = (props) => {
     return (
         <svg style={{display: "inline-block", margin: "2px 0 3px"}} className="icon-bio" version="1.1" height="20px" width="2-px" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -458,4 +545,4 @@ const IconeSetaMobile = (props) => {
     )
 }
 
-export  {IconeMenuBuscarPaciente , IconeMenuBuscarMedico, IconeMenuBuscarRefeicoes,  IconeMenuBuscarAlimento , IconeMenuAdicionarPaciente , IconeMenuAdicionarAlimento , IconeMenuAdicionarRefeicao, IconeMobileMenuBuscarPaciente , IconeMobileMenuBuscarMedico, IconeMobileMenuBuscarRefeicoes,  IconeMobileMenuBuscarAlimento , IconeMobileMenuAdicionarPaciente , IconeMobileMenuAdicionarAlimento , IconeMobileMenuAdicionarRefeicao , IconeTituloBuscarPaciente , IconeTituloBuscarMedico, IconeTituloBuscarRefeicoes ,  IconeTituloBuscarAlimento , IconeTituloAdicionarPaciente , IconeTituloAdicionarAlimento , IconeTituloAdicionarRefeicao, IconeMobileMenuBio , IconeSetaMobile, IconeSetaDeskTop};
+export  {IconeMenuBuscarPaciente , IconeMenuBuscarMedico, IconeMenuBuscarRefeicoes,  IconeMenuBuscarAlimento , IconeMenuAdicionarPaciente , IconeMenuAdicionarAlimento , IconeMenuAdicionarRefeicao, IconeMenuUserEdit , IconeMobileMenuBuscarPaciente , IconeMobileMenuBuscarMedico, IconeMobileMenuBuscarRefeicoes,  IconeMobileMenuBuscarAlimento , IconeMobileMenuAdicionarPaciente , IconeMobileMenuAdicionarAlimento , IconeMobileMenuAdicionarRefeicao , IconeMobileMenuUserEdit , IconeTituloBuscarPaciente , IconeTituloBuscarMedico, IconeTituloBuscarRefeicoes ,  IconeTituloBuscarAlimento , IconeTituloAdicionarPaciente , IconeTituloAdicionarAlimento , IconeTituloAdicionarRefeicao, IconeTituloUserEdit , IconeMobileMenuBio , IconeSetaMobile, IconeSetaDeskTop};

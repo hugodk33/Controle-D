@@ -9,7 +9,7 @@ import OrganizaLista from '../../templates/ItensListas/paginacao/organiza-lista'
 import PaginacaoBtn from '../../templates/ItensListas/paginacao/marcadores-de-paginacao';
 import ItemAlimento from '../../templates/ItensListas/ItemAlimento';
 import Bio from '../../templates/Bio';
-
+import OpcoesDeUsuario from '../../templates/opcoesDeUsuario';
 import alimentos from "../../jsons/alimentos";
 
 import { IconeTituloBuscarAlimento } from '../../templates/icons/icones-navegacao'
@@ -51,6 +51,7 @@ const ListarAlimento = (props, state) => {
         <div className="col-12 col-md-6 canvas-board">
           <div className="container">
             <div className="row">
+              <OpcoesDeUsuario />
               <div className="col-12 text-center">
                 <IconeTituloBuscarAlimento />
                 <Titulo titulo="Alimentos" />

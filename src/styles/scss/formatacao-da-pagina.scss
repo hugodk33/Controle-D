@@ -123,6 +123,10 @@
   }
 }
 
+button:active {
+  border: none;
+} 
+
 .menu-mobile {
   padding: 0;
   height: 100px;
@@ -140,12 +144,11 @@
   }
   button {
     background-color: inherit;
-    border: none;
-    border-bottom: 1px gray #e9e9e9;
+    border: 0;
     padding: 2px;
     text-transform: uppercase;
     font-weight: 100;
-    color: #7b7b7b;
+    color: rgba(0,0,0,0);
   }
   .actived {
     background-color: rgb(76, 134, 226);
@@ -250,11 +253,17 @@
       display: inline
     }
   }
+  .login-box {
+    margin-top: 20px
+  }
 }
 @media (min-width: 768px) {
   .brand {
     .button-menu{
       display: none
     }
+  }
+  .login-box {
+    margin-top: 150px
   }
 }

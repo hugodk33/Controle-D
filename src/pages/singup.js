@@ -16,9 +16,11 @@ const signUp = () => {
     <div className="container-fluid" style={{backgroundImage: "linear-gradient(#6699CC, #58a8ff)", heigth: "100vh"}}> 
         <div className="container"> 
             <div className="row " style={{margin: 0, padding: "40px 0 90px"}}> 
-                <div className="col-sm-4 col-md-8 infos-signup">
+                <div className="col-sm-4 col-md-8 infos-signup text-center">
                     <h1 style={{color: 'white'}}>Lorem Ipsum Dolor Sit Amet</h1>
                     <p style={{color: 'white'}}>Lorem Ipsum Dolor Sit Amet, Lorem Ipsum Dolor Sit Amet, Lorem Ipsum Dolor Sit Amet</p>
+                    <br />
+                    <img src={require('./../img-signup.png')} className="img-fluid" style={{maxWidth: "400px"}} />
                 </div>
                 <div className="col-sm-8 col-md-4">
                     <div className={"moldura"} style={{backgroundColor: "white", paddingBottom: '10px'}}>
